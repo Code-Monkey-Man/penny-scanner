@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-01",
-   "fetched": "2026-11-01",
-   "count": 170,
+   "as_of": "2026-11-02",
+   "fetched": "2026-11-02",
+   "count": 174,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-10-18",
-   "fetched": "2026-11-01",
+   "fetched": "2026-11-02",
    "count": 141,
    "sources": [
     {
@@ -80,14 +80,14 @@
   "dollar_general": {
    "name": "Dollar General",
    "as_of": "2026-11-03",
-   "fetched": "2026-11-01",
-   "count": 15,
+   "fetched": "2026-11-02",
+   "count": 111,
    "sources": [
     {
      "name": "Penny General list 2026-11-03",
      "url": "https://pennygeneral.net/lists/2026-11-03",
      "date": "2026-11-03",
-     "items": 15
+     "items": 126
     },
     {
      "name": "PennyPinchinMom penny list 2026-11-03",
@@ -102,7 +102,7 @@
   "walmart": {
    "name": "Walmart",
    "as_of": "2026-10-20",
-   "fetched": "2026-11-01",
+   "fetched": "2026-11-02",
    "count": 6,
    "sources": [
     {
@@ -139,7 +139,7 @@
    "name": "Penny General list 2026-11-03",
    "url": "https://pennygeneral.net/lists/2026-11-03",
    "date": "2026-11-03",
-   "items": 15,
+   "items": 126,
    "store": "dollar_general"
   },
   {
@@ -159,6 +159,61 @@
  ],
  "disclaimer": "Crowdsourced reports, not the store's register. The real price only shows when the item is scanned at checkout, and stores are not required to sell penny or clearance items.",
  "items": [
+  {
+   "sku": "1012388248",
+   "sku_display": "1012-388-248",
+   "name": "800 Lumen LED Rechargeable Detachable Tripod Work Light",
+   "brand": "Husky",
+   "model": "K40526",
+   "retail": 19.88,
+   "internet_number": "335104182",
+   "reports": 60,
+   "states": {
+    "TX": 10,
+    "NY": 7,
+    "CA": 10,
+    "MI": 1,
+    "NJ": 6,
+    "WA": 6,
+    "PA": 2,
+    "FL": 1,
+    "KS": 1,
+    "TN": 3,
+    "OR": 3,
+    "CO": 2,
+    "MA": 1,
+    "MD": 2,
+    "SC": 1,
+    "LA": 1,
+    "MN": 1,
+    "IA": 1,
+    "NC": 1
+   },
+   "first_reported": "2026-08-08",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/820881bc-6a07-4009-89d8-a940a267e55f/svn/husky-work-lights-k40526-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012388248/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 3,
+   "state_count": 19,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1012388248",
+   "price": 0.01
+  },
   {
    "sku": "1008625777",
    "sku_display": "1008-625-777",
@@ -220,38 +275,36 @@
    "price": 0.01
   },
   {
-   "sku": "1012388248",
-   "sku_display": "1012-388-248",
-   "name": "800 Lumen LED Rechargeable Detachable Tripod Work Light",
-   "brand": "Husky",
-   "model": "K40526",
-   "retail": 19.88,
-   "internet_number": "335104182",
-   "reports": 57,
+   "sku": "215583",
+   "sku_display": "215-583",
+   "name": "12 inch Rough In Two-Piece 1.1 GPF/1.6 GPF Dual Flush Elongated Toilet in White Seat Included",
+   "brand": "Glacier Bay",
+   "model": "T0338MW",
+   "retail": 99,
+   "internet_number": "100676582",
+   "reports": 46,
    "states": {
-    "NY": 6,
-    "CA": 10,
-    "MI": 1,
-    "NJ": 6,
-    "WA": 6,
-    "PA": 2,
-    "FL": 1,
-    "KS": 1,
-    "TN": 3,
-    "OR": 3,
-    "CO": 2,
-    "TX": 8,
-    "MA": 1,
-    "MD": 2,
-    "SC": 1,
-    "LA": 1,
-    "MN": 1,
-    "IA": 1,
-    "NC": 1
+    "NY": 4,
+    "TX": 3,
+    "MI": 4,
+    "GA": 5,
+    "NC": 4,
+    "FL": 6,
+    "AZ": 1,
+    "IL": 2,
+    "CA": 6,
+    "NJ": 2,
+    "OR": 2,
+    "OH": 2,
+    "AR": 1,
+    "UT": 1,
+    "MD": 1,
+    "IN": 1,
+    "CT": 1
    },
-   "first_reported": "2026-08-08",
-   "last_seen": "2026-10-31",
-   "image": "https://images.thdstatic.com/productImages/820881bc-6a07-4009-89d8-a940a267e55f/svn/husky-work-lights-k40526-64_1000.jpg",
+   "first_reported": "2026-09-27",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -259,19 +312,22 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1012388248/"
+     "url": "https://www.pennyrecon.com/item/215583/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
+   "upc": "732291231619",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
    "upc_alt": [],
-   "home_reports": 3,
-   "state_count": 19,
+   "home_reports": 0,
+   "state_count": 17,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1012388248",
+   "id": "hd:215583",
    "price": 0.01
   },
   {
@@ -321,61 +377,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1003565875",
-   "price": 0.01
-  },
-  {
-   "sku": "215583",
-   "sku_display": "215-583",
-   "name": "12 inch Rough In Two-Piece 1.1 GPF/1.6 GPF Dual Flush Elongated Toilet in White Seat Included",
-   "brand": "Glacier Bay",
-   "model": "T0338MW",
-   "retail": 99,
-   "internet_number": "100676582",
-   "reports": 43,
-   "states": {
-    "NY": 4,
-    "TX": 3,
-    "MI": 4,
-    "GA": 5,
-    "NC": 4,
-    "FL": 5,
-    "AZ": 1,
-    "IL": 2,
-    "CA": 5,
-    "NJ": 2,
-    "OR": 2,
-    "OH": 2,
-    "AR": 1,
-    "UT": 1,
-    "MD": 1,
-    "IN": 1
-   },
-   "first_reported": "2026-09-27",
-   "last_seen": "2026-11-01",
-   "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/215583/"
-    }
-   ],
-   "upc": "732291231619",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 16,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:215583",
    "price": 0.01
   },
   {
@@ -611,6 +612,47 @@
    "price": 0.01
   },
   {
+   "sku": "1007473601",
+   "sku_display": "1007-473-601",
+   "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit w/ Battery, Charger, & ONE+ Cordless SWIFTClean Spot Cleaner",
+   "brand": "RYOBI",
+   "model": "PBLSV716K-PCL756B",
+   "retail": 313,
+   "internet_number": "339349602",
+   "reports": 12,
+   "states": {
+    "IN": 3,
+    "CA": 4,
+    "TN": 2,
+    "MI": 2,
+    "GA": 1
+   },
+   "first_reported": "2026-09-21",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/a981066c-4732-475d-96ae-a2065e153395/svn/ryobi-stick-vacuums-pblsv716k-pcl756b-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007473601/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 2,
+   "state_count": 5,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1007473601",
+   "price": 0.01
+  },
+  {
    "sku": "1006037305",
    "sku_display": "1006-037-305",
    "name": "Decora Smart Wi-Fi Dimmer (2nd Gen) No Hub Required, Works with Google, Alexa, HomeKit, Anywhere Companions, White",
@@ -654,47 +696,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006037305",
-   "price": 0.01
-  },
-  {
-   "sku": "1007473601",
-   "sku_display": "1007-473-601",
-   "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit w/ Battery, Charger, & ONE+ Cordless SWIFTClean Spot Cleaner",
-   "brand": "RYOBI",
-   "model": "PBLSV716K-PCL756B",
-   "retail": 313,
-   "internet_number": "339349602",
-   "reports": 11,
-   "states": {
-    "IN": 3,
-    "TN": 2,
-    "MI": 2,
-    "GA": 1,
-    "CA": 3
-   },
-   "first_reported": "2026-09-21",
-   "last_seen": "2026-10-31",
-   "image": "https://images.thdstatic.com/productImages/a981066c-4732-475d-96ae-a2065e153395/svn/ryobi-stick-vacuums-pblsv716k-pcl756b-64_400.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007473601/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 2,
-   "state_count": 5,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007473601",
    "price": 0.01
   },
   {
@@ -791,9 +792,9 @@
    "model": null,
    "retail": 19.99,
    "internet_number": "340956120",
-   "reports": 8,
+   "reports": 9,
    "states": {
-    "TX": 2,
+    "TX": 3,
     "AK": 1,
     "NJ": 1,
     "KS": 1,
@@ -802,7 +803,7 @@
     "NH": 1
    },
    "first_reported": "2026-10-26",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-02",
    "image": "https://images.thdstatic.com/productImages/13196282-954f-4fed-b0ac-584fb0a725f9/svn/durasack-storage-bins-wp-movg-2pk-64_1000.jpg",
    "sources": [
     {
@@ -1181,8 +1182,8 @@
    "name": "Bannister 31 in. Single Sink Dusk Bath Vanity with White Cultured Marble Top (Assembled)",
    "brand": "Glacier Bay",
    "model": null,
-   "retail": 379,
-   "internet_number": "332099225",
+   "retail": 379.0,
+   "internet_number": null,
    "reports": 4,
    "states": {
     "TX": 2,
@@ -1191,12 +1192,8 @@
    },
    "first_reported": "2026-09-26",
    "last_seen": "2026-10-28",
-   "image": "https://images.thdstatic.com/productImages/910aec29-6d27-4f93-90c2-390c8cc29cae/svn/glacier-bay-bathroom-vanities-with-tops-ba30p2-dk-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012536755/"
@@ -1204,10 +1201,9 @@
    ],
    "upc": "008033376451",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 3,
@@ -1330,6 +1326,86 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1004296835",
+   "price": 0.01
+  },
+  {
+   "sku": "1005447639",
+   "sku_display": "1005-447-639",
+   "name": "3/4 in. x 2 ft. x 4 ft. Radiata Pine Plywood (Actual: 0.719 in. x 23.75 in. x 47.75 in.) Project Panel",
+   "brand": "Handprint",
+   "model": null,
+   "retail": 35.68,
+   "internet_number": "313354420",
+   "reports": 3,
+   "states": {
+    "GA": 1,
+    "OH": 2
+   },
+   "first_reported": "2026-10-23",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/7932b4cb-f67f-4774-aeb6-690f59712b8b/svn/handprint-project-panels-414716-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005447639/"
+    }
+   ],
+   "upc": "090489678753",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1005447639",
+   "price": 0.01
+  },
+  {
+   "sku": "1005958731",
+   "sku_display": "1005-958-731",
+   "name": "1-1/4 in. AMPED Demo Demon Universal Fit Carbide Teeth Oscillating Tool Blades for General Purpose Cuts",
+   "brand": "DIABLO",
+   "model": null,
+   "retail": 23.9,
+   "internet_number": "315442835",
+   "reports": 3,
+   "states": {
+    "GA": 1,
+    "SC": 1,
+    "VA": 1
+   },
+   "first_reported": "2026-10-30",
+   "last_seen": "2026-11-01",
+   "image": "https://images.thdstatic.com/productImages/bb4cba5a-e3e8-444f-9140-df5b0631317d/svn/diablo-oscillating-tool-attachments-dou125cgpp2-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005958731/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1005958731",
    "price": 0.01
   },
   {
@@ -1771,42 +1847,6 @@
    "price": 0.01
   },
   {
-   "sku": "1005447639",
-   "sku_display": "1005-447-639",
-   "name": "3/4 in. x 2 ft. x 4 ft. Radiata Pine Plywood (Actual: 0.719 in. x 23.75 in. x 47.75 in.) Project Panel",
-   "brand": "Handprint",
-   "model": null,
-   "retail": 35.68,
-   "internet_number": null,
-   "reports": 2,
-   "states": {
-    "GA": 1,
-    "OH": 1
-   },
-   "first_reported": "2026-10-23",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1005447639/"
-    }
-   ],
-   "upc": "090489678753",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1005447639",
-   "price": 0.01
-  },
-  {
    "sku": "1006211586",
    "sku_display": "1006-211-586",
    "name": "60-Watt Equivalent ST19 Dimmable Cage Filament Clear Glass E26 Vintage Edison LED Light Bulb, Warm White",
@@ -1839,6 +1879,46 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006211586",
+   "price": 0.01
+  },
+  {
+   "sku": "1006211631",
+   "sku_display": "1006-211-631",
+   "name": "40-Watt Equivalent T14 Dimmable Straight Filament Clear Glass E26 Vintage Edison LED Light Bulb, Daylight 5000K (4-Pack)",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 14.97,
+   "internet_number": "316113210",
+   "reports": 2,
+   "states": {
+    "NY": 2
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/8c82d8ca-dbd4-4cb4-8ded-49ce9f461405/svn/feit-electric-edison-bulbs-t1440-950ca-hdrp-4-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006211631/"
+    }
+   ],
+   "upc": "017801185799",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006211631",
    "price": 0.01
   },
   {
@@ -2050,6 +2130,124 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1009408132",
+   "price": 0.01
+  },
+  {
+   "sku": "1010362919",
+   "sku_display": "1010-362-919",
+   "name": "20-32 AWG Low Voltage Wire Stripper/Cutter with Dipped Grip",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 21.97,
+   "internet_number": "326839587",
+   "reports": 2,
+   "states": {
+    "NJ": 1,
+    "LA": 1
+   },
+   "first_reported": "2026-10-30",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/80ae809b-3875-4497-a2f0-095374f17838/svn/milwaukee-wire-strippers-48-22-3080-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010362919/"
+    }
+   ],
+   "upc": "045242847556",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010362919",
+   "price": 0.01
+  },
+  {
+   "sku": "1010484126",
+   "sku_display": "1010-484-126",
+   "name": "ONE+ HP 18V Brushless Cordless Advanced WHISPER Series Stick Vacuum Kit with Stick Vac Filters (2-Pk)",
+   "brand": "RYOBI",
+   "model": "PBLSV719K-A32SV718K2",
+   "retail": 274.23,
+   "internet_number": "339454433",
+   "reports": 2,
+   "states": {
+    "CA": 1,
+    "WA": 1
+   },
+   "first_reported": "2026-11-01",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/0c9f3184-4b2c-4ae7-9125-4cf18383e55e/svn/ryobi-stick-vacuums-pblsv719k-a32sv718k2-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010484126/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010484126",
+   "price": 0.01
+  },
+  {
+   "sku": "1010494291",
+   "sku_display": "1010-494-291",
+   "name": "12-24 AWG Adjustable Compact Wire Stripper / Cutter with Dipped Grip",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 11.97,
+   "internet_number": "327597493",
+   "reports": 2,
+   "states": {
+    "FL": 1,
+    "LA": 1
+   },
+   "first_reported": "2026-10-30",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/3ac9e8a6-62fd-4251-81dd-055261354b3e/svn/milwaukee-wire-strippers-48-22-3040-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010494291/"
+    }
+   ],
+   "upc": "045242847471",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010494291",
    "price": 0.01
   },
   {
@@ -2273,30 +2471,24 @@
    "sku_display": "1000-018-015",
    "name": "5/16 in. O.D. x 3/16 in. I.D. x 10 ft. Pre-Cut Polyethylene Hose",
    "brand": "Everbilt",
-   "model": "HKP003-PE004",
+   "model": null,
    "retail": 2.87,
-   "internet_number": "303132505",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "LA": 1
    },
    "first_reported": "2026-10-27",
    "last_seen": "2026-10-27",
-   "image": "https://images.thdstatic.com/productImages/29616bf9-4e26-4973-9ee2-ac5e907e73f4/svn/white-everbilt-polyethylene-pipe-hkp003-pe004-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1000018015/"
     }
    ],
-   "upc": "811000011824",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -2479,28 +2671,22 @@
    "brand": "SharkBite",
    "model": null,
    "retail": 15.99,
-   "internet_number": "301980281",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "LA": 1
    },
    "first_reported": "2026-10-27",
    "last_seen": "2026-10-27",
-   "image": "https://images.thdstatic.com/productImages/abd88e58-a4fa-408f-89b8-f173144f76fb/svn/sharkbite-hose-bibbs-24630lf-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1002586492/"
     }
    ],
-   "upc": "697285246300",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -2516,30 +2702,24 @@
    "sku_display": "1002-586-495",
    "name": "3/4 in. Brass Push-to-Connect x MHT Quarter-Turn No Kink Hose Bibb",
    "brand": "SharkBite",
-   "model": "24631LF",
+   "model": null,
    "retail": 17.48,
-   "internet_number": "301980271",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "LA": 1
    },
    "first_reported": "2026-10-27",
    "last_seen": "2026-10-27",
-   "image": "https://images.thdstatic.com/productImages/72ad45eb-04bf-4fe8-bfc5-30d41b162550/svn/sharkbite-hose-bibbs-24631lf-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1002586495/"
     }
    ],
-   "upc": "697285246317",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -2740,6 +2920,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004814382/"
     }
    ],
    "upc": "885785758175",
@@ -3322,20 +3506,20 @@
    "price": 0.01
   },
   {
-   "sku": "1005958731",
-   "sku_display": "1005-958-731",
-   "name": "1-1/4 in. AMPED Demo Demon Universal Fit Carbide Teeth Oscillating Tool Blades for General Purpose Cuts",
-   "brand": "DIABLO",
-   "model": null,
-   "retail": 23.9,
-   "internet_number": "315442835",
+   "sku": "1005810064",
+   "sku_display": "1005-810-064",
+   "name": "12 in. 3 Speed Personal Desk Fan in Black",
+   "brand": "Hampton Bay",
+   "model": "FT30-8MBA",
+   "retail": 14.97,
+   "internet_number": "314599194",
    "reports": 1,
    "states": {
-    "GA": 1
+    "TX": 1
    },
-   "first_reported": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "image": "https://images.thdstatic.com/productImages/bb4cba5a-e3e8-444f-9140-df5b0631317d/svn/diablo-oscillating-tool-attachments-dou125cgpp2-64_600.jpg",
+   "first_reported": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "image": "https://images.thdstatic.com/productImages/11b2f114-8ec0-4e83-b5f5-f4edf8671e5b/svn/hampton-bay-personal-fans-ft30-8mba-64_400.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -3343,11 +3527,13 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1005958731/"
+     "url": "https://www.pennyrecon.com/item/1005810064/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
+   "upc": "810040941788",
+   "upc_sources": [
+    "PennyCentral"
+   ],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -3355,7 +3541,7 @@
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1005958731",
+   "id": "hd:1005810064",
    "price": 0.01
   },
   {
@@ -3525,41 +3711,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006211600",
-   "price": 0.01
-  },
-  {
-   "sku": "1006211631",
-   "sku_display": "1006-211-631",
-   "name": "40-Watt Equivalent T14 Dimmable Straight Filament Clear Glass E26 Vintage Edison LED Light Bulb, Daylight 5000K (4-Pack)",
-   "brand": "Feit Electric",
-   "model": null,
-   "retail": 14.97,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "NY": 1
-   },
-   "first_reported": "2026-10-13",
-   "last_seen": "2026-10-27",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006211631/"
-    }
-   ],
-   "upc": "017801185799",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006211631",
    "price": 0.01
   },
   {
@@ -3888,6 +4039,84 @@
    "price": 0.01
   },
   {
+   "sku": "1008733799",
+   "sku_display": "1008-733-799",
+   "name": "SmartCode 260 Traditional Satin Nickel Keypad Single Cylinder Electronic Deadbolt Featuring SmartKey Security",
+   "brand": "Kwikset",
+   "model": null,
+   "retail": 97.92,
+   "internet_number": "322498178",
+   "reports": 1,
+   "states": {
+    "TX": 1
+   },
+   "first_reported": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "image": "https://images.thdstatic.com/productImages/28d53462-3407-4673-991a-455e6f31551a/svn/kwikset-electronic-deadbolts-9260trl15smtrbp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008733799/"
+    }
+   ],
+   "upc": "883351859479",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008733799",
+   "price": 0.01
+  },
+  {
+   "sku": "1008754228",
+   "sku_display": "1008-754-228",
+   "name": "1/4 in. x 50 ft. Poly Air Hose and Air Accessories Kit (17-Pieces)",
+   "brand": "Husky",
+   "model": "AB-50C-17K",
+   "retail": 19.88,
+   "internet_number": "323109464",
+   "reports": 1,
+   "states": {
+    "CO": 1
+   },
+   "first_reported": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "image": "https://images.thdstatic.com/productImages/0ca4806d-f8e1-4f59-8d67-638bd672ac3b/svn/husky-air-hoses-ab-50c-17k-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008754228/"
+    }
+   ],
+   "upc": "6956369831103",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008754228",
+   "price": 0.01
+  },
+  {
    "sku": "1008875694",
    "sku_display": "1008-875-694",
    "name": "Garrison Venetian Bronze, Large, Steel, Post Mount Mailbox",
@@ -4171,84 +4400,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1010335854",
-   "price": 0.01
-  },
-  {
-   "sku": "1010362919",
-   "sku_display": "1010-362-919",
-   "name": "20-32 AWG Low Voltage Wire Stripper/Cutter with Dipped Grip",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 21.97,
-   "internet_number": "326839587",
-   "reports": 1,
-   "states": {
-    "LA": 1
-   },
-   "first_reported": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "image": "https://images.thdstatic.com/productImages/80ae809b-3875-4497-a2f0-095374f17838/svn/milwaukee-wire-strippers-48-22-3080-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010362919/"
-    }
-   ],
-   "upc": "045242847556",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010362919",
-   "price": 0.01
-  },
-  {
-   "sku": "1010494291",
-   "sku_display": "1010-494-291",
-   "name": "12-24 AWG Adjustable Compact Wire Stripper / Cutter with Dipped Grip",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 11.97,
-   "internet_number": "327597493",
-   "reports": 1,
-   "states": {
-    "LA": 1
-   },
-   "first_reported": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "image": "https://images.thdstatic.com/productImages/3ac9e8a6-62fd-4251-81dd-055261354b3e/svn/milwaukee-wire-strippers-48-22-3040-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010494291/"
-    }
-   ],
-   "upc": "045242847471",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010494291",
    "price": 0.01
   },
   {
@@ -4556,30 +4707,24 @@
    "sku_display": "1013-220-221",
    "name": "2 in. Cordless 0° Straight Nail Coil Siding and Fencing Nailer",
    "brand": "Paslode",
-   "model": "919100",
-   "retail": 489,
-   "internet_number": "331290658",
+   "model": null,
+   "retail": 489.0,
+   "internet_number": null,
    "reports": 1,
    "states": {
     "MD": 1
    },
    "first_reported": "2026-10-28",
    "last_seen": "2026-10-28",
-   "image": "https://images.thdstatic.com/productImages/d6f953cf-91eb-4abe-89c6-0dc721dc5be4/svn/paslode-siding-nailers-919100-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1013220221/"
     }
    ],
-   "upc": "759501401198",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -4624,6 +4769,41 @@
    "price": 0.01
   },
   {
+   "sku": "1013919456",
+   "sku_display": "1013-919-456",
+   "name": "20 Gal. Heavy-Duty Moving and Storage Bag Blue Polypropylene (4-Pack)",
+   "brand": "DURASACK",
+   "model": null,
+   "retail": 21.54,
+   "internet_number": "328622038",
+   "reports": 1,
+   "states": {
+    "OH": 1
+   },
+   "first_reported": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/cd0637ae-97a4-4373-a70c-f759f63efc0a/svn/durasack-contractor-bags-wp-movb-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "653212001046",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1013919456",
+   "price": 0.01
+  },
+  {
    "sku": "1013921840",
    "sku_display": "1013-921-840",
    "name": "Brooklyn 24 in. 3-Light Gold Bathroom Vanity Light Fixture with White Swirl Glass Shades",
@@ -4642,6 +4822,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013921840/"
     }
    ],
    "upc": "736916727501",
@@ -4656,39 +4840,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1013921840",
-   "price": 0.01
-  },
-  {
-   "sku": "1014220221",
-   "sku_display": "1014-220-221",
-   "name": "SKU 1014220221",
-   "brand": "",
-   "model": null,
-   "retail": null,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "MD": 1
-   },
-   "first_reported": "2026-10-28",
-   "last_seen": "2026-10-28",
-   "image": "/images/hd-product-placeholder.svg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1014220221",
    "price": 0.01
   },
   {
@@ -4902,30 +5053,24 @@
    "sku_display": "301-762",
    "name": "3/8 in. O.D. x 1/4 in. I.D. x 25 ft. Polyethylene Tube",
    "brand": "Everbilt",
-   "model": "301762",
+   "model": null,
    "retail": 10.09,
-   "internet_number": "207144264",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "LA": 1
    },
    "first_reported": "2026-10-27",
    "last_seen": "2026-10-27",
-   "image": "https://images.thdstatic.com/productImages/4626bef6-ded7-4930-9dd5-d44527cd6015/svn/clear-everbilt-polyethylene-pipe-301762-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/301762/"
     }
    ],
-   "upc": "841804100141",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -4941,30 +5086,24 @@
    "sku_display": "301-844",
    "name": "1/2 in. O.D. x 3/8 in. I.D. x 25 ft. Polyethylene Tube",
    "brand": "Everbilt",
-   "model": "301844",
+   "model": null,
    "retail": 12.68,
-   "internet_number": "207144259",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "LA": 1
    },
    "first_reported": "2026-10-27",
    "last_seen": "2026-10-27",
-   "image": "https://images.thdstatic.com/productImages/8144be4f-d253-4429-aa3c-e7cf132c6722/svn/clear-everbilt-polyethylene-pipe-301844-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/301844/"
     }
    ],
-   "upc": "841804100134",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -5120,39 +5259,6 @@
    "price": 0.01
   },
   {
-   "sku": "476967",
-   "sku_display": "476-967",
-   "name": "2 in. x 12 in. x 8 ft. Silver Select Appearance Rougher Headed Green Western Red Cedar Board",
-   "brand": "Unknown",
-   "model": null,
-   "retail": 32.98,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "GA": 1
-   },
-   "first_reported": "2026-10-02",
-   "last_seen": "2026-10-02",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/476967/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:476967",
-   "price": 0.01
-  },
-  {
    "sku": "485194",
    "sku_display": "485-194",
    "name": "12 in. Rough in Two-Piece 1.0 GPF/1.28 GPF Dual Flush Round Toilet in White Seat Included",
@@ -5177,8 +5283,10 @@
      "url": "https://www.pennyrecon.com/item/485194/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
+   "upc": "732291004565",
+   "upc_sources": [
+    "Penny Recon"
+   ],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -5292,6 +5400,41 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:873436",
+   "price": 0.01
+  },
+  {
+   "sku": "958435",
+   "sku_display": "958-435",
+   "name": "Tri-Arc Brush Cutter Blade and Expand-It Brands",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 27.97,
+   "internet_number": "100665186",
+   "reports": 1,
+   "states": {
+    "TX": 1
+   },
+   "first_reported": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "image": "https://images.thdstatic.com/productImages/101dcc20-0995-42f0-83ff-8119b277b155/svn/ryobi-miscellaneous-blades-ac04105-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "046396490155",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:958435",
    "price": 0.01
   },
   {
@@ -11940,8 +12083,778 @@
   },
   {
    "store": "dollar_general",
-   "name": "Raid Fly Stick, 1 Count",
+   "name": "Tic Tac Mints Strawberry & Cream, 0.84 oz",
    "aka": [],
+   "upc": "009800003648",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:009800003648",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Purina Dog Chow Little Bites with Real Chicken & Beef Dry Dog Food",
+   "aka": [],
+   "upc": "017800110303",
+   "sku": "01084101",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-01084101-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:017800110303",
+   "sku_display": "01084101",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nature’s Menu C0341 Wet Dog Turkey & Veg, 13.2 oz",
+   "aka": [],
+   "upc": "015200300836",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:015200300836",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Heartland Farm C0251 Dog Food Chicken/Gravy, 22 oz",
+   "aka": [],
+   "upc": "015200501035",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:015200501035",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Heartland Farm C0250 Dog Food Beef in Gravy, 22 oz",
+   "aka": [],
+   "upc": "015200501042",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:015200501042",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Skittles Original Bag Candy, 9 oz",
+   "aka": [],
+   "upc": "022000123701",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/624405/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:022000123701",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Extra Sweet Watermelon 3-Pack, 1.63 oz",
+   "aka": [],
+   "upc": "022000296283",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:022000296283",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Starburst Tropical Mini GNG, 7.2 oz",
+   "aka": [],
+   "upc": "022000331083",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/692923/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:022000331083",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Cesar Wet Dog Food Mixed Multi Pack, 1.76 oz",
+   "aka": [],
+   "upc": "023100148090",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:023100148090",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Dum Dum Red White Blue, 80 ct. Mix, 16.9 oz",
+   "aka": [],
+   "upc": "030800242003",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:030800242003",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "BreathSavers Mint Rolls Peppermint, 1 ct",
+   "aka": [],
+   "upc": "034000007646",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/27f2e142-3e53-4dbb-b9fa-808c4bd49297.82738a450ca1c586c6d88583d40355ae.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:034000007646",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "BreathSavers Mint Rolls Wintergreen, 1 ct",
+   "aka": [],
+   "upc": "034000007677",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/04e58bdb-2fde-4fad-8e5e-906ab4e4ca1e_1.caf7638dab8f2016d062fa79574e7707.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:034000007677",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "BreathSavers Mint Rolls Spearmint, 0.8 oz",
+   "aka": [],
+   "upc": "034000007714",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/af0eab6d-fc89-4840-8248-b605ed74c452_1.d61116faea181d9aee1c6d7edea4b151.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:034000007714",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Reese’s Animal Cracker Dipped, 4.25 oz",
+   "aka": [],
+   "upc": "034000217533",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:034000217533",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Reese’s Minis RWB SUP, 9 oz",
+   "aka": [],
+   "upc": "034000467167",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/692980/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:034000467167",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Skittles Fruit Candy Original Share Size, 4 oz",
+   "aka": [],
+   "upc": "040000004608",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:040000004608",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "M&M’s Chocolate Milk Chocolate, 5 oz",
+   "aka": [],
+   "upc": "040000580126",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/694113/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:040000580126",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "M&M’s Pretzel Minis Stand Up Pouch, 8.6 oz",
+   "aka": [],
+   "upc": "040000588924",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/667491/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:040000588924",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Bazooka Gum Wallet Pack, 1 ct",
+   "aka": [],
+   "upc": "041116002618",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://media.officedepot.com/images/t_extralarge%2Cf_auto/products/112174/1.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:041116002618",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Bazooka/Topps Baby Bottle Pop Twisters, 3.6 oz",
+   "aka": [],
+   "upc": "041116018008",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/680118/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:041116018008",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Juicy Drop Sour Candy Dip N Stick, 1 ct",
+   "aka": [],
+   "upc": "041116232190",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:041116232190",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Trolli Sour Squads Peg, 6.3 oz",
+   "aka": [],
+   "upc": "041420084720",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/678580/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:041420084720",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Bridgford Sausage, 2.6 oz",
+   "aka": [],
+   "upc": "047500020343",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:047500020343",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Sour Patch Kids Watermelon King Size, 3.4 oz",
+   "aka": [],
+   "upc": "070462002041",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070462002041",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Abba-Zaba Candy Bar Standard, 1 ct",
+   "aka": [],
+   "upc": "070602063000",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/da16a4b1-b07e-4c76-92a9-edc312f8cc96.750e762296034b1da2c8782f24ed5746.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070602063000",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Rocky Road Sea Salt Standard, 1 ct",
+   "aka": [],
+   "upc": "070602569007",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070602569007",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Big Hunk Candy Bar Almond, 1 ct",
+   "aka": [],
+   "upc": "070602739028",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070602739028",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nissin FireWok Pillow Teriyaki Chicken, 3.1 oz",
+   "aka": [],
+   "upc": "070662205037",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/4a401293-6ab0-42d6-86bf-65795d85b9a2.5c4c01503cd58505904f275281293b9a.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070662205037",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nissin Stir Fry Cup Teriyaki",
+   "aka": [],
+   "upc": "070662404058",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/679602/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070662404058",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nissin Bistro Cup Gochujang Beef, 3.1 oz",
+   "aka": [],
+   "upc": "070662406014",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070662406014",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nissin Bistro Cup Japanese Miso, 3.1 oz",
+   "aka": [],
+   "upc": "070662406021",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/075641e4-94dc-4bad-9775-3ffdd9951643.1bfe617636c3b50081e504be016f1a1d.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070662406021",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Mike & Ike Cherry Changemaker, 1 ct",
+   "aka": [],
+   "upc": "070970475467",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/4c326a4f-69c0-4898-b25f-49af0d25c481.89cfb6e444dc81fb77593ddc2e533cc6.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070970475467",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Raid Fly Stick, 1 Count",
+   "aka": [
+    "Raid Fly Stick, 1 ct"
+   ],
    "upc": "072477986002",
    "sku": null,
    "price": 0.01,
@@ -11965,7 +12878,9 @@
   {
    "store": "dollar_general",
    "name": "Raid Fly Ribbon, 10 Count",
-   "aka": [],
+   "aka": [
+    "Raid Fly Ribbon, 10 ct"
+   ],
    "upc": "072477986019",
    "sku": null,
    "price": 0.01,
@@ -11983,6 +12898,294 @@
    "source_count": 1,
    "id": "dg:072477986019",
    "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Studio Selection Sunscreen Spray SPF 70, Family Size, 11 oz",
+   "aka": [],
+   "upc": "072785139880",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:072785139880",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Airheads Xtremes Rainbow Berry",
+   "aka": [],
+   "upc": "073390009038",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://www.cvs.com/bizcontent/merchandising/productimages/large/73390009038.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:073390009038",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Dentyne Arctic Chill Gum, 0.8 oz",
+   "aka": [],
+   "upc": "073390055011",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/677261/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:073390055011",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Dentyne Spicy Cinnamon Gum, 0.8 oz",
+   "aka": [],
+   "upc": "073390055028",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/677263/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:073390055028",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Trident Original Gum, 28 pc., 1.776 oz",
+   "aka": [],
+   "upc": "073390055332",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/686366/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:073390055332",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nerds Very Berry Share Size, 1 ct",
+   "aka": [],
+   "upc": "079200066695",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:079200066695",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nerds Berry Punch Stand Up Bag, 8 oz",
+   "aka": [],
+   "upc": "079200083731",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_a864696f-9964-4810-a9ce-d9cf6889651f?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:079200083731",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Nerds Punch Breakaway RWB Berry, 5 oz",
+   "aka": [],
+   "upc": "079200084134",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_d948851f-75d8-4e8e-8de9-d9bd1a93dd51?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:079200084134",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Snak Club Peanuts Tajin, 2.75 oz",
+   "aka": [],
+   "upc": "087076806408",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:087076806408",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Rocky Road Candy Bar Standard, 1 ct",
+   "aka": [],
+   "upc": "070602469000",
+   "sku": "12430801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/be5fa927-fa80-476e-887e-712d60d21f27_1.fe8075fcebce0f8bf40ac8400fbdffdf.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070602469000",
+   "sku_display": "12430801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Rachael Ray Dog Treats Soup Bone Beef, 6.3 oz",
+   "aka": [],
+   "upc": "071190006684",
+   "sku": "15351801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/01e98a0c-4a38-4b42-980e-8268d58b3ee0_1.a7cc576a88a2d8fd30e3e822271ff62c.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:071190006684",
+   "sku_display": "15351801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Temptations Cat Treats Mixups Mega, 6.3 oz",
+   "aka": [],
+   "upc": "023100103976",
+   "sku": "15434601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:023100103976",
+   "sku_display": "15434601",
    "notes": "",
    "home_reports": 0
   },
@@ -12012,8 +13215,130 @@
   },
   {
    "store": "dollar_general",
-   "name": "Studio Selection Ultra Sunscreen Lotion SPF 50, 3 fl oz",
+   "name": "Nutrish Real Chicken & Veggies Recipe Dry Dog Food, 12 lb",
    "aka": [],
+   "upc": "071190516336",
+   "sku": "16669903",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-16669903-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:071190516336",
+   "sku_display": "16669903",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Big Hunk Candy Bar Standard, 1 ct",
+   "aka": [],
+   "upc": "070602769001",
+   "sku": "17424101",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070602769001",
+   "sku_display": "17424101",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Rachael Ray Dry Dog Food Beef & Rice, 12 lb",
+   "aka": [],
+   "upc": "071190013514",
+   "sku": "18388303",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:071190013514",
+   "sku_display": "18388303",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Rachael Ray Dog Treats Soup Bone Chicken, 6.3 oz",
+   "aka": [],
+   "upc": "071190006707",
+   "sku": "18388601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/ba2dfbc7-bfcc-4cf1-b810-9332a66e52a5.a99ed0fcca875ca15815beb165aedb6b.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:071190006707",
+   "sku_display": "18388601",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Iams Dry Dog Food Large Breed, 11 lb",
+   "aka": [],
+   "upc": "019014804870",
+   "sku": "23775401",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:019014804870",
+   "sku_display": "23775401",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Studio Selection Ultra Sunscreen Lotion SPF 50, 3 fl oz",
+   "aka": [
+    "Studio Selection Ultra Sunscreen Lotion SPF 50, 3 oz"
+   ],
    "upc": "072785144880",
    "sku": "23970402",
    "price": 0.01,
@@ -12036,6 +13361,126 @@
    "source_count": 2,
    "id": "dg:072785144880",
    "sku_display": "23970402",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Cesar Wet Dog Food Poultry, 84 oz",
+   "aka": [],
+   "upc": "023100109787",
+   "sku": "24428901",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_46917167-7edb-4e51-adf4-3ac7e0c73452?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:023100109787",
+   "sku_display": "24428901",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Pedigree Wet Dog Food Choice Cuts, 30 ct",
+   "aka": [],
+   "upc": "023100135090",
+   "sku": "24429001",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_a3df6e06-4f63-4a55-9497-43968632089c?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:023100135090",
+   "sku_display": "24429001",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Betty Crocker Fruit Roll Ups Single, 1 ct",
+   "aka": [],
+   "upc": "016000289048",
+   "sku": "25226901",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:016000289048",
+   "sku_display": "25226901",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Cesar Wet Dog Food Chicken & Sweet Potato, 28 oz",
+   "aka": [],
+   "upc": "023100125923",
+   "sku": "27216901",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_736024ca-aadd-426f-b9e7-5a30b1768bfb?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:023100125923",
+   "sku_display": "27216901",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Iams Wet Dog Food Chicken Grain Pâté, 6 ct",
+   "aka": [],
+   "upc": "019014707058",
+   "sku": "27222701",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_09e61a91-4176-4ca6-9e06-88c0dac49118?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:019014707058",
+   "sku_display": "27222701",
    "notes": "",
    "home_reports": 0
   },
@@ -12099,8 +13544,154 @@
   },
   {
    "store": "dollar_general",
-   "name": "Studio Selection SPF 50 Sunscreen Lotion for Babies, 8 fl oz",
+   "name": "One Dry Dog Food Joint Health, 12.5 lb",
    "aka": [],
+   "upc": "017800192651",
+   "sku": "28144401",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:017800192651",
+   "sku_display": "28144401",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Reese’s Crunchy Peanut King Size, 1 ct",
+   "aka": [],
+   "upc": "034000229024",
+   "sku": "28488101",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:034000229024",
+   "sku_display": "28488101",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Del Monte Classics Corn Whole Kernel, 15.25 oz",
+   "aka": [],
+   "upc": "024000252931",
+   "sku": "28540701",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:024000252931",
+   "sku_display": "28540701",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Del Monte Classics Peas Sweet, 15 oz",
+   "aka": [],
+   "upc": "024000252948",
+   "sku": "28553601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:024000252948",
+   "sku_display": "28553601",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "One Wet Dog Food Tender Cuts in Gravy, 6 ct",
+   "aka": [],
+   "upc": "017800176774",
+   "sku": "30512601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_28c76d6e-ef7d-4239-b35b-3029c1deb627?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:017800176774",
+   "sku_display": "30512601",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Cesar Wet Dog Food Chicken & Beef, 28 ct",
+   "aka": [],
+   "upc": "023100132532",
+   "sku": "30569401",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:023100132532",
+   "sku_display": "30569401",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Studio Selection SPF 50 Sunscreen Lotion for Babies, 8 fl oz",
+   "aka": [
+    "Studio Selection SPF 50 Sunscreen Lotion for Babies, 8 oz"
+   ],
    "upc": "072785141438",
    "sku": "30699501",
    "price": 0.01,
@@ -12128,7 +13719,7 @@
   },
   {
    "store": "dollar_general",
-   "name": "Wild Tropics Sunscreen Spray SPF 50 – Fresh Banana, 5.5 oz",
+   "name": "Wild Tropics Sunscreen Spray SPF 50 Fresh Banana, 5.5 oz",
    "aka": [],
    "upc": "072785141414",
    "sku": "30703801",
@@ -12157,8 +13748,130 @@
   },
   {
    "store": "dollar_general",
-   "name": "Studio Selection Sheer Touch Sunscreen Mist SPF100, 5.5 oz",
+   "name": "Friskies Wet Cat Food Pâté",
    "aka": [],
+   "upc": "019014803217",
+   "sku": "31837401",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:019014803217",
+   "sku_display": "31837401",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Canine Carry Dog Treats Beef, 4.5 oz",
+   "aka": [],
+   "upc": "079100520008",
+   "sku": "31878101",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_23bfd32e-7232-4122-8431-49d9d1e1fb31?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:079100520008",
+   "sku_display": "31878101",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Fancy Feast Wet Cat Food Medley Shredded Salmon, 3 oz",
+   "aka": [],
+   "upc": "050000570515",
+   "sku": "31996701",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://assets.petco.com/petco/image/upload/f_auto%2Cq_auto%2Cw_700/dpr_auto/3846298-center-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:050000570515",
+   "sku_display": "31996701",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Fancy Feast Wet Cat Food Tuna With Spinach, 3 oz",
+   "aka": [],
+   "upc": "050000570584",
+   "sku": "31996801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://assets.petco.com/petco/image/upload/f_auto%2Cq_auto%2Cw_700/dpr_auto/3846319-center-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:050000570584",
+   "sku_display": "31996801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Milk-Bone Dog Treats Molasses N PB, 10 oz",
+   "aka": [],
+   "upc": "079100432165",
+   "sku": "34552301",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/64015d3f-d61e-40b2-870e-fe1d330d8c3d.aa71434905fb1b627ebc8ae172462986.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:079100432165",
+   "sku_display": "34552301",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Studio Selection Sheer Touch SPF 100 Sunscreen Mist, 5.5 oz",
+   "aka": [
+    "Studio Selection Sheer Touch Sunscreen Mist SPF100, 5.5 oz"
+   ],
    "upc": "072785142961",
    "sku": "35088301",
    "price": 0.01,
@@ -12215,6 +13928,176 @@
   },
   {
    "store": "dollar_general",
+   "name": "Fancy Feast Wet Cat Food Poultry & Beef, 24 ct",
+   "aka": [],
+   "upc": "050000818174",
+   "sku": "38239401",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_8c8d8644-cc46-4949-834b-3365fce2a1fb?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:050000818174",
+   "sku_display": "38239401",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Fancy Feast Wet Cat Food Grilled Seafood, 24 ct",
+   "aka": [],
+   "upc": "050000575466",
+   "sku": "38239501",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_21c5d818-bb5a-44e3-879a-8e24c9d93ca2?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:050000575466",
+   "sku_display": "38239501",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Churu Broth Chicken Tuna, 1 ct",
+   "aka": [],
+   "upc": "810100850128",
+   "sku": "38612501",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-38612501-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:810100850128",
+   "sku_display": "38612501",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Churu Broth Chicken Salmon, 1 ct",
+   "aka": [],
+   "upc": "810100850166",
+   "sku": "38612601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-38612601-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:810100850166",
+   "sku_display": "38612601",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Kathy Kaye Popcorn Ball Baseball, 1 oz – 810107030585Warheads Sour Candy Sour Squeeze, 1.05 oz",
+   "aka": [
+    "Warheads Sour Candy Sour Squeeze, 1.05 oz"
+   ],
+   "upc": "032134240526",
+   "sku": "39480801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:032134240526",
+   "sku_display": "39480801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Zappo Sour Chews Blue Raspberry, 1 oz",
+   "aka": [],
+   "upc": "850050216070",
+   "sku": "40049701",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:850050216070",
+   "sku_display": "40049701",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Zappo Sour Chews Sour Watermelon, 1 oz",
+   "aka": [],
+   "upc": "850050216056",
+   "sku": "40049801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:850050216056",
+   "sku_display": "40049801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Studio Selection Kids Sunscreen Spray SPF 50, 11 oz",
    "aka": [],
    "upc": "072785146631",
@@ -12239,6 +14122,78 @@
    "source_count": 2,
    "id": "dg:072785146631",
    "sku_display": "40138401",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Busy Dog Treats Tiny Bones, 30 ct",
+   "aka": [],
+   "upc": "038100176073",
+   "sku": "40316601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_5ed26926-f51a-454c-a5f1-76013cab7785?wid=1000&hei=1000",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:038100176073",
+   "sku_display": "40316601",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Clover Valley Dr Topper Soda, 12 pk",
+   "aka": [],
+   "upc": "074390001978",
+   "sku": "40507501",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-40507501-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:074390001978",
+   "sku_display": "40507501",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Clover Valley Root Beer, 12 ct",
+   "aka": [],
+   "upc": "074390001954",
+   "sku": "40507601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-40507601-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:074390001954",
+   "sku_display": "40507601",
    "notes": "",
    "home_reports": 0
   },
@@ -12273,8 +14228,82 @@
   },
   {
    "store": "dollar_general",
-   "name": "Studio Selection SPF 100 Sport Sunscreen Spray, 5.5 oz",
+   "name": "Snak Club Peanuts HV Ranch, 2.25 oz",
    "aka": [],
+   "upc": "087076807047",
+   "sku": "41234101",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:087076807047",
+   "sku_display": "41234101",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Triangle Ice Cream Mat",
+   "aka": [],
+   "upc": "430001009915",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430001009915",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Kiwi Slice Mat",
+   "aka": [],
+   "upc": "430001009922",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430001009922",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Studio Selection SPF 100 Sport Sunscreen Spray, 5.5 oz",
+   "aka": [
+    "Studio Selection Sport SPF 100 Sunscreen Spray, 5.5 oz"
+   ],
    "upc": "199579000419",
    "sku": "43403701",
    "price": 0.01,
@@ -12331,6 +14360,78 @@
   },
   {
    "store": "dollar_general",
+   "name": "M&M’s Bakery Collection Peanut Butter Cinnamon Roll Chocolate Candy",
+   "aka": [],
+   "upc": "040000642114",
+   "sku": "44025301",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-44025301-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:040000642114",
+   "sku_display": "44025301",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "M&M’s Cherry Chocolate Candy, 1.5 oz",
+   "aka": [],
+   "upc": "040000642213",
+   "sku": "44025401",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-44025401-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:040000642213",
+   "sku_display": "44025401",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "M&M’s Bakery Collection Lemon Meringue Pie White Chocolate Candy",
+   "aka": [],
+   "upc": "040000642022",
+   "sku": "44025501",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-44025501-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:040000642022",
+   "sku_display": "44025501",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Spectracide Foaming Wasp & Hornet Killer Aerosol Spray, 14 oz",
    "aka": [],
    "upc": "071121974044",
@@ -12350,6 +14451,366 @@
    "source_count": 1,
    "id": "dg:071121974044",
    "sku_display": "44219201",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Arizona Watermelon",
+   "aka": [],
+   "upc": "613008756451",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:613008756451",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Fun Sweets Cotton Candy Blue Raspberry, 1.5 oz",
+   "aka": [],
+   "upc": "720464750371",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:720464750371",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Fun Sweets Cotton Candy Cherry, 1.5 oz",
+   "aka": [],
+   "upc": "720464750388",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:720464750388",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Face Twisters Sour Candy Silly Legs, 1.66 oz",
+   "aka": [],
+   "upc": "793216070300",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://i5.walmartimages.com/asr/2a9bebd7-9f58-4871-9b8e-bcb2c06d336c_1.cb1121863803c2ff9db29a87d5ee78cf.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:793216070300",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Toddler Flamingo Bucket Hat",
+   "aka": [],
+   "upc": "794434555006",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:794434555006",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Toddler Shark Bucket Hat",
+   "aka": [],
+   "upc": "794434555013",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:794434555013",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Reese’s Filled Pretzel Peanut Butter, 5 oz",
+   "aka": [],
+   "upc": "810031480265",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:810031480265",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Clover Valley Teriyaki Sauce, 10 fl. oz",
+   "aka": [],
+   "upc": "810036561655",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:810036561655",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Churu Bisque Tuna, 1 ct",
+   "aka": [],
+   "upc": null,
+   "sku": "810100850",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:810100850",
+   "sku_display": "810100850",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Heartland Farm C0365 Chicken Jerky Cuts, 6 oz",
+   "aka": [],
+   "upc": "812639026630",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:812639026630",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Fun Sweets Cotton Candy Patriotic, 1 ct. – 720464750395Toxic Waste Slime Licker July 4th, 3.5 oz",
+   "aka": [],
+   "upc": "850034597928",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:850034597928",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Chef’s Cut Jerky Smokehouse, 1oz",
+   "aka": [],
+   "upc": "858959005368",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/664854/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:858959005368",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Chef’s Cut Snack Stick Teriyaki, 1 oz",
+   "aka": [],
+   "upc": "858959005597",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:858959005597",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Hi-Chew Candy Stick Strawberry, 1 ct",
+   "aka": [],
+   "upc": "873983000028",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/476329/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:873983000028",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Hi-Chew Candy Stick Mango, 1 ct",
+   "aka": [],
+   "upc": "873983000059",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "image": "https://pics.walgreens.com/prodimg/476328/450.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-03",
+     "url": "https://pennygeneral.net/lists/2026-11-03",
+     "date": "2026-11-03"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:873983000059",
+   "sku_display": "",
    "notes": "",
    "home_reports": 0
   },
