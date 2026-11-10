@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-09",
-   "fetched": "2026-11-09",
-   "count": 237,
+   "as_of": "2026-11-10",
+   "fetched": "2026-11-10",
+   "count": 244,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-09",
+   "fetched": "2026-11-10",
    "count": 100,
    "sources": [
     {
@@ -116,7 +116,7 @@
    ],
    "note": "Current DG penny week starting 2026-11-03 (Tuesday).",
    "stale": true,
-   "last_error": "2026-11-09: FetchError: https://pennygeneral.net/lists: <urlopen error timed out>"
+   "last_error": "2026-11-10: FetchError: https://pennygeneral.net/lists: <urlopen error timed out>"
   },
   "walmart": {
    "name": "Walmart",
@@ -133,7 +133,7 @@
    ],
    "note": "No free source publishes store-level Walmart hidden clearance for Clarksville / Nashville; these are dated national in-store finds.",
    "stale": true,
-   "last_error": "2026-11-09: FetchError: Walmart: no dated clearance items found in the last 14 days"
+   "last_error": "2026-11-10: FetchError: Walmart: no dated clearance items found in the last 14 days"
   }
  },
  "sources": [
@@ -208,11 +208,11 @@
    "model": "K40526",
    "retail": 19.88,
    "internet_number": "335104182",
-   "reports": 95,
+   "reports": 97,
    "states": {
     "TX": 15,
     "NY": 10,
-    "CA": 20,
+    "CA": 22,
     "MI": 1,
     "NJ": 10,
     "WA": 6,
@@ -237,7 +237,7 @@
     "NV": 1
    },
    "first_reported": "2026-08-08",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "image": "https://images.thdstatic.com/productImages/820881bc-6a07-4009-89d8-a940a267e55f/svn/husky-work-lights-k40526-64_1000.jpg",
    "sources": [
     {
@@ -269,9 +269,9 @@
    "model": "T0338MW",
    "retail": 99,
    "internet_number": "100676582",
-   "reports": 77,
+   "reports": 80,
    "states": {
-    "NY": 6,
+    "NY": 7,
     "TX": 7,
     "MI": 4,
     "GA": 7,
@@ -286,15 +286,16 @@
     "AR": 1,
     "UT": 3,
     "MD": 1,
-    "IN": 1,
+    "IN": 2,
     "CT": 2,
     "ME": 1,
     "CO": 1,
     "WI": 2,
-    "NV": 2
+    "NV": 2,
+    "KS": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -314,7 +315,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 21,
+   "state_count": 22,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -542,7 +543,7 @@
    "model": null,
    "retail": 79,
    "internet_number": "100030159",
-   "reports": 33,
+   "reports": 35,
    "states": {
     "IL": 7,
     "MI": 3,
@@ -550,7 +551,7 @@
     "TX": 2,
     "FL": 1,
     "NJ": 3,
-    "CA": 4,
+    "CA": 6,
     "MA": 1,
     "MS": 1,
     "NY": 1,
@@ -561,7 +562,7 @@
     "OH": 2
    },
    "first_reported": "2026-09-23",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "image": "https://images.thdstatic.com/productImages/49981bea-07e3-4c94-81e8-c65ba9d9ac24/svn/milwaukee-hand-trucks-hd800p-64_1000.jpg",
    "sources": [
     {
@@ -696,7 +697,7 @@
    "brand": "Flexon",
    "model": null,
    "retail": 24.98,
-   "internet_number": "339901942",
+   "internet_number": null,
    "reports": 16,
    "states": {
     "GA": 1,
@@ -711,12 +712,8 @@
    },
    "first_reported": "2026-09-10",
    "last_seen": "2026-11-07",
-   "image": "https://images.thdstatic.com/productImages/ff6c09cc-8f39-4b79-b2db-e8cc2d5357af/svn/black-flexon-garden-hoses-wcm58100hd-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1015053805/"
@@ -724,10 +721,9 @@
    ],
    "upc": "0044882106467",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 9,
@@ -996,7 +992,7 @@
    "brand": "DURASACK",
    "model": null,
    "retail": 19.99,
-   "internet_number": "340956120",
+   "internet_number": null,
    "reports": 10,
    "states": {
     "TX": 3,
@@ -1009,12 +1005,8 @@
    },
    "first_reported": "2026-10-26",
    "last_seen": "2026-11-06",
-   "image": "https://images.thdstatic.com/productImages/13196282-954f-4fed-b0ac-584fb0a725f9/svn/durasack-storage-bins-wp-movg-2pk-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1015277793/"
@@ -1022,10 +1014,9 @@
    ],
    "upc": "653212003361",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 7,
@@ -1118,6 +1109,53 @@
    "price": 0.01
   },
   {
+   "sku": "1009749973",
+   "sku_display": "1009-749-973",
+   "name": "BBQ Daddy Grill Brush - Bristle Free Steam Cleaning Scrubber",
+   "brand": "Scrub Daddy",
+   "model": null,
+   "retail": 29.98,
+   "internet_number": "325797401",
+   "reports": 8,
+   "states": {
+    "VA": 1,
+    "TN": 1,
+    "NY": 1,
+    "SC": 1,
+    "TX": 1,
+    "CO": 1,
+    "GA": 1,
+    "WI": 1
+   },
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-09",
+   "image": "https://images.thdstatic.com/productImages/48e17737-b0c7-426f-a689-f051902eb8e1/svn/scrub-daddy-grill-brushes-810044131147-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1009749973/"
+    }
+   ],
+   "upc": "810044131147",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 8,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1009749973",
+   "price": 0.01
+  },
+  {
    "sku": "1002165889",
    "sku_display": "1002-165-889",
    "name": "Charcoal Grill Rake",
@@ -1160,52 +1198,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1002165889",
-   "price": 0.01
-  },
-  {
-   "sku": "1009749973",
-   "sku_display": "1009-749-973",
-   "name": "BBQ Daddy Grill Brush - Bristle Free Steam Cleaning Scrubber",
-   "brand": "Scrub Daddy",
-   "model": null,
-   "retail": 29.98,
-   "internet_number": "325797401",
-   "reports": 7,
-   "states": {
-    "VA": 1,
-    "TN": 1,
-    "NY": 1,
-    "SC": 1,
-    "TX": 1,
-    "CO": 1,
-    "GA": 1
-   },
-   "first_reported": "2026-11-03",
-   "last_seen": "2026-11-08",
-   "image": "https://images.thdstatic.com/productImages/48e17737-b0c7-426f-a689-f051902eb8e1/svn/scrub-daddy-grill-brushes-810044131147-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1009749973/"
-    }
-   ],
-   "upc": "810044131147",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 7,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1009749973",
    "price": 0.01
   },
   {
@@ -1254,7 +1246,7 @@
    "brand": "Weber",
    "model": null,
    "retail": 16.99,
-   "internet_number": "300592283",
+   "internet_number": null,
    "reports": 7,
    "states": {
     "TX": 1,
@@ -1265,12 +1257,8 @@
    },
    "first_reported": "2026-11-03",
    "last_seen": "2026-11-06",
-   "image": "https://images.thdstatic.com/productImages/8f89791d-cecd-4596-94af-58ee9c66c759/svn/weber-grill-thermometers-6750-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/527997/"
@@ -1278,10 +1266,9 @@
    ],
    "upc": "077924048395",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 5,
@@ -1654,9 +1641,9 @@
    "sku_display": "1003-222-344",
    "name": "24 in. x 39 in. Grey Indoor Mat",
    "brand": "WeatherTech",
-   "model": "IDM1G",
+   "model": null,
    "retail": 43.95,
-   "internet_number": "305421211",
+   "internet_number": null,
    "reports": 4,
    "states": {
     "MA": 3,
@@ -1664,12 +1651,8 @@
    },
    "first_reported": "2026-11-04",
    "last_seen": "2026-11-06",
-   "image": "https://images.thdstatic.com/productImages/56569f12-89f1-4000-ad4b-22768451410e/svn/gray-atm-weathertech-door-mats-idm1g-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1003222344/"
@@ -1677,10 +1660,9 @@
    ],
    "upc": "787765926539",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -1882,7 +1864,7 @@
    "brand": "Milwaukee",
    "model": null,
    "retail": 16.47,
-   "internet_number": "320591859",
+   "internet_number": null,
    "reports": 4,
    "states": {
     "FL": 1,
@@ -1892,12 +1874,8 @@
    },
    "first_reported": "2026-11-04",
    "last_seen": "2026-11-06",
-   "image": "https://images.thdstatic.com/productImages/537f9f17-2bb8-4160-b94e-aacdefda6b54/svn/milwaukee-work-gloves-48-73-9031-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1007984718/"
@@ -1905,10 +1883,9 @@
    ],
    "upc": "045242597536",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 4,
@@ -1993,6 +1970,46 @@
    "price": 0.01
   },
   {
+   "sku": "1010984010",
+   "sku_display": "1010-984-010",
+   "name": "3/8 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 18.47,
+   "internet_number": "328602869",
+   "reports": 4,
+   "states": {
+    "KS": 1,
+    "WI": 1,
+    "CO": 1,
+    "TN": 1
+   },
+   "first_reported": "2026-11-09",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/01b304fb-0c0c-4a70-9870-a1b8bdd38500/svn/milwaukee-masonry-drill-bits-48-20-8891-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010984010/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010984010",
+   "price": 0.01
+  },
+  {
    "sku": "1012536755",
    "sku_display": "1012-536-755",
    "name": "Bannister 31 in. Single Sink Dusk Bath Vanity with White Cultured Marble Top (Assembled)",
@@ -2069,6 +2086,49 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015399905",
+   "price": 0.01
+  },
+  {
+   "sku": "594924",
+   "sku_display": "594-924",
+   "name": "32 in. x 80 in. Universal Copper Surface Mount Outswing Steel Security Door with Expanded Metal Screen",
+   "brand": "Unique Home Designs",
+   "model": null,
+   "retail": 259,
+   "internet_number": "202809390",
+   "reports": 4,
+   "states": {
+    "NV": 1,
+    "CA": 1,
+    "AZ": 1,
+    "OR": 1
+   },
+   "first_reported": "2026-10-31",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/dda2a6db-7210-49ea-aa0f-4fb39dc05157/svn/copper-unique-home-designs-security-doors-idr06400322071-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/594924/"
+    }
+   ],
+   "upc": "847443000583",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:594924",
    "price": 0.01
   },
   {
@@ -2252,6 +2312,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1010709311",
+   "price": 0.01
+  },
+  {
+   "sku": "1010984022",
+   "sku_display": "1010-984-022",
+   "name": "1/2 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 20.47,
+   "internet_number": "328602870",
+   "reports": 3,
+   "states": {
+    "FL": 1,
+    "TN": 1,
+    "CO": 1
+   },
+   "first_reported": "2026-11-09",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/06ecb245-25a0-4fd1-8f26-4a15453f2a86/svn/milwaukee-masonry-drill-bits-48-20-8893-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010984022/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010984022",
    "price": 0.01
   },
   {
@@ -2514,22 +2613,21 @@
    "price": 0.01
   },
   {
-   "sku": "594924",
-   "sku_display": "594-924",
-   "name": "32 in. x 80 in. Universal Copper Surface Mount Outswing Steel Security Door with Expanded Metal Screen",
-   "brand": "Unique Home Designs",
+   "sku": "147856",
+   "sku_display": "147-856",
+   "name": "Tune-Up Kit for Post and Pre Tier III Quantum Engines",
+   "brand": "Briggs & Stratton",
    "model": null,
-   "retail": 259,
-   "internet_number": "202809390",
+   "retail": 19.97,
+   "internet_number": "203644150",
    "reports": 3,
    "states": {
-    "NV": 1,
-    "CA": 1,
-    "AZ": 1
+    "TX": 2,
+    "GA": 1
    },
-   "first_reported": "2026-10-31",
-   "last_seen": "2026-11-08",
-   "image": "https://images.thdstatic.com/productImages/dda2a6db-7210-49ea-aa0f-4fb39dc05157/svn/copper-unique-home-designs-security-doors-idr06400322071-64_1000.jpg",
+   "first_reported": "2026-11-08",
+   "last_seen": "2026-11-09",
+   "image": "https://images.thdstatic.com/productImages/4cab2060-f2fc-4db2-9f10-fdeea51fe8ee/svn/briggs-stratton-maintenance-kits-5140-64_1000.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -2537,10 +2635,10 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/594924/"
+     "url": "https://www.pennyrecon.com/item/147856/"
     }
    ],
-   "upc": "847443000583",
+   "upc": "024847745467",
    "upc_sources": [
     "Penny Recon",
     "PennyCentral"
@@ -2548,11 +2646,11 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 3,
+   "state_count": 2,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:594924",
+   "id": "hd:147856",
    "price": 0.01
   },
   {
@@ -2791,9 +2889,9 @@
    "sku_display": "1003-327-593",
    "name": "Ceilume Stratford White Feather-Light 2 ft. x 2 ft. Lay-in Ceiling Panel (Case of 10) HD-STRATF-22WTO",
    "brand": "Ceilume",
-   "model": "HD-STRATF-22WTO",
-   "retail": 81,
-   "internet_number": "205389663",
+   "model": null,
+   "retail": 81.0,
+   "internet_number": null,
    "reports": 2,
    "states": {
     "GA": 1,
@@ -2801,12 +2899,8 @@
    },
    "first_reported": "2026-07-07",
    "last_seen": "2026-11-06",
-   "image": "https://images.thdstatic.com/productImages/247027f0-d9e5-4eef-851e-e97c049e4843/svn/white-ceilume-drop-ceiling-tiles-hd-stratf-22wto-64_100.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1003327593/"
@@ -2814,10 +2908,9 @@
    ],
    "upc": "0817273018119",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -3379,6 +3472,47 @@
    "price": 0.01
   },
   {
+   "sku": "1008022793",
+   "sku_display": "1008-022-793",
+   "name": "Mandouri Single Handle Spring Neck Pull Down Sprayer Kitchen Faucet with Soap Dispenser in Stainless Steel",
+   "brand": "Glacier Bay",
+   "model": null,
+   "retail": 189,
+   "internet_number": "321132050",
+   "reports": 2,
+   "states": {
+    "TX": 1,
+    "CA": 1
+   },
+   "first_reported": "2026-11-09",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/b71ef7a2-78f3-41f7-91ff-e58ae0a6228b/svn/stainless-steel-glacier-bay-pull-down-kitchen-faucets-hd67458-1308d2-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008022793/"
+    }
+   ],
+   "upc": "6925699959788",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008022793",
+   "price": 0.01
+  },
+  {
    "sku": "1008050496",
    "sku_display": "1008-050-496",
    "name": "Firestarter Cube Wood and Charcoal Firelighters (18-Count)",
@@ -3588,6 +3722,44 @@
    "price": 0.01
   },
   {
+   "sku": "1010983996",
+   "sku_display": "1010-983-996",
+   "name": "5/16 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 17.47,
+   "internet_number": "328602868",
+   "reports": 2,
+   "states": {
+    "TN": 1,
+    "CO": 1
+   },
+   "first_reported": "2026-11-09",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/cee77170-1f3f-4cd6-a3e7-4fdfbc57dfb9/svn/milwaukee-masonry-drill-bits-48-20-8889-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010983996/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010983996",
+   "price": 0.01
+  },
+  {
    "sku": "1011853170",
    "sku_display": "1011-853-170",
    "name": "Craye 30 in. Freestanding Bath Vanity Cabinet without Top in Matte Black",
@@ -3700,6 +3872,44 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1013045587",
+   "price": 0.01
+  },
+  {
+   "sku": "1013121020",
+   "sku_display": "1013-121-020",
+   "name": "9 in. 8 TPI Steel Demon AMPED Carbide Reciprocating Saw Blade for Thick Metal Cutting (2-Pack)",
+   "brand": "DIABLO",
+   "model": null,
+   "retail": 19.88,
+   "internet_number": "333293856",
+   "reports": 2,
+   "states": {
+    "GA": 1,
+    "CO": 1
+   },
+   "first_reported": "2025-12-30",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/3862962f-c0f5-4b97-a74a-536d9dc281f1/svn/diablo-reciprocating-saw-blades-ds0908cfap-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013121020/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1013121020",
    "price": 0.01
   },
   {
@@ -4876,28 +5086,22 @@
    "brand": "Commercial Electric",
    "model": null,
    "retail": 98.97,
-   "internet_number": "314010411",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "GA": 1
    },
    "first_reported": "2026-11-06",
    "last_seen": "2026-11-06",
-   "image": "https://images.thdstatic.com/productImages/431a9492-3769-421c-a567-ce90bba64509/svn/white-commercial-electric-strip-light-fixtures-54598191-a-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1004330413/"
     }
    ],
-   "upc": "849489072364",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -5606,6 +5810,41 @@
    "price": 0.01
   },
   {
+   "sku": "1005598624",
+   "sku_display": "1005-598-624",
+   "name": "Tupelo 24 in. W x 19 in. D x 34 in. H Single Sink Bath Vanity in Midnight Blue with White Engineered Stone Top",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 299,
+   "internet_number": "313817439",
+   "reports": 1,
+   "states": {
+    "ID": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/b0894d92-abe2-45ca-a1e9-67b9649a8166/svn/home-decorators-collection-bathroom-vanities-with-tops-tupelo-24mb-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "828796037136",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1005598624",
+   "price": 0.01
+  },
+  {
    "sku": "1005810064",
    "sku_display": "1005-810-064",
    "name": "12 in. 3 Speed Personal Desk Fan in Black",
@@ -5636,41 +5875,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1005810064",
-   "price": 0.01
-  },
-  {
-   "sku": "1006104734",
-   "sku_display": "1006-104-734",
-   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2 LED Lights, Dual Band Wifi, 3D Motion Detection, Black",
-   "brand": "Ring",
-   "model": null,
-   "retail": 229.99,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "GA": 1
-   },
-   "first_reported": "2026-10-11",
-   "last_seen": "2026-10-27",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006104734/"
-    }
-   ],
-   "upc": "840080570099",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006104734",
    "price": 0.01
   },
   {
@@ -5871,6 +6075,84 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006494586",
+   "price": 0.01
+  },
+  {
+   "sku": "1006544256",
+   "sku_display": "1006-544-256",
+   "name": "Crystal Bianco 32 in. x 32 in. Polished Porcelain Stone Look Floor and Wall Tile (21.33 sq. ft./Case)",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 63.76,
+   "internet_number": "317540515",
+   "reports": 1,
+   "states": {
+    "FL": 1
+   },
+   "first_reported": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "image": "https://images.thdstatic.com/productImages/37d5ba96-d4df-4ea0-88f0-2bfc82b98db8/svn/crystal-bianco-home-decorators-collection-porcelain-tile-nhdcrybia3232p-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006544256/"
+    }
+   ],
+   "upc": "747583144454",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006544256",
+   "price": 0.01
+  },
+  {
+   "sku": "1006675268",
+   "sku_display": "1006-675-268",
+   "name": "Tupelo 30 in. W x 19 in. D x 34 in. H Single Sink Bath Vanity in Midnight Blue with White Engineered Stone Top",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 329,
+   "internet_number": "317445580",
+   "reports": 1,
+   "states": {
+    "CO": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/bf0fea83-f9c7-4009-979a-24f9005f76cf/svn/home-decorators-collection-bathroom-vanities-with-tops-tupelo-30mb-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006675268/"
+    }
+   ],
+   "upc": "828796037143",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006675268",
    "price": 0.01
   },
   {
@@ -6105,6 +6387,45 @@
    "price": 0.01
   },
   {
+   "sku": "1007922501",
+   "sku_display": "1007-922-501",
+   "name": "Metro Gold 12.09 in. x 12.21 in. Textured Stone;Metal Mesh-Mounted Mosaic Tile (1.03 sq. ft./Each)",
+   "brand": "MSI",
+   "model": null,
+   "retail": 17.98,
+   "internet_number": "320957959",
+   "reports": 1,
+   "states": {
+    "CO": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/449e0fdf-cfe6-4fff-8f72-05f671b0396d/svn/metro-gold-msi-metal-tile-smtl-metgol8mm-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007922501/"
+    }
+   ],
+   "upc": "747583147509",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1007922501",
+   "price": 0.01
+  },
+  {
    "sku": "1008004414",
    "sku_display": "1008-004-414",
    "name": "1/2 in. x 1-1/2 in. Black Exterior Hex Head Lag Screw (25-Pack)",
@@ -6135,43 +6456,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1008004414",
-   "price": 0.01
-  },
-  {
-   "sku": "1008022793",
-   "sku_display": "1008-022-793",
-   "name": "Mandouri Single Handle Spring Neck Pull Down Sprayer Kitchen Faucet with Soap Dispenser in Stainless Steel",
-   "brand": "Glacier Bay",
-   "model": null,
-   "retail": 189,
-   "internet_number": "321132050",
-   "reports": 1,
-   "states": {
-    "TX": 1
-   },
-   "first_reported": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "image": "https://images.thdstatic.com/productImages/b71ef7a2-78f3-41f7-91ff-e58ae0a6228b/svn/stainless-steel-glacier-bay-pull-down-kitchen-faucets-hd67458-1308d2-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1008022793/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1008022793",
    "price": 0.01
   },
   {
@@ -6581,6 +6865,43 @@
    "price": 0.01
   },
   {
+   "sku": "1010139541",
+   "sku_display": "1010-139-541",
+   "name": "SKU 1010139541",
+   "brand": "",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "CO": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "image": "/images/hd-product-placeholder.svg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010139541/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010139541",
+   "price": 0.01
+  },
+  {
    "sku": "1010327647",
    "sku_display": "1010-327-647",
    "name": "Drive Belt for 48 in. cut John Deere mowers, Replaces OEM Numbers GX21833, 07217401",
@@ -6783,20 +7104,20 @@
    "price": 0.01
   },
   {
-   "sku": "1010983996",
-   "sku_display": "1010-983-996",
-   "name": "5/16 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
+   "sku": "1010983994",
+   "sku_display": "1010-983-994",
+   "name": "1/4 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
    "brand": "Milwaukee",
    "model": null,
-   "retail": 17.47,
-   "internet_number": "328602868",
+   "retail": 16.47,
+   "internet_number": "328602867",
    "reports": 1,
    "states": {
-    "TN": 1
+    "CO": 1
    },
-   "first_reported": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "image": "https://images.thdstatic.com/productImages/cee77170-1f3f-4cd6-a3e7-4fdfbc57dfb9/svn/milwaukee-masonry-drill-bits-48-20-8889-64_600.jpg",
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/productImages/d83d17f6-f5be-4477-b8e1-99eb56237158/svn/milwaukee-masonry-drill-bits-48-20-8887-64_600.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -6804,93 +7125,19 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010983996/"
+     "url": "https://www.pennyrecon.com/item/1010983994/"
     }
    ],
    "upc": null,
    "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
-   "home_reports": 1,
+   "home_reports": 0,
    "state_count": 1,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1010983996",
-   "price": 0.01
-  },
-  {
-   "sku": "1010984010",
-   "sku_display": "1010-984-010",
-   "name": "3/8 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 18.47,
-   "internet_number": "328602869",
-   "reports": 1,
-   "states": {
-    "TN": 1
-   },
-   "first_reported": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "image": "https://images.thdstatic.com/productImages/01b304fb-0c0c-4a70-9870-a1b8bdd38500/svn/milwaukee-masonry-drill-bits-48-20-8891-64_600.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010984010/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010984010",
-   "price": 0.01
-  },
-  {
-   "sku": "1010984022",
-   "sku_display": "1010-984-022",
-   "name": "1/2 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 20.47,
-   "internet_number": "328602870",
-   "reports": 1,
-   "states": {
-    "TN": 1
-   },
-   "first_reported": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "image": "https://images.thdstatic.com/productImages/06ecb245-25a0-4fd1-8f26-4a15453f2a86/svn/milwaukee-masonry-drill-bits-48-20-8893-64_600.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010984022/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010984022",
+   "id": "hd:1010983994",
    "price": 0.01
   },
   {
@@ -7096,39 +7343,6 @@
    "price": 0.01
   },
   {
-   "sku": "1012488496",
-   "sku_display": "1012-488-496",
-   "name": "SKU 1012488496",
-   "brand": "",
-   "model": null,
-   "retail": null,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "CA": 1
-   },
-   "first_reported": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "image": "/images/hd-product-placeholder.svg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1012488496",
-   "price": 0.01
-  },
-  {
    "sku": "1012488992",
    "sku_display": "1012-488-992",
    "name": "Arroyo Matte Black Hall/Closet Knob with Soft Modern Rose",
@@ -7192,6 +7406,43 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012612080",
+   "price": 0.01
+  },
+  {
+   "sku": "1012697621",
+   "sku_display": "1012-697-621",
+   "name": "Lina Ridge Oak 12 MIL x 7 in. W x 48 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (23.8 sq. ft./Case)",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 59.26,
+   "internet_number": "332344004",
+   "reports": 1,
+   "states": {
+    "IL": 1
+   },
+   "first_reported": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "image": "https://images.thdstatic.com/productImages/2526b21d-c5c6-4fc2-af30-0e74b13cbcc6/svn/lina-ridge-oak-home-decorators-collection-vinyl-plank-flooring-hl0001-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012697621/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1012697621",
    "price": 0.01
   },
   {
@@ -7465,28 +7716,22 @@
    "brand": "Milwaukee",
    "model": null,
    "retail": 109.97,
-   "internet_number": "336117815",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "PA": 1
    },
    "first_reported": "2026-11-06",
    "last_seen": "2026-11-06",
-   "image": "https://images.thdstatic.com/productImages/8f1a907e-212a-4b71-b0cd-d985438bd86b/svn/white-milwaukee-hard-hats-48-73-1650-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1014292870/"
     }
    ],
-   "upc": "045242365654",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -7666,45 +7911,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:106416",
-   "price": 0.01
-  },
-  {
-   "sku": "147856",
-   "sku_display": "147-856",
-   "name": "Tune-Up Kit for Post and Pre Tier III Quantum Engines",
-   "brand": "Briggs & Stratton",
-   "model": null,
-   "retail": 19.97,
-   "internet_number": "203644150",
-   "reports": 1,
-   "states": {
-    "GA": 1
-   },
-   "first_reported": "2026-11-08",
-   "last_seen": "2026-11-08",
-   "image": "https://images.thdstatic.com/productImages/4cab2060-f2fc-4db2-9f10-fdeea51fe8ee/svn/briggs-stratton-maintenance-kits-5140-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/147856/"
-    }
-   ],
-   "upc": "024847745467",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:147856",
    "price": 0.01
   },
   {
@@ -8044,6 +8250,43 @@
    "price": 0.01
   },
   {
+   "sku": "546275",
+   "sku_display": "546-275",
+   "name": "Su Casa Security Door",
+   "brand": "Unique Home Designs",
+   "model": null,
+   "retail": 195,
+   "internet_number": "202098334",
+   "reports": 1,
+   "states": {
+    "OR": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "image": "https://images.thdstatic.com/catalog/productImages/600/6d/6d84afb7-30f8-41ee-93ec-32e64070cc8b_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/546275/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:546275",
+   "price": 0.01
+  },
+  {
    "sku": "734722",
    "sku_display": "734-722",
    "name": "Tustin Venetian Bronze ExteriorEntry Door Handle and Single Cylinder Deadbolt Combo Pack Featuring SmartKey Security",
@@ -8341,6 +8584,39 @@
    "price": 0.01
   },
   {
+   "sku": "1006104734",
+   "sku_display": "1006-104-734",
+   "name": "Floodlight Cam Pro Wired Security Camera with 2K Video and 3D Motion Detection, Black",
+   "brand": "Ring",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006104734/"
+    }
+   ],
+   "upc": "840268949747",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 0,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006104734",
+   "price": 0.01
+  },
+  {
    "sku": "1006211589",
    "sku_display": "1006-211-589",
    "name": "40-Watt Equivalent ST19 Dimmable M-Shape Filament Clear Glass E26 Vintage Edison LED Light Bulb, Daylight 5000K",
@@ -8635,37 +8911,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1009224296",
-   "price": 0.01
-  },
-  {
-   "sku": "1010139541",
-   "sku_display": "1010-139-541",
-   "name": "Power Flush 12 inch Rough In Two-Piece 1.28 GPF Single Flush Round Toilet in White Seat Included",
-   "brand": "Glacier Bay",
-   "model": null,
-   "retail": 0.0,
-   "internet_number": null,
-   "reports": 0,
-   "states": {},
-   "first_reported": "2026-10-28",
-   "last_seen": "2026-10-28",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010139541/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 0,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010139541",
    "price": 0.01
   },
   {
