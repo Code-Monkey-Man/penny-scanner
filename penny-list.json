@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-13",
-   "fetched": "2026-11-13",
-   "count": 264,
+   "as_of": "2026-11-14",
+   "fetched": "2026-11-14",
+   "count": 266,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "count": 104,
    "sources": [
     {
@@ -80,7 +80,7 @@
   "dollar_general": {
    "name": "Dollar General",
    "as_of": "2026-11-11",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "count": 106,
    "sources": [
     {
@@ -114,7 +114,7 @@
    ],
    "note": "No free source publishes store-level Walmart hidden clearance for Clarksville / Nashville; these are dated national in-store finds.",
    "stale": true,
-   "last_error": "2026-11-13: FetchError: Walmart: no dated clearance items found in the last 14 days"
+   "last_error": "2026-11-14: FetchError: Walmart: no dated clearance items found in the last 14 days"
   }
  },
  "sources": [
@@ -300,20 +300,20 @@
    "model": "T0338MW",
    "retail": 99,
    "internet_number": "100676582",
-   "reports": 82,
+   "reports": 89,
    "states": {
-    "NY": 7,
+    "NY": 8,
     "TX": 8,
     "MI": 4,
     "GA": 7,
     "NC": 4,
-    "FL": 9,
+    "FL": 10,
     "AZ": 5,
     "IL": 2,
     "CA": 11,
     "NJ": 2,
     "OR": 2,
-    "OH": 4,
+    "OH": 5,
     "AR": 1,
     "UT": 4,
     "MD": 1,
@@ -323,10 +323,13 @@
     "CO": 1,
     "WI": 2,
     "NV": 2,
-    "KS": 1
+    "KS": 1,
+    "WA": 2,
+    "PA": 1,
+    "MT": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-14",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -346,7 +349,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 22,
+   "state_count": 25,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -934,6 +937,49 @@
    "price": 0.01
   },
   {
+   "sku": "155180",
+   "sku_display": "155-180",
+   "name": "8 ft. 6-Outlet Surge Protector with 45 Degree Flat Angle Plug, Black",
+   "brand": "Commercial Electric",
+   "model": null,
+   "retail": 14.99,
+   "internet_number": "304521507",
+   "reports": 12,
+   "states": {
+    "TX": 2,
+    "IA": 1,
+    "NY": 2,
+    "FL": 3,
+    "CO": 1,
+    "AK": 1,
+    "OH": 2
+   },
+   "first_reported": "2026-11-05",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/740ce6aa-bd6c-49e1-b56e-18bb69fc48ea/svn/black-commercial-electric-surge-protectors-ylpt-43b-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/155180/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:155180",
+   "price": 0.01
+  },
+  {
    "sku": "1006037305",
    "sku_display": "1006-037-305",
    "name": "Decora Smart Wi-Fi Dimmer (2nd Gen) No Hub Required, Works with Google, Alexa, HomeKit, Anywhere Companions, White",
@@ -1018,49 +1064,6 @@
    "price": 0.01
   },
   {
-   "sku": "155180",
-   "sku_display": "155-180",
-   "name": "8 ft. 6-Outlet Surge Protector with 45 Degree Flat Angle Plug, Black",
-   "brand": "Commercial Electric",
-   "model": null,
-   "retail": 14.99,
-   "internet_number": "304521507",
-   "reports": 11,
-   "states": {
-    "TX": 2,
-    "IA": 1,
-    "NY": 1,
-    "FL": 3,
-    "CO": 1,
-    "AK": 1,
-    "OH": 2
-   },
-   "first_reported": "2026-11-05",
-   "last_seen": "2026-11-12",
-   "image": "https://images.thdstatic.com/productImages/740ce6aa-bd6c-49e1-b56e-18bb69fc48ea/svn/black-commercial-electric-surge-protectors-ylpt-43b-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/155180/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 7,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:155180",
-   "price": 0.01
-  },
-  {
    "sku": "1006102265",
    "sku_display": "1006-102-265",
    "name": "Black Oxide Hex Shank Twist Drill Bit Set (15-Piece)",
@@ -1138,6 +1141,49 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1008142318",
+   "price": 0.01
+  },
+  {
+   "sku": "1006423739",
+   "sku_display": "1006-423-739",
+   "name": "Hazel Heights 24 in. 3-Light Black Rustic Farmhouse Bathroom Vanity Light",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 69.97,
+   "internet_number": "316704775",
+   "reports": 9,
+   "states": {
+    "MN": 2,
+    "IL": 1,
+    "CA": 1,
+    "VA": 2,
+    "NV": 1,
+    "LA": 1,
+    "PA": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/e2b8342a-eeef-4664-a047-e4a0a767a33d/svn/black-home-decorators-collection-vanity-lighting-knt1303ax-02-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006423739/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006423739",
    "price": 0.01
   },
   {
@@ -1234,25 +1280,26 @@
    "price": 0.01
   },
   {
-   "sku": "1006423739",
-   "sku_display": "1006-423-739",
-   "name": "Hazel Heights 24 in. 3-Light Black Rustic Farmhouse Bathroom Vanity Light",
-   "brand": "Home Decorators Collection",
+   "sku": "1004296682",
+   "sku_display": "1004-296-682",
+   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Spotlight Battery",
+   "brand": "Ring",
    "model": null,
-   "retail": 69.97,
-   "internet_number": "316704775",
+   "retail": 39.99,
+   "internet_number": "308537853",
    "reports": 8,
    "states": {
-    "MN": 2,
-    "IL": 1,
-    "CA": 1,
-    "VA": 2,
+    "TN": 1,
+    "IL": 2,
+    "GA": 1,
+    "FL": 1,
+    "MA": 1,
     "NV": 1,
-    "LA": 1
+    "NY": 1
    },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/e2b8342a-eeef-4664-a047-e4a0a767a33d/svn/black-home-decorators-collection-vanity-lighting-knt1303ax-02-64_1000.jpg",
+   "first_reported": "2026-10-16",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/384c9180-6a39-41c8-9dda-18b5135718c7/svn/white-ring-floodlights-5b11s8-wen0-64_1000.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -1260,19 +1307,22 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006423739/"
+     "url": "https://www.pennyrecon.com/item/1004296682/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
+   "upc": "842861105247",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
    "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 6,
+   "home_reports": 1,
+   "state_count": 7,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1006423739",
+   "id": "hd:1004296682",
    "price": 0.01
   },
   {
@@ -1439,51 +1489,6 @@
    "price": 0.01
   },
   {
-   "sku": "1004296682",
-   "sku_display": "1004-296-682",
-   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Spotlight Battery",
-   "brand": "Ring",
-   "model": null,
-   "retail": 39.99,
-   "internet_number": "308537853",
-   "reports": 6,
-   "states": {
-    "TN": 1,
-    "IL": 1,
-    "GA": 1,
-    "FL": 1,
-    "MA": 1,
-    "NV": 1
-   },
-   "first_reported": "2026-10-16",
-   "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/384c9180-6a39-41c8-9dda-18b5135718c7/svn/white-ring-floodlights-5b11s8-wen0-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1004296682/"
-    }
-   ],
-   "upc": "842861105247",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 6,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1004296682",
-   "price": 0.01
-  },
-  {
    "sku": "1006104733",
    "sku_display": "1006-104-733",
    "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
@@ -1529,7 +1534,7 @@
    "brand": "Milwaukee",
    "model": null,
    "retail": 16.47,
-   "internet_number": "320591859",
+   "internet_number": null,
    "reports": 6,
    "states": {
     "FL": 1,
@@ -1540,12 +1545,8 @@
    },
    "first_reported": "2026-11-04",
    "last_seen": "2026-11-10",
-   "image": "https://images.thdstatic.com/productImages/537f9f17-2bb8-4160-b94e-aacdefda6b54/svn/milwaukee-work-gloves-48-73-9031-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1007984718/"
@@ -1553,10 +1554,9 @@
    ],
    "upc": "045242597536",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 5,
@@ -1796,42 +1796,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1000051004",
-   "price": 0.01
-  },
-  {
-   "sku": "1001028991",
-   "sku_display": "1001-028-991",
-   "name": "Home Decorators Collection Merwry 52 in. Integrated LED Indoor Brushed Nickel Ceiling Fan with Light Kit and Remote Control",
-   "brand": "Home Decorators Collection",
-   "model": null,
-   "retail": 169.0,
-   "internet_number": null,
-   "reports": 4,
-   "states": {
-    "NY": 2,
-    "PA": 2
-   },
-   "first_reported": "2026-09-30",
-   "last_seen": "2026-10-14",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1001028991/"
-    }
-   ],
-   "upc": "845952001121",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1001028991",
    "price": 0.01
   },
   {
@@ -3264,9 +3228,10 @@
    ],
    "upc": "648846071206",
    "upc_sources": [
+    "Penny Recon",
     "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -3632,42 +3597,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006581635",
-   "price": 0.01
-  },
-  {
-   "sku": "1007569047",
-   "sku_display": "1007-569-047",
-   "name": "Sous Pro-Style-Single Handle Pull Down Sprayer Kitchen Faucet in Vibrant Brushed Moderne Brass",
-   "brand": "KOHLER",
-   "model": null,
-   "retail": 349.0,
-   "internet_number": null,
-   "reports": 2,
-   "states": {
-    "RI": 1,
-    "NY": 1
-   },
-   "first_reported": "2026-08-03",
-   "last_seen": "2026-10-14",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007569047/"
-    }
-   ],
-   "upc": "195711012692",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007569047",
    "price": 0.01
   },
   {
@@ -4889,6 +4818,39 @@
    "price": 0.01
   },
   {
+   "sku": "1001254977",
+   "sku_display": "1001-254-977",
+   "name": "SKU 1001254977",
+   "brand": "",
+   "model": null,
+   "retail": null,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "VA": 1
+   },
+   "first_reported": "2026-11-14",
+   "last_seen": "2026-11-14",
+   "image": "/images/hd-product-placeholder.svg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1001254977",
+   "price": 0.01
+  },
+  {
    "sku": "1001382845",
    "sku_display": "1001-382-845",
    "name": "Push-to-Connect Faucet Installation Kit",
@@ -5387,6 +5349,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1003329979",
+   "price": 0.01
+  },
+  {
+   "sku": "1003329983",
+   "sku_display": "1003-329-983",
+   "name": "Affinity Round Soft-Close Easy-Clean Never-Loosens Plastic Toilet Seat in Bone",
+   "brand": "BEMIS",
+   "model": "203SLOW 006",
+   "retail": 49.98,
+   "internet_number": "305657947",
+   "reports": 1,
+   "states": {
+    "WA": 1
+   },
+   "first_reported": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "image": "https://images.thdstatic.com/productImages/50a3caf5-bb77-4bd4-be06-3c1ba629042f/svn/bone-bemis-toilet-seats-203slow-006-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1003329983/"
+    }
+   ],
+   "upc": "073088156372",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1003329983",
    "price": 0.01
   },
   {
@@ -5907,6 +5908,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005469197/"
     }
    ],
    "upc": "030699630950",
@@ -6259,29 +6264,23 @@
    "name": "Tupelo 24 in. W x 19 in. D x 34 in. H Single Sink Bath Vanity in Midnight Blue with White Engineered Stone Top",
    "brand": "Home Decorators Collection",
    "model": null,
-   "retail": 299,
-   "internet_number": "313817439",
+   "retail": 299.0,
+   "internet_number": null,
    "reports": 1,
    "states": {
     "ID": 1
    },
    "first_reported": "2026-11-10",
    "last_seen": "2026-11-10",
-   "image": "https://images.thdstatic.com/productImages/b0894d92-abe2-45ca-a1e9-67b9649a8166/svn/home-decorators-collection-bathroom-vanities-with-tops-tupelo-24mb-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1005598624/"
     }
    ],
-   "upc": "828796037136",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -6395,6 +6394,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006211571",
+   "price": 0.01
+  },
+  {
+   "sku": "1006423742",
+   "sku_display": "1006-423-742",
+   "name": "Havelock 22.7 in. 1-Light Chrome Integrated LED Bathroom Vanity Light Bar with Clear Seedy Glass",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 99.97,
+   "internet_number": "316704753",
+   "reports": 1,
+   "states": {
+    "OH": 1
+   },
+   "first_reported": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "image": "https://images.thdstatic.com/productImages/2c8e9e56-22d3-4eb6-b38d-69431f1c5db4/svn/chrome-hampton-bay-vanity-lighting-kgl1391l-2-cr-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006423742/"
+    }
+   ],
+   "upc": "6940500321318",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006423742",
    "price": 0.01
   },
   {
@@ -6536,28 +6574,22 @@
    "brand": "Hampton Bay",
    "model": null,
    "retail": 30.29,
-   "internet_number": "319141312",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "FL": 1
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/5d2131c7-0c02-4209-931d-48aa92a46c79/svn/black-hampton-bay-floor-lamps-24122-000-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1007077866/"
     }
    ],
-   "upc": "022011001814",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -7082,28 +7114,22 @@
    "brand": "Defiant",
    "model": null,
    "retail": 35.47,
-   "internet_number": "324895182",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "TN": 1
    },
    "first_reported": "2026-11-10",
    "last_seen": "2026-11-10",
-   "image": "https://images.thdstatic.com/productImages/61a36747-ae5b-4471-a8b5-4efe8bfad3cb/svn/defiant-door-lock-combo-packs-32ms3x2d91-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1009429109/"
     }
    ],
-   "upc": "050134008472",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
@@ -7246,6 +7272,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1010070418",
+   "price": 0.01
+  },
+  {
+   "sku": "1010070419",
+   "sku_display": "1010-070-419",
+   "name": "Dylan 60 in. W x 75.98 in. H Sliding Frameless Shower Door in Brushed Nickel Finish with Clear Glass",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 719,
+   "internet_number": "325978605",
+   "reports": 1,
+   "states": {
+    "CA": 1
+   },
+   "first_reported": "2026-11-14",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/5ce06f5e-9111-4a9e-8f97-dbd201ae78e0/svn/home-decorators-collection-alcove-shower-doors-gbsh167-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010070419/"
+    }
+   ],
+   "upc": "828796122504",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010070419",
    "price": 0.01
   },
   {
