@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-14",
-   "fetched": "2026-11-14",
-   "count": 266,
+   "as_of": "2026-11-15",
+   "fetched": "2026-11-15",
+   "count": 264,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,14 +63,14 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-14",
-   "count": 104,
+   "fetched": "2026-11-15",
+   "count": 106,
    "sources": [
     {
      "name": "ClearanceFinds Lowe's penny list",
      "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
      "date": "2026-11-07",
-     "items": 104,
+     "items": 106,
      "coverage": null
     }
    ],
@@ -97,7 +97,8 @@
     }
    ],
    "note": "Current DG penny week starting 2026-11-10 (Tuesday).",
-   "stale": false
+   "stale": true,
+   "last_error": "2026-11-15: FetchError: https://pennygeneral.net/lists: <urlopen error timed out>"
   },
   "walmart": {
    "name": "Walmart",
@@ -114,7 +115,7 @@
    ],
    "note": "No free source publishes store-level Walmart hidden clearance for Clarksville / Nashville; these are dated national in-store finds.",
    "stale": true,
-   "last_error": "2026-11-14: FetchError: Walmart: no dated clearance items found in the last 14 days"
+   "last_error": "2026-11-15: FetchError: Walmart: no dated clearance items found in the last 14 days"
   }
  },
  "sources": [
@@ -132,7 +133,7 @@
    "name": "ClearanceFinds Lowe's penny list",
    "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
    "date": "2026-11-07",
-   "items": 104,
+   "items": 106,
    "coverage": null,
    "store": "lowes"
   },
@@ -300,17 +301,17 @@
    "model": "T0338MW",
    "retail": 99,
    "internet_number": "100676582",
-   "reports": 89,
+   "reports": 92,
    "states": {
     "NY": 8,
     "TX": 8,
     "MI": 4,
-    "GA": 7,
+    "GA": 8,
     "NC": 4,
     "FL": 10,
     "AZ": 5,
     "IL": 2,
-    "CA": 11,
+    "CA": 12,
     "NJ": 2,
     "OR": 2,
     "OH": 5,
@@ -325,11 +326,11 @@
     "NV": 2,
     "KS": 1,
     "WA": 2,
-    "PA": 1,
+    "PA": 2,
     "MT": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -621,55 +622,6 @@
    "price": 0.01
   },
   {
-   "sku": "1015012879",
-   "sku_display": "1015-012-879",
-   "name": "ONE+ 18V Cordless 4 in. Clamp Fan Tools Only (2-Pack)",
-   "brand": "RYOBI",
-   "model": null,
-   "retail": 59.97,
-   "internet_number": null,
-   "reports": 30,
-   "states": {
-    "NJ": 2,
-    "NY": 3,
-    "MA": 2,
-    "AZ": 1,
-    "TX": 4,
-    "SC": 1,
-    "NC": 1,
-    "GA": 2,
-    "AL": 1,
-    "FL": 4,
-    "CA": 4,
-    "MS": 1,
-    "TN": 1,
-    "IL": 2,
-    "WA": 1
-   },
-   "first_reported": "2026-09-15",
-   "last_seen": "2026-10-15",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1015012879/"
-    }
-   ],
-   "upc": "0033287242221",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 15,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1015012879",
-   "price": 0.01
-  },
-  {
    "sku": "1010362919",
    "sku_display": "1010-362-919",
    "name": "20-32 AWG Low Voltage Wire Stripper/Cutter with Dipped Grip",
@@ -677,7 +629,7 @@
    "model": null,
    "retail": 21.97,
    "internet_number": "326839587",
-   "reports": 18,
+   "reports": 19,
    "states": {
     "VA": 1,
     "PA": 2,
@@ -686,7 +638,7 @@
     "UT": 1,
     "TX": 2,
     "WA": 2,
-    "NY": 1,
+    "NY": 2,
     "IN": 1,
     "IL": 2,
     "CT": 1,
@@ -695,7 +647,7 @@
     "LA": 1
    },
    "first_reported": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-15",
    "image": "https://images.thdstatic.com/productImages/80ae809b-3875-4497-a2f0-095374f17838/svn/milwaukee-wire-strippers-48-22-3080-64_1000.jpg",
    "sources": [
     {
@@ -857,6 +809,49 @@
    "price": 0.01
   },
   {
+   "sku": "155180",
+   "sku_display": "155-180",
+   "name": "8 ft. 6-Outlet Surge Protector with 45 Degree Flat Angle Plug, Black",
+   "brand": "Commercial Electric",
+   "model": null,
+   "retail": 14.99,
+   "internet_number": "304521507",
+   "reports": 13,
+   "states": {
+    "TX": 2,
+    "IA": 1,
+    "NY": 2,
+    "FL": 4,
+    "CO": 1,
+    "AK": 1,
+    "OH": 2
+   },
+   "first_reported": "2026-11-05",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/740ce6aa-bd6c-49e1-b56e-18bb69fc48ea/svn/black-commercial-electric-surge-protectors-ylpt-43b-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/155180/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:155180",
+   "price": 0.01
+  },
+  {
    "sku": "1007473601",
    "sku_display": "1007-473-601",
    "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit w/ Battery, Charger, & ONE+ Cordless SWIFTClean Spot Cleaner",
@@ -934,49 +929,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1011107956",
-   "price": 0.01
-  },
-  {
-   "sku": "155180",
-   "sku_display": "155-180",
-   "name": "8 ft. 6-Outlet Surge Protector with 45 Degree Flat Angle Plug, Black",
-   "brand": "Commercial Electric",
-   "model": null,
-   "retail": 14.99,
-   "internet_number": "304521507",
-   "reports": 12,
-   "states": {
-    "TX": 2,
-    "IA": 1,
-    "NY": 2,
-    "FL": 3,
-    "CO": 1,
-    "AK": 1,
-    "OH": 2
-   },
-   "first_reported": "2026-11-05",
-   "last_seen": "2026-11-14",
-   "image": "https://images.thdstatic.com/productImages/740ce6aa-bd6c-49e1-b56e-18bb69fc48ea/svn/black-commercial-electric-surge-protectors-ylpt-43b-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/155180/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 7,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:155180",
    "price": 0.01
   },
   {
@@ -1103,6 +1055,50 @@
    "price": 0.01
   },
   {
+   "sku": "1006423739",
+   "sku_display": "1006-423-739",
+   "name": "Hazel Heights 24 in. 3-Light Black Rustic Farmhouse Bathroom Vanity Light",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 69.97,
+   "internet_number": "316704775",
+   "reports": 10,
+   "states": {
+    "MN": 2,
+    "IL": 1,
+    "CA": 1,
+    "VA": 2,
+    "NV": 1,
+    "LA": 1,
+    "PA": 1,
+    "CT": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/e2b8342a-eeef-4664-a047-e4a0a767a33d/svn/black-home-decorators-collection-vanity-lighting-knt1303ax-02-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006423739/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 8,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006423739",
+   "price": 0.01
+  },
+  {
    "sku": "1008142318",
    "sku_display": "1008-142-318",
    "name": "ONE+ 18V Bagless Cordless Mesh Filter Stick Vacuum Cleaner (Tool Only)",
@@ -1144,26 +1140,27 @@
    "price": 0.01
   },
   {
-   "sku": "1006423739",
-   "sku_display": "1006-423-739",
-   "name": "Hazel Heights 24 in. 3-Light Black Rustic Farmhouse Bathroom Vanity Light",
-   "brand": "Home Decorators Collection",
+   "sku": "1004296682",
+   "sku_display": "1004-296-682",
+   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Spotlight Battery",
+   "brand": "Ring",
    "model": null,
-   "retail": 69.97,
-   "internet_number": "316704775",
+   "retail": 39.99,
+   "internet_number": "308537853",
    "reports": 9,
    "states": {
-    "MN": 2,
-    "IL": 1,
-    "CA": 1,
-    "VA": 2,
+    "TN": 1,
+    "IL": 2,
+    "GA": 1,
+    "FL": 1,
+    "MA": 1,
     "NV": 1,
-    "LA": 1,
-    "PA": 1
+    "NY": 1,
+    "IN": 1
    },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-14",
-   "image": "https://images.thdstatic.com/productImages/e2b8342a-eeef-4664-a047-e4a0a767a33d/svn/black-home-decorators-collection-vanity-lighting-knt1303ax-02-64_1000.jpg",
+   "first_reported": "2026-10-16",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/384c9180-6a39-41c8-9dda-18b5135718c7/svn/white-ring-floodlights-5b11s8-wen0-64_1000.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -1171,19 +1168,22 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006423739/"
+     "url": "https://www.pennyrecon.com/item/1004296682/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
+   "upc": "842861105247",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
    "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 7,
+   "home_reports": 1,
+   "state_count": 8,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1006423739",
+   "id": "hd:1004296682",
    "price": 0.01
   },
   {
@@ -1277,52 +1277,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:527997",
-   "price": 0.01
-  },
-  {
-   "sku": "1004296682",
-   "sku_display": "1004-296-682",
-   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Spotlight Battery",
-   "brand": "Ring",
-   "model": null,
-   "retail": 39.99,
-   "internet_number": "308537853",
-   "reports": 8,
-   "states": {
-    "TN": 1,
-    "IL": 2,
-    "GA": 1,
-    "FL": 1,
-    "MA": 1,
-    "NV": 1,
-    "NY": 1
-   },
-   "first_reported": "2026-10-16",
-   "last_seen": "2026-11-14",
-   "image": "https://images.thdstatic.com/productImages/384c9180-6a39-41c8-9dda-18b5135718c7/svn/white-ring-floodlights-5b11s8-wen0-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1004296682/"
-    }
-   ],
-   "upc": "842861105247",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 7,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1004296682",
    "price": 0.01
   },
   {
@@ -1684,6 +1638,49 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1001537757",
+   "price": 0.01
+  },
+  {
+   "sku": "1004871058",
+   "sku_display": "1004-871-058",
+   "name": "Alberson 5 in. Brushed Nickel 2-Light LED Sconce",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 99.97,
+   "internet_number": "311728493",
+   "reports": 5,
+   "states": {
+    "NM": 1,
+    "VA": 1,
+    "OH": 2,
+    "TX": 1
+   },
+   "first_reported": "2026-11-11",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/09cbb8f3-73f2-41c8-af8a-3fcacfa515fe/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-wall-sconces-28616-hbur-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004871058/"
+    }
+   ],
+   "upc": "773546299602",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1004871058",
    "price": 0.01
   },
   {
@@ -2327,7 +2324,8 @@
    "states": {
     "TN": 1,
     "AR": 1,
-    "MN": 1
+    "MN": 1,
+    "UT": 1
    },
    "first_reported": "2026-11-10",
    "last_seen": "2026-11-12",
@@ -2350,7 +2348,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 1,
-   "state_count": 3,
+   "state_count": 4,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -2796,6 +2794,48 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015373398",
+   "price": 0.01
+  },
+  {
+   "sku": "1015399906",
+   "sku_display": "1015-399-906",
+   "name": "Black Cut Level 1 Nitrile Dipped Gloves-XL",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 24.88,
+   "internet_number": "341481250",
+   "reports": 3,
+   "states": {
+    "TN": 1,
+    "FL": 1,
+    "NV": 1
+   },
+   "first_reported": "2026-11-04",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/ac1044ef-e59d-47f7-90d0-b7e9b055774a/svn/milwaukee-work-gloves-48-73-8903pm-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015399906/"
+    }
+   ],
+   "upc": "045242945191",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1015399906",
    "price": 0.01
   },
   {
@@ -3314,47 +3354,6 @@
    "price": 0.01
   },
   {
-   "sku": "1004871058",
-   "sku_display": "1004-871-058",
-   "name": "Alberson 5 in. Brushed Nickel 2-Light LED Sconce",
-   "brand": "Home Decorators Collection",
-   "model": null,
-   "retail": 99.97,
-   "internet_number": "311728493",
-   "reports": 2,
-   "states": {
-    "NM": 1,
-    "VA": 1
-   },
-   "first_reported": "2026-11-11",
-   "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/09cbb8f3-73f2-41c8-af8a-3fcacfa515fe/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-wall-sconces-28616-hbur-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1004871058/"
-    }
-   ],
-   "upc": "773546299602",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1004871058",
-   "price": 0.01
-  },
-  {
    "sku": "1004953434",
    "sku_display": "1004-953-434",
    "name": "3.2 lbs. Outdoor Firelogs (6-Pack)",
@@ -3456,6 +3455,47 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1005432405",
+   "price": 0.01
+  },
+  {
+   "sku": "1005469197",
+   "sku_display": "1005-469-197",
+   "name": "18 in. Black Snap Install Hook Rack with 4 Satin Nickel Pill Top Hooks",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 23.12,
+   "internet_number": "313533178",
+   "reports": 2,
+   "states": {
+    "IL": 1,
+    "TX": 1
+   },
+   "first_reported": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/4f761f19-7570-49a3-896b-b007a98bc9b2/svn/black-home-decorators-collection-hooks-63095-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005469197/"
+    }
+   ],
+   "upc": "030699630950",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1005469197",
    "price": 0.01
   },
   {
@@ -3703,6 +3743,46 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1008050496",
+   "price": 0.01
+  },
+  {
+   "sku": "1008778891",
+   "sku_display": "1008-778-891",
+   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
+   "brand": "DEWALT",
+   "model": null,
+   "retail": 24.97,
+   "internet_number": "322889139",
+   "reports": 2,
+   "states": {
+    "MA": 1,
+    "NY": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008778891/"
+    }
+   ],
+   "upc": "885911831499",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008778891",
    "price": 0.01
   },
   {
@@ -4103,6 +4183,47 @@
    "price": 0.01
   },
   {
+   "sku": "1012697616",
+   "sku_display": "1012-697-616",
+   "name": "Wayne Canyon Oak 12 MIL x 7 in. W x 48 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (23.8 sq. ft. /Case)",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 59.26,
+   "internet_number": "332344000",
+   "reports": 2,
+   "states": {
+    "MA": 1,
+    "PA": 1
+   },
+   "first_reported": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/1846c0fa-6b25-4ad3-9a54-e21899fa2062/svn/wayne-canyon-oak-home-decorators-collection-vinyl-plank-flooring-hl0002-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012697616/"
+    }
+   ],
+   "upc": "850066147016",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1012697616",
+   "price": 0.01
+  },
+  {
    "sku": "1012697621",
    "sku_display": "1012-697-621",
    "name": "Lina Ridge Oak 12 MIL x 7 in. W x 48 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (23.8 sq. ft./Case)",
@@ -4141,6 +4262,47 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012697621",
+   "price": 0.01
+  },
+  {
+   "sku": "1012740832",
+   "sku_display": "1012-740-832",
+   "name": "Mountains Grey 12 MIL x 12 in. W x 24 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (19.37 sq. ft./Case)",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 48.23,
+   "internet_number": "332541406",
+   "reports": 2,
+   "states": {
+    "MA": 1,
+    "TX": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/c3bdfc96-9400-4590-bb3b-5106bcf49b69/svn/mountains-gray-home-decorators-collection-vinyl-plank-flooring-vtrhdmougr12x24-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012740832/"
+    }
+   ],
+   "upc": "747583250261",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1012740832",
    "price": 0.01
   },
   {
@@ -4321,6 +4483,47 @@
    "price": 0.01
   },
   {
+   "sku": "1014175343",
+   "sku_display": "1014-175-343",
+   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
+   "brand": "Lifeproof",
+   "model": null,
+   "retail": 63.24,
+   "internet_number": "336106074",
+   "reports": 2,
+   "states": {
+    "TN": 1,
+    "UT": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-14",
+   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014175343/"
+    }
+   ],
+   "upc": "850066147375",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1014175343",
+   "price": 0.01
+  },
+  {
    "sku": "1014945661",
    "sku_display": "1014-945-661",
    "name": "11 in. x 1.25 in. x 7.2 in. Rectangular Dual Mount Address Plaque Sign Kit",
@@ -4389,47 +4592,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015012712",
-   "price": 0.01
-  },
-  {
-   "sku": "1015399906",
-   "sku_display": "1015-399-906",
-   "name": "Black Cut Level 1 Nitrile Dipped Gloves-XL",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 24.88,
-   "internet_number": "341481250",
-   "reports": 2,
-   "states": {
-    "TN": 1,
-    "FL": 1
-   },
-   "first_reported": "2026-11-04",
-   "last_seen": "2026-11-12",
-   "image": "https://images.thdstatic.com/productImages/ac1044ef-e59d-47f7-90d0-b7e9b055774a/svn/milwaukee-work-gloves-48-73-8903pm-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1015399906/"
-    }
-   ],
-   "upc": "045242945191",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1015399906",
    "price": 0.01
   },
   {
@@ -5791,39 +5953,6 @@
    "price": 0.01
   },
   {
-   "sku": "1005288485",
-   "sku_display": "1005-288-485",
-   "name": "ONE+ 18V Cordless Hybrid LED Tripod Stand Light (Tool Only)",
-   "brand": "RYOBI",
-   "model": null,
-   "retail": 139.0,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "PA": 1
-   },
-   "first_reported": "2026-10-15",
-   "last_seen": "2026-10-15",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1005288485/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1005288485",
-   "price": 0.01
-  },
-  {
    "sku": "1005432155",
    "sku_display": "1005-432-155",
    "name": "25-Watt Equivalent T10 Dimmable Spiral Filament Large Amber Glass E26 Vintage Edison LED Light Bulb, Warm White",
@@ -5887,45 +6016,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1005447571",
-   "price": 0.01
-  },
-  {
-   "sku": "1005469197",
-   "sku_display": "1005-469-197",
-   "name": "18 in. Black Snap Install Hook Rack with 4 Satin Nickel Pill Top Hooks",
-   "brand": "Home Decorators Collection",
-   "model": null,
-   "retail": 23.12,
-   "internet_number": "313533178",
-   "reports": 1,
-   "states": {
-    "TX": 1
-   },
-   "first_reported": "2026-11-13",
-   "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/4f761f19-7570-49a3-896b-b007a98bc9b2/svn/black-home-decorators-collection-hooks-63095-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1005469197/"
-    }
-   ],
-   "upc": "030699630950",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1005469197",
    "price": 0.01
   },
   {
@@ -6970,45 +7060,6 @@
    "price": 0.01
   },
   {
-   "sku": "1008778891",
-   "sku_display": "1008-778-891",
-   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
-   "brand": "DEWALT",
-   "model": null,
-   "retail": 24.97,
-   "internet_number": "322889139",
-   "reports": 1,
-   "states": {
-    "MA": 1
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-12",
-   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1008778891/"
-    }
-   ],
-   "upc": "885911831499",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1008778891",
-   "price": 0.01
-  },
-  {
    "sku": "1008875694",
    "sku_display": "1008-875-694",
    "name": "Garrison Venetian Bronze, Large, Steel, Post Mount Mailbox",
@@ -7895,43 +7946,6 @@
    "price": 0.01
   },
   {
-   "sku": "1012697616",
-   "sku_display": "1012-697-616",
-   "name": "Wayne Canyon Oak 12 MIL x 7 in. W x 48 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (23.8 sq. ft. /Case)",
-   "brand": "Home Decorators Collection",
-   "model": null,
-   "retail": 59.26,
-   "internet_number": "332344000",
-   "reports": 1,
-   "states": {
-    "MA": 1
-   },
-   "first_reported": "2026-11-13",
-   "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/1846c0fa-6b25-4ad3-9a54-e21899fa2062/svn/wayne-canyon-oak-home-decorators-collection-vinyl-plank-flooring-hl0002-64_600.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1012697616/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1012697616",
-   "price": 0.01
-  },
-  {
    "sku": "1012707744",
    "sku_display": "1012-707-744",
    "name": "Westport 12 in. W x 83.25 in. H White Laminate Board Traditional 6 Shelf Closet System Tower",
@@ -7962,43 +7976,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012707744",
-   "price": 0.01
-  },
-  {
-   "sku": "1012740832",
-   "sku_display": "1012-740-832",
-   "name": "Mountains Grey 12 MIL x 12 in. W x 24 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (19.37 sq. ft./Case)",
-   "brand": "Home Decorators Collection",
-   "model": null,
-   "retail": 48.23,
-   "internet_number": "332541406",
-   "reports": 1,
-   "states": {
-    "MA": 1
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-12",
-   "image": "https://images.thdstatic.com/productImages/c3bdfc96-9400-4590-bb3b-5106bcf49b69/svn/mountains-gray-home-decorators-collection-vinyl-plank-flooring-vtrhdmougr12x24-64_600.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1012740832/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1012740832",
    "price": 0.01
   },
   {
@@ -8164,45 +8141,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1013921840",
-   "price": 0.01
-  },
-  {
-   "sku": "1014175343",
-   "sku_display": "1014-175-343",
-   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
-   "brand": "Lifeproof",
-   "model": null,
-   "retail": 63.24,
-   "internet_number": "336106074",
-   "reports": 1,
-   "states": {
-    "TN": 1
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-12",
-   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1014175343/"
-    }
-   ],
-   "upc": "850066147375",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1014175343",
    "price": 0.01
   },
   {
@@ -9950,9 +9888,9 @@
    "price": 0.04,
    "retail": null,
    "first_reported": "2026-10-27",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "listed": "2026-11-07",
-   "reports": 54,
+   "reports": 55,
    "states": {},
    "state_count": 0,
    "home_reports": 0,
@@ -9961,6 +9899,7 @@
     "Brevard, NC (#1990)",
     "Brookings, SD (#2435)",
     "Buford, GA (#662)",
+    "CT - Milford (2658) (#2658)",
     "Canton, OH (#222)",
     "Central Columbus, OH (#1175)",
     "Chesapeake, VA (#439)",
@@ -10078,40 +10017,6 @@
   },
   {
    "store": "lowes",
-   "id": "lw:1359832",
-   "sku": "1359832",
-   "sku_display": "1359832",
-   "name": "Satori Hudson Brilliant White 12-in x 24-in Glossy Ceramic Subway Wall Tile ( 1.93-sq ft / Piece )",
-   "model": "1001-0206-1",
-   "upc": null,
-   "category": "Flooring & tile",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-10-19",
-   "last_seen": "2026-10-29",
-   "listed": "2026-11-07",
-   "reports": 6,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Mcdonough, GA (#1153)",
-    "San Clemente, CA (#1050)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5014508229.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
    "id": "lw:515933",
    "sku": "515933",
    "sku_display": "515933",
@@ -10122,9 +10027,9 @@
    "price": 0.02,
    "retail": null,
    "first_reported": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "listed": "2026-11-07",
-   "reports": 6,
+   "reports": 8,
    "states": {},
    "state_count": 0,
    "home_reports": 0,
@@ -10155,9 +10060,9 @@
    "price": 0.02,
    "retail": null,
    "first_reported": "2026-10-23",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-13",
    "listed": "2026-11-07",
-   "reports": 6,
+   "reports": 8,
    "states": {},
    "state_count": 0,
    "home_reports": 0,
@@ -10167,6 +10072,40 @@
     "S. Asheville, NC (#2201)"
    ],
    "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5014633611.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:1359832",
+   "sku": "1359832",
+   "sku_display": "1359832",
+   "name": "Satori Hudson Brilliant White 12-in x 24-in Glossy Ceramic Subway Wall Tile ( 1.93-sq ft / Piece )",
+   "model": "1001-0206-1",
+   "upc": null,
+   "category": "Flooring & tile",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-10-19",
+   "last_seen": "2026-10-29",
+   "listed": "2026-11-07",
+   "reports": 6,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "Mcdonough, GA (#1153)",
+    "San Clemente, CA (#1050)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5014508229.webp",
    "user_reported": false,
    "sources": [
     {
@@ -10204,6 +10143,39 @@
     "Pinellas Park, FL (#1190)"
    ],
    "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5016339419.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:828488",
+   "sku": "828488",
+   "sku_display": "828488",
+   "name": "NeatHeat 3-in Slip-On Baseboard Heater Outside corner",
+   "model": "OC90 30/07 BW",
+   "upc": null,
+   "category": "Heating, cooling & filters",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-10-18",
+   "last_seen": "2026-11-15",
+   "listed": "2026-11-07",
+   "reports": 5,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "S. Reading, PA (#1717)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000194363.webp",
    "user_reported": false,
    "sources": [
     {
@@ -10323,17 +10295,17 @@
   },
   {
    "store": "lowes",
-   "id": "lw:828488",
-   "sku": "828488",
-   "sku_display": "828488",
-   "name": "NeatHeat 3-in Slip-On Baseboard Heater Outside corner",
-   "model": "OC90 30/07 BW",
+   "id": "lw:3662663",
+   "sku": "3662663",
+   "sku_display": "3662663",
+   "name": "RELIABILT 1 -Hook 1.5-in x 3.13-in H Black Decorative Wall Hook ( 30-lb Capacity)",
+   "model": "605695",
    "upc": null,
-   "category": "Heating, cooling & filters",
+   "category": "Tools & hardware",
    "price": 0.02,
    "retail": null,
-   "first_reported": "2026-10-18",
-   "last_seen": "2026-11-08",
+   "first_reported": "2026-10-23",
+   "last_seen": "2026-11-13",
    "listed": "2026-11-07",
    "reports": 4,
    "states": {},
@@ -10341,9 +10313,75 @@
    "home_reports": 0,
    "home_stores": [],
    "all_stores": [
-    "S. Reading, PA (#1717)"
+    "Westland, MI (#768)"
    ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000194363.webp",
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5003432359.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:4872790",
+   "sku": "4872790",
+   "sku_display": "4872790",
+   "name": "Project Source 11-in L x 6-in Dia Traditional Steel Lamp harp",
+   "model": "LPH12HOSB",
+   "upc": null,
+   "category": "Electrical & lighting",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-10-23",
+   "last_seen": "2026-11-13",
+   "listed": "2026-11-07",
+   "reports": 4,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "S. Morgantown, WV (#1671)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5005544365.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:828487",
+   "sku": "828487",
+   "sku_display": "828487",
+   "name": "NeatHeat 3-in Slip-On Baseboard Heater Inside corner",
+   "model": "IC90 30/07 BW",
+   "upc": null,
+   "category": "Heating, cooling & filters",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-10-18",
+   "last_seen": "2026-11-15",
+   "listed": "2026-11-07",
+   "reports": 4,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "West St. Paul, MN (#2313)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000194361.webp",
    "user_reported": false,
    "sources": [
     {
@@ -10456,72 +10494,6 @@
   },
   {
    "store": "lowes",
-   "id": "lw:3662663",
-   "sku": "3662663",
-   "sku_display": "3662663",
-   "name": "RELIABILT 1 -Hook 1.5-in x 3.13-in H Black Decorative Wall Hook ( 30-lb Capacity)",
-   "model": "605695",
-   "upc": null,
-   "category": "Tools & hardware",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-10-23",
-   "last_seen": "2026-11-06",
-   "listed": "2026-11-07",
-   "reports": 3,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Westland, MI (#768)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5003432359.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
-   "id": "lw:4872790",
-   "sku": "4872790",
-   "sku_display": "4872790",
-   "name": "Project Source 11-in L x 6-in Dia Traditional Steel Lamp harp",
-   "model": "LPH12HOSB",
-   "upc": null,
-   "category": "Electrical & lighting",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-10-23",
-   "last_seen": "2026-11-06",
-   "listed": "2026-11-07",
-   "reports": 3,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "S. Morgantown, WV (#1671)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5005544365.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
    "id": "lw:4897426",
    "sku": "4897426",
    "sku_display": "4897426",
@@ -10576,6 +10548,39 @@
     "Farmville, VA (#2810)"
    ],
    "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5013107479.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:5052227",
+   "sku": "5052227",
+   "sku_display": "5052227",
+   "name": "Sta-Green Slow Release 20-lb 4000-sq ft 16-0-10 Natural All Purpose Lawn Fertilizer",
+   "model": "904820",
+   "upc": null,
+   "category": "Lawn, garden & outdoor",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-11-06",
+   "last_seen": "2026-11-13",
+   "listed": "2026-11-07",
+   "reports": 3,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "Gadsden, AL (#1640)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5019534423.webp",
    "user_reported": false,
    "sources": [
     {
@@ -10656,17 +10661,17 @@
   },
   {
    "store": "lowes",
-   "id": "lw:828487",
-   "sku": "828487",
-   "sku_display": "828487",
-   "name": "NeatHeat 3-in Slip-On Baseboard Heater Inside corner",
-   "model": "IC90 30/07 BW",
+   "id": "lw:828486",
+   "sku": "828486",
+   "sku_display": "828486",
+   "name": "NeatHeat 10-in Slip-On Baseboard Heater Left end cap",
+   "model": "LEC 30/07  BW",
    "upc": null,
    "category": "Heating, cooling & filters",
    "price": 0.02,
    "retail": null,
-   "first_reported": "2026-10-18",
-   "last_seen": "2026-11-08",
+   "first_reported": "2026-11-08",
+   "last_seen": "2026-11-15",
    "listed": "2026-11-07",
    "reports": 3,
    "states": {},
@@ -10674,9 +10679,42 @@
    "home_reports": 0,
    "home_stores": [],
    "all_stores": [
-    "West St. Paul, MN (#2313)"
+    "Grand Forks, ND (#1896)"
    ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000194361.webp",
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000194359.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:1098406",
+   "sku": "1098406",
+   "sku_display": "1098406",
+   "name": "Flex Seal 2 -Pack 3-gram Gel Super Glue",
+   "model": "SGGEL2X3",
+   "upc": null,
+   "category": "Tools & hardware",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-11-06",
+   "last_seen": "2026-11-13",
+   "listed": "2026-11-07",
+   "reports": 2,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "S.E. Cincinnati, OH (#1160)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5013803313.webp",
    "user_reported": false,
    "sources": [
     {
@@ -10710,6 +10748,39 @@
     "New Carrollton, MD (#1122)"
    ],
    "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5013397309.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:1258718",
+   "sku": "1258718",
+   "sku_display": "1258718",
+   "name": "allen + roth 10-in x 15-in White Fabric Drum Lamp Shade Spider Fitter",
+   "model": "LSH050",
+   "upc": null,
+   "category": "Electrical & lighting",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-11-06",
+   "last_seen": "2026-11-13",
+   "listed": "2026-11-07",
+   "reports": 2,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "Gilbert, AZ (#1090)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000977118.webp",
    "user_reported": false,
    "sources": [
     {
@@ -10924,6 +10995,42 @@
   },
   {
    "store": "lowes",
+   "id": "lw:3791545",
+   "sku": "3791545",
+   "sku_display": "3791545",
+   "name": "Winia Convenient White Refrigerator Ice Maker for Top-Freezer Refrigerators - Compatible with 18 CF and 21 CF Models - Stores up to 4.6 lbs of Ice",
+   "model": "IM18",
+   "upc": null,
+   "category": "More finds",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-11-08",
+   "last_seen": "2026-11-15",
+   "listed": "2026-11-07",
+   "reports": 2,
+   "states": {
+    "OH": 1
+   },
+   "state_count": 1,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "Hillsboro, OH",
+    "Hillsboro, OH (#2343)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5001788297.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
    "id": "lw:49385",
    "sku": "49385",
    "sku_display": "49385",
@@ -10979,39 +11086,6 @@
     "La Plata, MD (#2354)"
    ],
    "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5019473371.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
-   "id": "lw:5052227",
-   "sku": "5052227",
-   "sku_display": "5052227",
-   "name": "Sta-Green Slow Release 20-lb 4000-sq ft 16-0-10 Natural All Purpose Lawn Fertilizer",
-   "model": "904820",
-   "upc": null,
-   "category": "Lawn, garden & outdoor",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-11-06",
-   "last_seen": "2026-11-12",
-   "listed": "2026-11-07",
-   "reports": 2,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Gadsden, AL (#1640)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5019534423.webp",
    "user_reported": false,
    "sources": [
     {
@@ -11123,17 +11197,17 @@
   },
   {
    "store": "lowes",
-   "id": "lw:5690990",
-   "sku": "5690990",
-   "sku_display": "5690990",
-   "name": "Style Selections Spring Olive Roll bar 12 ft Indoor or Outdoor Fescue Artificial Grass Samples",
-   "model": "RBSOL-8240-SP-0808",
+   "id": "lw:5260548",
+   "sku": "5260548",
+   "sku_display": "5260548",
+   "name": "Project Source Heavy Duty One size fits most 2 -Count Textured -Grip Latex Reusable cleaning gloves 1 -Pairs",
+   "model": "LOW548",
    "upc": null,
-   "category": "Lawn, garden & outdoor",
-   "price": 0.01,
+   "category": "Work gloves",
+   "price": 0.02,
    "retail": null,
-   "first_reported": "2026-11-09",
-   "last_seen": "2026-11-12",
+   "first_reported": "2026-11-06",
+   "last_seen": "2026-11-13",
    "listed": "2026-11-07",
    "reports": 2,
    "states": {},
@@ -11141,10 +11215,9 @@
    "home_reports": 0,
    "home_stores": [],
    "all_stores": [
-    "CT - Torrington (2395) (#2395)",
-    "Store not retained"
+    "Newport News, VA (#420)"
    ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5014931889.webp",
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5014181345.webp",
    "user_reported": false,
    "sources": [
     {
@@ -11259,6 +11332,72 @@
   },
   {
    "store": "lowes",
+   "id": "lw:645220",
+   "sku": "645220",
+   "sku_display": "645220",
+   "name": "SmartStraps Seat back organizer for Car",
+   "model": "4093",
+   "upc": null,
+   "category": "Storage & organization",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-11-06",
+   "last_seen": "2026-11-13",
+   "listed": "2026-11-07",
+   "reports": 2,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "Collierville, TN (#2543)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5000085899.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
+   "id": "lw:0065949",
+   "sku": "0065949",
+   "sku_display": "0065949",
+   "name": "Style Selections 24.5-in W x 30.5-in H Oval White Framed Wall Mirror",
+   "model": "L1-MH-750",
+   "upc": null,
+   "category": "Home & furniture",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-11-15",
+   "last_seen": "2026-11-15",
+   "listed": "2026-11-07",
+   "reports": 1,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "Not supplied"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1002955126.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
    "id": "lw:1033940",
    "sku": "1033940",
    "sku_display": "1033940",
@@ -11325,17 +11464,17 @@
   },
   {
    "store": "lowes",
-   "id": "lw:1098406",
-   "sku": "1098406",
-   "sku_display": "1098406",
-   "name": "Flex Seal 2 -Pack 3-gram Gel Super Glue",
-   "model": "SGGEL2X3",
+   "id": "lw:1074319",
+   "sku": "1074319",
+   "sku_display": "1074319",
+   "name": "A.O. Smith Whole House 6-Months Replacement Filter",
+   "model": "AO-WH-PREL-RCP",
    "upc": null,
-   "category": "Tools & hardware",
+   "category": "Plumbing & bath",
    "price": 0.02,
    "retail": null,
-   "first_reported": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "first_reported": "2026-11-13",
+   "last_seen": "2026-11-13",
    "listed": "2026-11-07",
    "reports": 1,
    "states": {},
@@ -11343,9 +11482,9 @@
    "home_reports": 0,
    "home_stores": [],
    "all_stores": [
-    "S.E. Cincinnati, OH (#1160)"
+    "Royal Oaks, TX (#1131)"
    ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5013803313.webp",
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000575887.webp",
    "user_reported": false,
    "sources": [
     {
@@ -11445,39 +11584,6 @@
     "W. Jordan, UT (#1613)"
    ],
    "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5016618719.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
-   "id": "lw:1258718",
-   "sku": "1258718",
-   "sku_display": "1258718",
-   "name": "allen + roth 10-in x 15-in White Fabric Drum Lamp Shade Spider Fitter",
-   "model": "LSH050",
-   "upc": null,
-   "category": "Electrical & lighting",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "listed": "2026-11-07",
-   "reports": 1,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Gilbert, AZ (#1090)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000977118.webp",
    "user_reported": false,
    "sources": [
     {
@@ -12480,39 +12586,6 @@
   },
   {
    "store": "lowes",
-   "id": "lw:3791545",
-   "sku": "3791545",
-   "sku_display": "3791545",
-   "name": "Winia Convenient White Refrigerator Ice Maker for Top-Freezer Refrigerators - Compatible with 18 CF and 21 CF Models - Stores up to 4.6 lbs of Ice",
-   "model": "IM18",
-   "upc": null,
-   "category": "More finds",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-11-08",
-   "last_seen": "2026-11-08",
-   "listed": "2026-11-07",
-   "reports": 1,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Hillsboro, OH (#2343)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5001788297.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
    "id": "lw:380974",
    "sku": "380974",
    "sku_display": "380974",
@@ -12942,39 +13015,6 @@
   },
   {
    "store": "lowes",
-   "id": "lw:5260548",
-   "sku": "5260548",
-   "sku_display": "5260548",
-   "name": "Project Source Heavy Duty One size fits most 2 -Count Textured -Grip Latex Reusable cleaning gloves 1 -Pairs",
-   "model": "LOW548",
-   "upc": null,
-   "category": "Work gloves",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "listed": "2026-11-07",
-   "reports": 1,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Newport News, VA (#420)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5014181345.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
    "id": "lw:5267379",
    "sku": "5267379",
    "sku_display": "5267379",
@@ -13206,39 +13246,6 @@
   },
   {
    "store": "lowes",
-   "id": "lw:645220",
-   "sku": "645220",
-   "sku_display": "645220",
-   "name": "SmartStraps Seat back organizer for Car",
-   "model": "4093",
-   "upc": null,
-   "category": "Storage & organization",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "listed": "2026-11-07",
-   "reports": 1,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Collierville, TN (#2543)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5000085899.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
    "id": "lw:683102",
    "sku": "683102",
    "sku_display": "683102",
@@ -13305,6 +13312,39 @@
   },
   {
    "store": "lowes",
+   "id": "lw:74",
+   "sku": "74",
+   "sku_display": "74",
+   "name": "8-in x 6-in Concrete block support base",
+   "model": "270508",
+   "upc": null,
+   "category": "Building supplies",
+   "price": 0.02,
+   "retail": null,
+   "first_reported": "2026-11-14",
+   "last_seen": "2026-11-14",
+   "listed": "2026-11-07",
+   "reports": 1,
+   "states": {},
+   "state_count": 0,
+   "home_reports": 0,
+   "home_stores": [],
+   "all_stores": [
+    "Newington, CT (#623)"
+   ],
+   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/5002110369.webp",
+   "user_reported": false,
+   "sources": [
+    {
+     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
+     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
+     "date": "2026-11-07"
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "store": "lowes",
    "id": "lw:755707",
    "sku": "755707",
    "sku_display": "755707",
@@ -13326,39 +13366,6 @@
     "Hobbs, NM (#3202)"
    ],
    "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/999995866.webp",
-   "user_reported": false,
-   "sources": [
-    {
-     "name": "ClearanceFinds Lowe's penny list (published 2026-11-07)",
-     "url": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/",
-     "date": "2026-11-07"
-    }
-   ],
-   "notes": ""
-  },
-  {
-   "store": "lowes",
-   "id": "lw:828486",
-   "sku": "828486",
-   "sku_display": "828486",
-   "name": "NeatHeat 10-in Slip-On Baseboard Heater Left end cap",
-   "model": "LEC 30/07  BW",
-   "upc": null,
-   "category": "Heating, cooling & filters",
-   "price": 0.02,
-   "retail": null,
-   "first_reported": "2026-11-08",
-   "last_seen": "2026-11-08",
-   "listed": "2026-11-07",
-   "reports": 1,
-   "states": {},
-   "state_count": 0,
-   "home_reports": 0,
-   "home_stores": [],
-   "all_stores": [
-    "Grand Forks, ND (#1896)"
-   ],
-   "image": "https://clearancefinds.com/alerts/lowes-penny-list-november-2026/images/1000194359.webp",
    "user_reported": false,
    "sources": [
     {
