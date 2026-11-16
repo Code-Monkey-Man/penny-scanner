@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-15",
-   "fetched": "2026-11-15",
-   "count": 264,
+   "as_of": "2026-11-16",
+   "fetched": "2026-11-16",
+   "count": 273,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "count": 106,
    "sources": [
     {
@@ -98,7 +98,7 @@
    ],
    "note": "Current DG penny week starting 2026-11-10 (Tuesday).",
    "stale": true,
-   "last_error": "2026-11-15: FetchError: https://pennygeneral.net/lists: <urlopen error timed out>"
+   "last_error": "2026-11-16: FetchError: https://pennygeneral.net/lists: <urlopen error timed out>"
   },
   "walmart": {
    "name": "Walmart",
@@ -115,7 +115,7 @@
    ],
    "note": "No free source publishes store-level Walmart hidden clearance for Clarksville / Nashville; these are dated national in-store finds.",
    "stale": true,
-   "last_error": "2026-11-15: FetchError: Walmart: no dated clearance items found in the last 14 days"
+   "last_error": "2026-11-16: FetchError: Walmart: no dated clearance items found in the last 14 days"
   }
  },
  "sources": [
@@ -301,13 +301,13 @@
    "model": "T0338MW",
    "retail": 99,
    "internet_number": "100676582",
-   "reports": 92,
+   "reports": 96,
    "states": {
-    "NY": 8,
+    "NY": 9,
     "TX": 8,
     "MI": 4,
-    "GA": 8,
-    "NC": 4,
+    "GA": 9,
+    "NC": 5,
     "FL": 10,
     "AZ": 5,
     "IL": 2,
@@ -323,14 +323,14 @@
     "ME": 1,
     "CO": 1,
     "WI": 2,
-    "NV": 2,
+    "NV": 3,
     "KS": 1,
     "WA": 2,
     "PA": 2,
     "MT": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -519,8 +519,8 @@
    "name": "800 lb. Capacity D-Handle Hand Truck",
    "brand": "Milwaukee",
    "model": null,
-   "retail": 79,
-   "internet_number": "100030159",
+   "retail": 79.0,
+   "internet_number": null,
    "reports": 44,
    "states": {
     "IL": 7,
@@ -543,12 +543,8 @@
    },
    "first_reported": "2026-09-23",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/49981bea-07e3-4c94-81e8-c65ba9d9ac24/svn/milwaukee-hand-trucks-hd800p-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/168674/"
@@ -556,10 +552,9 @@
    ],
    "upc": "646072605028",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 3,
    "state_count": 17,
@@ -629,10 +624,10 @@
    "model": null,
    "retail": 21.97,
    "internet_number": "326839587",
-   "reports": 19,
+   "reports": 23,
    "states": {
     "VA": 1,
-    "PA": 2,
+    "PA": 3,
     "FL": 1,
     "NJ": 1,
     "UT": 1,
@@ -640,14 +635,15 @@
     "WA": 2,
     "NY": 2,
     "IN": 1,
-    "IL": 2,
+    "IL": 3,
     "CT": 1,
-    "NC": 1,
+    "NC": 2,
     "CA": 1,
-    "LA": 1
+    "LA": 1,
+    "MI": 1
    },
    "first_reported": "2026-10-30",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "image": "https://images.thdstatic.com/productImages/80ae809b-3875-4497-a2f0-095374f17838/svn/milwaukee-wire-strippers-48-22-3080-64_1000.jpg",
    "sources": [
     {
@@ -667,11 +663,59 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 14,
+   "state_count": 15,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
    "id": "hd:1010362919",
+   "price": 0.01
+  },
+  {
+   "sku": "1006423739",
+   "sku_display": "1006-423-739",
+   "name": "Hazel Heights 24 in. 3-Light Black Rustic Farmhouse Bathroom Vanity Light",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 69.97,
+   "internet_number": "316704775",
+   "reports": 18,
+   "states": {
+    "MN": 2,
+    "IL": 2,
+    "CA": 1,
+    "VA": 2,
+    "NV": 1,
+    "LA": 1,
+    "PA": 1,
+    "CT": 1,
+    "OH": 1,
+    "TX": 3,
+    "NC": 2,
+    "TN": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/e2b8342a-eeef-4664-a047-e4a0a767a33d/svn/black-home-decorators-collection-vanity-lighting-knt1303ax-02-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006423739/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 12,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006423739",
    "price": 0.01
   },
   {
@@ -806,6 +850,56 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015277793",
+   "price": 0.01
+  },
+  {
+   "sku": "1004871058",
+   "sku_display": "1004-871-058",
+   "name": "Alberson 5 in. Brushed Nickel 2-Light LED Sconce",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 99.97,
+   "internet_number": "311728493",
+   "reports": 13,
+   "states": {
+    "NM": 1,
+    "VA": 1,
+    "OH": 2,
+    "TX": 1,
+    "NJ": 1,
+    "NC": 1,
+    "UT": 1,
+    "CA": 1,
+    "GA": 1,
+    "KS": 2,
+    "AL": 1
+   },
+   "first_reported": "2026-11-11",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/09cbb8f3-73f2-41c8-af8a-3fcacfa515fe/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-wall-sconces-28616-hbur-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004871058/"
+    }
+   ],
+   "upc": "773546299602",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 11,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1004871058",
    "price": 0.01
   },
   {
@@ -1016,6 +1110,54 @@
    "price": 0.01
   },
   {
+   "sku": "1004296682",
+   "sku_display": "1004-296-682",
+   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Spotlight Battery",
+   "brand": "Ring",
+   "model": null,
+   "retail": 39.99,
+   "internet_number": "308537853",
+   "reports": 10,
+   "states": {
+    "TN": 1,
+    "IL": 2,
+    "GA": 1,
+    "FL": 1,
+    "MA": 1,
+    "NV": 1,
+    "NY": 1,
+    "IN": 1,
+    "CA": 1
+   },
+   "first_reported": "2026-10-16",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/384c9180-6a39-41c8-9dda-18b5135718c7/svn/white-ring-floodlights-5b11s8-wen0-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004296682/"
+    }
+   ],
+   "upc": "842861105247",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 9,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1004296682",
+   "price": 0.01
+  },
+  {
    "sku": "1006102265",
    "sku_display": "1006-102-265",
    "name": "Black Oxide Hex Shank Twist Drill Bit Set (15-Piece)",
@@ -1052,50 +1194,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006102265",
-   "price": 0.01
-  },
-  {
-   "sku": "1006423739",
-   "sku_display": "1006-423-739",
-   "name": "Hazel Heights 24 in. 3-Light Black Rustic Farmhouse Bathroom Vanity Light",
-   "brand": "Home Decorators Collection",
-   "model": null,
-   "retail": 69.97,
-   "internet_number": "316704775",
-   "reports": 10,
-   "states": {
-    "MN": 2,
-    "IL": 1,
-    "CA": 1,
-    "VA": 2,
-    "NV": 1,
-    "LA": 1,
-    "PA": 1,
-    "CT": 1
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-15",
-   "image": "https://images.thdstatic.com/productImages/e2b8342a-eeef-4664-a047-e4a0a767a33d/svn/black-home-decorators-collection-vanity-lighting-knt1303ax-02-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006423739/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 8,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006423739",
    "price": 0.01
   },
   {
@@ -1140,27 +1238,26 @@
    "price": 0.01
   },
   {
-   "sku": "1004296682",
-   "sku_display": "1004-296-682",
-   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Spotlight Battery",
-   "brand": "Ring",
+   "sku": "527997",
+   "sku_display": "527-997",
+   "name": "Instant-Read Grill Thermometer",
+   "brand": "Weber",
    "model": null,
-   "retail": 39.99,
-   "internet_number": "308537853",
-   "reports": 9,
+   "retail": 16.99,
+   "internet_number": "300592283",
+   "reports": 10,
    "states": {
-    "TN": 1,
-    "IL": 2,
+    "TX": 1,
+    "MS": 1,
+    "WA": 1,
+    "CA": 3,
     "GA": 1,
-    "FL": 1,
-    "MA": 1,
-    "NV": 1,
-    "NY": 1,
-    "IN": 1
+    "MO": 1,
+    "LA": 2
    },
-   "first_reported": "2026-10-16",
-   "last_seen": "2026-11-15",
-   "image": "https://images.thdstatic.com/productImages/384c9180-6a39-41c8-9dda-18b5135718c7/svn/white-ring-floodlights-5b11s8-wen0-64_1000.jpg",
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/8f89791d-cecd-4596-94af-58ee9c66c759/svn/weber-grill-thermometers-6750-64_1000.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -1168,22 +1265,22 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1004296682/"
+     "url": "https://www.pennyrecon.com/item/527997/"
     }
    ],
-   "upc": "842861105247",
+   "upc": "077924048395",
    "upc_sources": [
     "Penny Recon",
     "PennyCentral"
    ],
    "upc_verified": true,
    "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 8,
+   "home_reports": 0,
+   "state_count": 7,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1004296682",
+   "id": "hd:527997",
    "price": 0.01
   },
   {
@@ -1231,52 +1328,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1009749973",
-   "price": 0.01
-  },
-  {
-   "sku": "527997",
-   "sku_display": "527-997",
-   "name": "Instant-Read Grill Thermometer",
-   "brand": "Weber",
-   "model": null,
-   "retail": 16.99,
-   "internet_number": "300592283",
-   "reports": 9,
-   "states": {
-    "TX": 1,
-    "MS": 1,
-    "WA": 1,
-    "CA": 3,
-    "GA": 1,
-    "MO": 1,
-    "LA": 1
-   },
-   "first_reported": "2026-11-03",
-   "last_seen": "2026-11-12",
-   "image": "https://images.thdstatic.com/productImages/8f89791d-cecd-4596-94af-58ee9c66c759/svn/weber-grill-thermometers-6750-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/527997/"
-    }
-   ],
-   "upc": "077924048395",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 7,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:527997",
    "price": 0.01
   },
   {
@@ -1641,23 +1692,24 @@
    "price": 0.01
   },
   {
-   "sku": "1004871058",
-   "sku_display": "1004-871-058",
-   "name": "Alberson 5 in. Brushed Nickel 2-Light LED Sconce",
-   "brand": "Home Decorators Collection",
+   "sku": "1008778891",
+   "sku_display": "1008-778-891",
+   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
+   "brand": "DEWALT",
    "model": null,
-   "retail": 99.97,
-   "internet_number": "311728493",
+   "retail": 24.97,
+   "internet_number": "322889139",
    "reports": 5,
    "states": {
-    "NM": 1,
-    "VA": 1,
-    "OH": 2,
-    "TX": 1
+    "MA": 1,
+    "NY": 1,
+    "FL": 1,
+    "MN": 1,
+    "IL": 1
    },
-   "first_reported": "2026-11-11",
-   "last_seen": "2026-11-15",
-   "image": "https://images.thdstatic.com/productImages/09cbb8f3-73f2-41c8-af8a-3fcacfa515fe/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-wall-sconces-28616-hbur-64_1000.jpg",
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -1665,10 +1717,10 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1004871058/"
+     "url": "https://www.pennyrecon.com/item/1008778891/"
     }
    ],
-   "upc": "773546299602",
+   "upc": "885911831499",
    "upc_sources": [
     "Penny Recon",
     "PennyCentral"
@@ -1676,11 +1728,11 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 4,
+   "state_count": 5,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1004871058",
+   "id": "hd:1008778891",
    "price": 0.01
   },
   {
@@ -2432,6 +2484,48 @@
    "price": 0.01
   },
   {
+   "sku": "1006423742",
+   "sku_display": "1006-423-742",
+   "name": "Havelock 22.7 in. 1-Light Chrome Integrated LED Bathroom Vanity Light Bar with Clear Seedy Glass",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 99.97,
+   "internet_number": "316704753",
+   "reports": 3,
+   "states": {
+    "OH": 1,
+    "NJ": 1,
+    "NC": 1
+   },
+   "first_reported": "2026-11-13",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/2c8e9e56-22d3-4eb6-b38d-69431f1c5db4/svn/chrome-hampton-bay-vanity-lighting-kgl1391l-2-cr-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006423742/"
+    }
+   ],
+   "upc": "6940500321318",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006423742",
+   "price": 0.01
+  },
+  {
    "sku": "1008056500",
    "sku_display": "1008-056-500",
    "name": "Bannister 37 in. W x 19 in. D x 35 in. H Single Sink Bath Vanity in Pearl Gray with White Cultured Marble Top",
@@ -2981,6 +3075,46 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1001382855",
+   "price": 0.01
+  },
+  {
+   "sku": "1001514599",
+   "sku_display": "1001-514-599",
+   "name": "Alberson Collection 4-Light Brushed Nickel LED Vanity Light with Frosted Acrylic Shade",
+   "brand": "Home Decorators Collection",
+   "model": "28025-HBU",
+   "retail": 289,
+   "internet_number": "206303836",
+   "reports": 2,
+   "states": {
+    "OH": 1,
+    "KS": 1
+   },
+   "first_reported": "2026-11-15",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/00885530-4984-49c7-b98e-47ecee9ac3cc/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-vanity-lighting-28025-hbu-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1001514599/"
+    }
+   ],
+   "upc": "773546255677",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1001514599",
    "price": 0.01
   },
   {
@@ -3746,46 +3880,6 @@
    "price": 0.01
   },
   {
-   "sku": "1008778891",
-   "sku_display": "1008-778-891",
-   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
-   "brand": "DEWALT",
-   "model": null,
-   "retail": 24.97,
-   "internet_number": "322889139",
-   "reports": 2,
-   "states": {
-    "MA": 1,
-    "NY": 1
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-15",
-   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1008778891/"
-    }
-   ],
-   "upc": "885911831499",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1008778891",
-   "price": 0.01
-  },
-  {
    "sku": "1009408132",
    "sku_display": "1009-408-132",
    "name": "5 in. Matte Black LED Dual Light Vanity Sconce Light with Remote (1-Pack)",
@@ -4230,7 +4324,7 @@
    "brand": "Home Decorators Collection",
    "model": null,
    "retail": 59.26,
-   "internet_number": "332344004",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "IL": 1,
@@ -4238,12 +4332,8 @@
    },
    "first_reported": "2026-11-09",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/2526b21d-c5c6-4fc2-af30-0e74b13cbcc6/svn/lina-ridge-oak-home-decorators-collection-vinyl-plank-flooring-hl0001-64_600.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012697621/"
@@ -4251,10 +4341,9 @@
    ],
    "upc": "850066147009",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -4391,7 +4480,7 @@
     "CO": 1
    },
    "first_reported": "2025-12-30",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-16",
    "image": null,
    "sources": [
     {
@@ -4399,8 +4488,10 @@
      "url": "https://www.pennyrecon.com/item/1013121020/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
+   "upc": "008925175162",
+   "upc_sources": [
+    "Penny Recon"
+   ],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -4780,7 +4871,7 @@
    "brand": "VELCRO",
    "model": null,
    "retail": 6.76,
-   "internet_number": "202261918",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "GA": 1,
@@ -4788,7 +4879,43 @@
    },
    "first_reported": "2025-12-30",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/74cf3c7b-1156-4066-abed-fea33ab9f04e/svn/velcro-hook-and-loop-90087-64_600.jpg",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/560520/"
+    }
+   ],
+   "upc": "075967900878",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:560520",
+   "price": 0.01
+  },
+  {
+   "sku": "566918",
+   "sku_display": "566-918",
+   "name": "60-Watt Equivalent A19 Smart LED Color Changing Light Bulb Starter Kit (2 Bulbs and Bridge)",
+   "brand": "Philips Hue",
+   "model": "562918",
+   "retail": 142.99,
+   "internet_number": "341349707",
+   "reports": 2,
+   "states": {
+    "TX": 1,
+    "NY": 1
+   },
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/bacee189-07b0-4eff-a7cb-a8ada370d458/svn/philips-hue-led-light-bulbs-562918-64_400.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -4796,10 +4923,10 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/560520/"
+     "url": "https://www.pennyrecon.com/item/566918/"
     }
    ],
-   "upc": "075967900878",
+   "upc": "046677562915",
    "upc_sources": [
     "Penny Recon",
     "PennyCentral"
@@ -4811,7 +4938,7 @@
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:560520",
+   "id": "hd:566918",
    "price": 0.01
   },
   {
@@ -5112,6 +5239,45 @@
    "price": 0.01
   },
   {
+   "sku": "1001685761",
+   "sku_display": "1001-685-761",
+   "name": "1-1/2 in. x 5 in. Nail Plate Bulk (100-Pack)",
+   "brand": "Halex",
+   "model": null,
+   "retail": 65.76,
+   "internet_number": "202241088",
+   "reports": 1,
+   "states": {
+    "PA": 1
+   },
+   "first_reported": "2026-11-15",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/77cd7a7f-0d33-4dbf-a033-1293986c28a3/svn/halex-accessories-62851b-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1001685761/"
+    }
+   ],
+   "upc": "051411628512",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1001685761",
+   "price": 0.01
+  },
+  {
    "sku": "1002152354",
    "sku_display": "1002-152-354",
    "name": "Floating Swimming Pool and Spa Thermometer",
@@ -5241,6 +5407,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1002586495",
+   "price": 0.01
+  },
+  {
+   "sku": "1002719695",
+   "sku_display": "1002-719-695",
+   "name": "Texas Trio 4-Burner Dual Fuel Grill with Smoker in Black",
+   "brand": "Char-Griller",
+   "model": null,
+   "retail": 665,
+   "internet_number": "302624342",
+   "reports": 1,
+   "states": {
+    "TX": 1
+   },
+   "first_reported": "2026-11-15",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/debd434e-ba7e-4224-83f7-96770ca82192/svn/char-griller-combo-grills-3070-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1002719695/"
+    }
+   ],
+   "upc": "789792030708",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1002719695",
    "price": 0.01
   },
   {
@@ -5752,6 +5957,41 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1003898766",
+   "price": 0.01
+  },
+  {
+   "sku": "1004043727",
+   "sku_display": "1004-043-727",
+   "name": "450VA 120-Volt 8-Outlet UPS Battery Backup",
+   "brand": "CyberPower",
+   "model": "SE450G1",
+   "retail": 64.99,
+   "internet_number": "308369918",
+   "reports": 1,
+   "states": {
+    "WA": 1
+   },
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/2ad1eee6-cc02-51b4-865d-7bb36485becf/svn/cyberpower-ups-battery-backup-se450g1-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "649532621330",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1004043727",
    "price": 0.01
   },
   {
@@ -6386,30 +6626,24 @@
    "sku_display": "1005-649-564",
    "name": "2 in. Diamond Max Hole Saw",
    "brand": "Milwaukee",
-   "model": "49-56-5645",
+   "model": null,
    "retail": 45.47,
-   "internet_number": "204994417",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "UT": 1
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/358a0592-a6d2-48be-bfb3-23655c5f783b/svn/milwaukee-hole-saws-bits-49-56-5645-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1005649564/"
     }
    ],
-   "upc": "045242308507",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -6484,45 +6718,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006211571",
-   "price": 0.01
-  },
-  {
-   "sku": "1006423742",
-   "sku_display": "1006-423-742",
-   "name": "Havelock 22.7 in. 1-Light Chrome Integrated LED Bathroom Vanity Light Bar with Clear Seedy Glass",
-   "brand": "Hampton Bay",
-   "model": null,
-   "retail": 99.97,
-   "internet_number": "316704753",
-   "reports": 1,
-   "states": {
-    "OH": 1
-   },
-   "first_reported": "2026-11-13",
-   "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/2c8e9e56-22d3-4eb6-b38d-69431f1c5db4/svn/chrome-hampton-bay-vanity-lighting-kgl1391l-2-cr-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006423742/"
-    }
-   ],
-   "upc": "6940500321318",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006423742",
    "price": 0.01
   },
   {
@@ -6721,39 +6916,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1007194184",
-   "price": 0.01
-  },
-  {
-   "sku": "1007532507",
-   "sku_display": "1007-532-507",
-   "name": "52 in. Corwin Indoor/Outdoor Matte White LED Ceiling Fan with Light Kit",
-   "brand": "Hampton Bay",
-   "model": null,
-   "retail": 119.0,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "TN": 1
-   },
-   "first_reported": "2026-10-16",
-   "last_seen": "2026-10-16",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007532507/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007532507",
    "price": 0.01
   },
   {
@@ -7027,6 +7189,46 @@
    "price": 0.01
   },
   {
+   "sku": "1008718547",
+   "sku_display": "1008-718-547",
+   "name": "1500VA 10-Outlet UPS RJ45 COAX USB Charging",
+   "brand": "CyberPower",
+   "model": "LX1500GU3",
+   "retail": 201.65,
+   "internet_number": "323138586",
+   "reports": 1,
+   "states": {
+    "WA": 1
+   },
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/04ed765d-5669-5fa5-afba-48f8bef3c26a/svn/cyberpower-ups-battery-backup-lx1500gu3-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008718547/"
+    }
+   ],
+   "upc": "649532933624",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008718547",
+   "price": 0.01
+  },
+  {
    "sku": "1008754228",
    "sku_display": "1008-754-228",
    "name": "1/4 in. x 50 ft. Poly Air Hose and Air Accessories Kit (17-Pieces)",
@@ -7159,6 +7361,45 @@
    "price": 0.01
   },
   {
+   "sku": "1009381540",
+   "sku_display": "1009-381-540",
+   "name": "myQ Smart Wireless Garage Door Video Keypad",
+   "brand": "Chamberlain",
+   "model": "MYQ-K40TXXW",
+   "retail": 49.98,
+   "internet_number": "324484358",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-11-15",
+   "last_seen": "2026-11-15",
+   "image": "https://images.thdstatic.com/productImages/fd6b0371-7962-4b7f-ad7e-06d6a104c4dd/svn/chamberlain-garage-door-opener-keypads-myq-k40txxw-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1009381540/"
+    }
+   ],
+   "upc": "012381208098",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1009381540",
+   "price": 0.01
+  },
+  {
    "sku": "1009429109",
    "sku_display": "1009-429-109",
    "name": "Tonebridge Satin Nickel Single Cylinder Combo Pack with Square Rose",
@@ -7255,41 +7496,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1009868000",
-   "price": 0.01
-  },
-  {
-   "sku": "1010043890",
-   "sku_display": "1010-043-890",
-   "name": "Battery Doorbell Pro-Smart Wireless Doorbell Camera with Radar-powered 3D Motion Detection and Head-to-Toe HD plus Video",
-   "brand": "Ring",
-   "model": null,
-   "retail": 199.99,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "MA": 1
-   },
-   "first_reported": "2026-10-16",
-   "last_seen": "2026-10-16",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010043890/"
-    }
-   ],
-   "upc": "840268988401",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010043890",
    "price": 0.01
   },
   {
@@ -7470,28 +7676,22 @@
    "brand": "Powercare",
    "model": null,
    "retail": 19.98,
-   "internet_number": "326901003",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "UT": 1
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/7e09ceed-c6e3-4319-9310-7d352a663e27/svn/powercare-lawn-mower-air-filters-pcr4393-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1010327691/"
     }
    ],
-   "upc": "844547017110",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -7779,19 +7979,15 @@
    "brand": "TrafficMaster",
    "model": null,
    "retail": 18.98,
-   "internet_number": "330976713",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "UT": 1
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/fb46a1b9-5c89-48b3-8d12-2a7f082dd4de/svn/black-trafficmaster-commercial-floor-mats-955038-64_600.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012138078/"
@@ -7807,6 +8003,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012138078",
+   "price": 0.01
+  },
+  {
+   "sku": "1012308531",
+   "sku_display": "1012-308-531",
+   "name": "#10 x 1-3/4 in. Black 6-Lobe Torx Drive Exterior Flat Head Multi-Material Screw 1 lb. -Box (106-Piece)",
+   "brand": "Everbilt",
+   "model": null,
+   "retail": 12.98,
+   "internet_number": "331345380",
+   "reports": 1,
+   "states": {
+    "MI": 1
+   },
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "image": "https://images.thdstatic.com/productImages/ff53ff7c-8dc5-41df-92c8-2e2b94c53b9d/svn/everbilt-wood-screws-115356-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012308531/"
+    }
+   ],
+   "upc": "038902478344",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1012308531",
    "price": 0.01
   },
   {
@@ -7915,19 +8150,15 @@
    "brand": "Unknown",
    "model": null,
    "retail": 17.97,
-   "internet_number": "331978225",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "VA": 1
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/8a067842-3cec-4f3c-b4dd-8e649652222a/svn/bbq-sauces-rubs-ow76905-64_600.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012671126/"
@@ -8619,28 +8850,22 @@
    "brand": "Wilkins",
    "model": null,
    "retail": 221.99,
-   "internet_number": "202642501",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "UT": 1
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-11",
-   "image": "https://images.thdstatic.com/productImages/ed5ae3c0-9f1b-4172-a7e3-53767d8e2f08/svn/wilkins-water-pressure-regulators-34-nr3xl-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/372856/"
     }
    ],
-   "upc": "612052068480",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -9129,6 +9354,37 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:985804",
+   "price": 0.01
+  },
+  {
+   "sku": "1000016442",
+   "sku_display": "1000-016-442",
+   "name": "24 in. x 50 ft. White PVC Textured Trim Coil",
+   "brand": "Cellwood",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1000016442/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 0,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1000016442",
    "price": 0.01
   },
   {
@@ -9688,6 +9944,72 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1011950922",
+   "price": 0.01
+  },
+  {
+   "sku": "1013597637",
+   "sku_display": "1013-597-637",
+   "name": "Snap Off Utility Knife Set (4-Pack)",
+   "brand": "Anvil",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013597637/"
+    }
+   ],
+   "upc": "194767006068",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 0,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1013597637",
+   "price": 0.01
+  },
+  {
+   "sku": "1015344244",
+   "sku_display": "1015-344-244",
+   "name": "5-Piece Hand Tool Kit",
+   "brand": "Anvil",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015344244/"
+    }
+   ],
+   "upc": "820909921202",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 0,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1015344244",
    "price": 0.01
   },
   {
