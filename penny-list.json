@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-17",
-   "fetched": "2026-11-17",
-   "count": 282,
+   "as_of": "2026-11-18",
+   "fetched": "2026-11-18",
+   "count": 286,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "count": 115,
    "sources": [
     {
@@ -79,15 +79,27 @@
   },
   "dollar_general": {
    "name": "Dollar General",
-   "as_of": "2026-11-17",
-   "fetched": "2026-11-17",
-   "count": 237,
+   "as_of": "2026-11-20",
+   "fetched": "2026-11-18",
+   "count": 266,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20",
+     "items": 107
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
      "date": "2026-11-17",
-     "items": 255
+     "items": 177
+    },
+    {
+     "name": "GlitchNDealz penny list 2026-11-17",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17",
+     "items": 11
     }
    ],
    "note": "Current DG penny week starting 2026-11-17 (Tuesday).",
@@ -114,10 +126,24 @@
    "store": "lowes"
   },
   {
+   "name": "Penny General list 2026-11-20",
+   "url": "https://pennygeneral.net/lists/2026-11-20",
+   "date": "2026-11-20",
+   "items": 107,
+   "store": "dollar_general"
+  },
+  {
    "name": "Penny General list 2026-11-17",
    "url": "https://pennygeneral.net/lists/2026-11-17",
    "date": "2026-11-17",
-   "items": 255,
+   "items": 177,
+   "store": "dollar_general"
+  },
+  {
+   "name": "GlitchNDealz penny list 2026-11-17",
+   "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+   "date": "2026-11-17",
+   "items": 11,
    "store": "dollar_general"
   }
  ],
@@ -128,10 +154,10 @@
    "sku_display": "1009-074-829",
    "name": "ONE+ HP 18V Brushless Bagless Cordless Pet Mesh Filter Stick Vacuum Cleaner (Tool Only)",
    "brand": "RYOBI",
-   "model": null,
-   "retail": 199.0,
-   "internet_number": null,
-   "reports": 238,
+   "model": "PBLSV716B",
+   "retail": 199,
+   "internet_number": "323830662",
+   "reports": 240,
    "states": {
     "NY": 23,
     "WA": 7,
@@ -144,7 +170,7 @@
     "CA": 39,
     "TX": 22,
     "MD": 9,
-    "MI": 6,
+    "MI": 7,
     "WI": 5,
     "FL": 17,
     "CT": 4,
@@ -162,14 +188,18 @@
     "NM": 1,
     "AL": 2,
     "CO": 3,
-    "ME": 1,
+    "ME": 2,
     "LA": 1,
     "GU": 1
    },
    "first_reported": "2025-12-30",
-   "last_seen": "2026-11-12",
-   "image": null,
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/64e0d2df-d615-4342-9aae-229886bfcc8a/svn/ryobi-stick-vacuums-pblsv716b-64_600.jpg",
    "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1009074829/"
@@ -177,9 +207,10 @@
    ],
    "upc": "0033287212446",
    "upc_sources": [
-    "Penny Recon"
+    "Penny Recon",
+    "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
    "home_reports": 6,
    "state_count": 32,
@@ -197,11 +228,11 @@
    "model": "K40526",
    "retail": 19.88,
    "internet_number": "335104182",
-   "reports": 111,
+   "reports": 118,
    "states": {
-    "TX": 17,
-    "NY": 11,
-    "CA": 27,
+    "TX": 18,
+    "NY": 12,
+    "CA": 28,
     "MI": 2,
     "NJ": 10,
     "WA": 7,
@@ -212,10 +243,11 @@
     "TN": 3,
     "OR": 3,
     "CO": 2,
-    "MA": 2,
+    "MO": 1,
+    "MA": 3,
     "MD": 2,
     "WV": 1,
-    "SC": 1,
+    "SC": 2,
     "NC": 2,
     "IL": 2,
     "CT": 1,
@@ -223,10 +255,11 @@
     "MN": 1,
     "IA": 1,
     "AL": 3,
-    "NV": 3
+    "NV": 3,
+    "ID": 1
    },
    "first_reported": "2026-08-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "image": "https://images.thdstatic.com/productImages/820881bc-6a07-4009-89d8-a940a267e55f/svn/husky-work-lights-k40526-64_1000.jpg",
    "sources": [
     {
@@ -243,7 +276,7 @@
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 3,
-   "state_count": 25,
+   "state_count": 27,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -255,39 +288,43 @@
    "sku_display": "215-583",
    "name": "12 inch Rough In Two-Piece 1.1 GPF/1.6 GPF Dual Flush Elongated Toilet in White Seat Included",
    "brand": "Glacier Bay",
-   "model": "T0338MW",
+   "model": "N2316",
    "retail": 99,
-   "internet_number": "100676582",
-   "reports": 97,
+   "internet_number": "331755742",
+   "reports": 118,
    "states": {
-    "NY": 9,
-    "TX": 8,
-    "MI": 4,
-    "GA": 9,
-    "NC": 5,
-    "FL": 10,
+    "GA": 11,
+    "IN": 4,
+    "CA": 14,
+    "CT": 4,
     "AZ": 5,
-    "IL": 2,
-    "CA": 12,
-    "NJ": 2,
-    "OR": 2,
-    "OH": 5,
-    "AR": 1,
-    "UT": 4,
-    "MD": 1,
-    "IN": 2,
-    "CT": 2,
-    "ME": 1,
-    "CO": 1,
-    "WI": 2,
+    "FL": 11,
+    "NY": 11,
     "NV": 3,
-    "KS": 2,
+    "MI": 5,
+    "HI": 1,
+    "TX": 8,
+    "IL": 2,
     "WA": 2,
+    "NC": 6,
+    "MA": 2,
+    "UT": 4,
+    "MT": 1,
+    "OH": 6,
+    "KS": 2,
+    "WI": 3,
+    "AR": 1,
     "PA": 2,
-    "MT": 1
+    "MD": 1,
+    "OR": 3,
+    "ME": 1,
+    "NH": 1,
+    "NJ": 2,
+    "CO": 1,
+    "SC": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -307,7 +344,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 25,
+   "state_count": 29,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -377,27 +414,29 @@
    "model": null,
    "retail": 35.98,
    "internet_number": "306315853",
-   "reports": 48,
+   "reports": 57,
    "states": {
     "MD": 4,
-    "MA": 1,
+    "MA": 3,
     "IL": 8,
     "WA": 1,
     "NY": 3,
-    "CA": 8,
+    "CA": 10,
     "KY": 5,
     "VA": 1,
-    "FL": 6,
+    "FL": 7,
     "RI": 2,
     "PA": 3,
     "WV": 1,
     "NE": 2,
-    "TX": 1,
-    "MI": 1,
-    "MN": 1
+    "TX": 2,
+    "MI": 2,
+    "MN": 1,
+    "NJ": 1,
+    "UT": 1
    },
    "first_reported": "2026-09-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "image": "https://images.thdstatic.com/productImages/63c9889c-576b-463f-8960-b56b3c3a1dd2/svn/own-zone-headphones-wn011112-64_1000.jpg",
    "sources": [
     {
@@ -417,11 +456,69 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 16,
+   "state_count": 18,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
    "id": "hd:1003565875",
+   "price": 0.01
+  },
+  {
+   "sku": "168674",
+   "sku_display": "168-674",
+   "name": "800 lb. Capacity D-Handle Hand Truck",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 79,
+   "internet_number": "100030159",
+   "reports": 52,
+   "states": {
+    "IL": 7,
+    "MI": 4,
+    "TN": 3,
+    "TX": 4,
+    "FL": 3,
+    "NJ": 3,
+    "CA": 9,
+    "MA": 2,
+    "MS": 2,
+    "NY": 2,
+    "MN": 1,
+    "WA": 2,
+    "NM": 1,
+    "GA": 1,
+    "OH": 4,
+    "MD": 1,
+    "NV": 1,
+    "CT": 1,
+    "LA": 1
+   },
+   "first_reported": "2026-09-23",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/49981bea-07e3-4c94-81e8-c65ba9d9ac24/svn/milwaukee-hand-trucks-hd800p-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/168674/"
+    }
+   ],
+   "upc": "646072605028",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 3,
+   "state_count": 19,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:168674",
    "price": 0.01
   },
   {
@@ -474,57 +571,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1014119123",
-   "price": 0.01
-  },
-  {
-   "sku": "168674",
-   "sku_display": "168-674",
-   "name": "800 lb. Capacity D-Handle Hand Truck",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 79.0,
-   "internet_number": null,
-   "reports": 44,
-   "states": {
-    "IL": 7,
-    "MI": 4,
-    "TN": 3,
-    "TX": 4,
-    "FL": 3,
-    "NJ": 3,
-    "CA": 7,
-    "MA": 1,
-    "MS": 2,
-    "NY": 1,
-    "MN": 1,
-    "WA": 2,
-    "NM": 1,
-    "GA": 1,
-    "OH": 2,
-    "MD": 1,
-    "NV": 1
-   },
-   "first_reported": "2026-09-23",
-   "last_seen": "2026-11-11",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/168674/"
-    }
-   ],
-   "upc": "646072605028",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 3,
-   "state_count": 17,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:168674",
    "price": 0.01
   },
   {
@@ -587,23 +633,23 @@
    "model": null,
    "retail": 21.97,
    "internet_number": "326839587",
-   "reports": 24,
+   "reports": 28,
    "states": {
     "VA": 1,
     "PA": 3,
-    "FL": 1,
+    "FL": 3,
     "NJ": 1,
     "UT": 1,
     "TX": 2,
     "WA": 3,
     "NY": 2,
+    "CA": 2,
     "IN": 1,
     "IL": 3,
     "CT": 1,
     "NC": 2,
-    "CA": 1,
     "LA": 1,
-    "MI": 1
+    "MI": 2
    },
    "first_reported": "2026-10-30",
    "last_seen": "2026-11-17",
@@ -631,6 +677,55 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1010362919",
+   "price": 0.01
+  },
+  {
+   "sku": "1015053805",
+   "sku_display": "1015-053-805",
+   "name": "5/8 in. dia. x 100 ft. Contractor Grade Garden Hose",
+   "brand": "Flexon",
+   "model": null,
+   "retail": 24.98,
+   "internet_number": "339901942",
+   "reports": 20,
+   "states": {
+    "GA": 3,
+    "FL": 4,
+    "NY": 1,
+    "VA": 3,
+    "WA": 1,
+    "LA": 1,
+    "PA": 2,
+    "IL": 3,
+    "TN": 1,
+    "IN": 1
+   },
+   "first_reported": "2026-09-10",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/ff6c09cc-8f39-4b79-b2db-e8cc2d5357af/svn/black-flexon-garden-hoses-wcm58100hd-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015053805/"
+    }
+   ],
+   "upc": "0044882106467",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 10,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1015053805",
    "price": 0.01
   },
   {
@@ -682,49 +777,6 @@
    "price": 0.01
   },
   {
-   "sku": "1015053805",
-   "sku_display": "1015-053-805",
-   "name": "5/8 in. dia. x 100 ft. Contractor Grade Garden Hose",
-   "brand": "Flexon",
-   "model": null,
-   "retail": 24.98,
-   "internet_number": null,
-   "reports": 16,
-   "states": {
-    "GA": 1,
-    "FL": 4,
-    "NY": 1,
-    "VA": 3,
-    "WA": 1,
-    "LA": 1,
-    "PA": 2,
-    "IL": 2,
-    "TN": 1
-   },
-   "first_reported": "2026-09-10",
-   "last_seen": "2026-11-07",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1015053805/"
-    }
-   ],
-   "upc": "0044882106467",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 9,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1015053805",
-   "price": 0.01
-  },
-  {
    "sku": "1004871058",
    "sku_display": "1004-871-058",
    "name": "Alberson 5 in. Brushed Nickel 2-Light LED Sconce",
@@ -732,7 +784,7 @@
    "model": null,
    "retail": 99.97,
    "internet_number": "311728493",
-   "reports": 15,
+   "reports": 16,
    "states": {
     "NM": 2,
     "VA": 1,
@@ -744,7 +796,8 @@
     "CA": 1,
     "GA": 1,
     "KS": 2,
-    "AL": 1
+    "AL": 1,
+    "PA": 1
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-17",
@@ -767,7 +820,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 11,
+   "state_count": 12,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -822,7 +875,7 @@
    "brand": "DURASACK",
    "model": null,
    "retail": 19.99,
-   "internet_number": "340956120",
+   "internet_number": null,
    "reports": 14,
    "states": {
     "TX": 3,
@@ -839,12 +892,8 @@
    },
    "first_reported": "2026-10-26",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/13196282-954f-4fed-b0ac-584fb0a725f9/svn/durasack-storage-bins-wp-movg-2pk-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1015277793/"
@@ -852,10 +901,9 @@
    ],
    "upc": "653212003361",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 11,
@@ -873,10 +921,10 @@
    "model": null,
    "retail": 14.99,
    "internet_number": "304521507",
-   "reports": 13,
+   "reports": 14,
    "states": {
     "FL": 4,
-    "NY": 2,
+    "NY": 3,
     "OH": 2,
     "AK": 1,
     "TX": 2,
@@ -884,7 +932,7 @@
     "IA": 1
    },
    "first_reported": "2026-11-05",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-18",
    "image": "https://images.thdstatic.com/productImages/740ce6aa-bd6c-49e1-b56e-18bb69fc48ea/svn/black-commercial-electric-surge-protectors-ylpt-43b-64_1000.jpg",
    "sources": [
     {
@@ -1242,13 +1290,59 @@
    "price": 0.01
   },
   {
+   "sku": "1003619907",
+   "sku_display": "1003-619-907",
+   "name": "Sedgewood 24.5 in. W x 18.75 in. D x 34.375 in. H Single Sink Bath Vanity in White with Arctic Solid Surface Top",
+   "brand": "Home Decorators Collection",
+   "model": "PPLNKWHT24D",
+   "retail": 359,
+   "internet_number": "306307925",
+   "reports": 9,
+   "states": {
+    "FL": 1,
+    "ME": 1,
+    "TN": 1,
+    "NY": 1,
+    "IA": 2,
+    "MN": 1,
+    "IL": 2
+   },
+   "first_reported": "2026-03-20",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/3a29fdf0-45c0-4267-b707-59bcfabc9eea/svn/home-decorators-collection-bathroom-vanities-with-tops-pplnkwht24d-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1003619907/"
+    }
+   ],
+   "upc": "094803148090",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1003619907",
+   "price": 0.01
+  },
+  {
    "sku": "1009749973",
    "sku_display": "1009-749-973",
    "name": "BBQ Daddy Grill Brush - Bristle Free Steam Cleaning Scrubber",
    "brand": "Scrub Daddy",
    "model": null,
    "retail": 29.98,
-   "internet_number": "325797401",
+   "internet_number": null,
    "reports": 9,
    "states": {
     "VA": 1,
@@ -1262,12 +1356,8 @@
    },
    "first_reported": "2026-11-03",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/48e17737-b0c7-426f-a689-f051902eb8e1/svn/scrub-daddy-grill-brushes-810044131147-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1009749973/"
@@ -1275,10 +1365,9 @@
    ],
    "upc": "810044131147",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 8,
@@ -1286,6 +1375,51 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1009749973",
+   "price": 0.01
+  },
+  {
+   "sku": "1007984718",
+   "sku_display": "1007-984-718",
+   "name": "Milwaukee 18 in. Red 4-Way Stretch Cut 3 Resistant Protective Arm Sleeves",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 16.47,
+   "internet_number": "320591859",
+   "reports": 8,
+   "states": {
+    "FL": 1,
+    "MA": 2,
+    "MS": 1,
+    "SC": 1,
+    "DE": 2,
+    "TX": 1
+   },
+   "first_reported": "2026-11-04",
+   "last_seen": "2026-11-17",
+   "image": "https://images.thdstatic.com/productImages/537f9f17-2bb8-4160-b94e-aacdefda6b54/svn/milwaukee-work-gloves-48-73-9031-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007984718/"
+    }
+   ],
+   "upc": "045242597536",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 6,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1007984718",
    "price": 0.01
   },
   {
@@ -1368,43 +1502,47 @@
    "price": 0.01
   },
   {
-   "sku": "1003619907",
-   "sku_display": "1003-619-907",
-   "name": "Sedgewood 24.5 in. W x 18.75 in. D x 34.375 in. H Single Sink Bath Vanity in White with Arctic Solid Surface Top",
-   "brand": "Home Decorators Collection",
+   "sku": "1006104733",
+   "sku_display": "1006-104-733",
+   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
+   "brand": "Ring",
    "model": null,
-   "retail": 359.0,
-   "internet_number": null,
+   "retail": 229.99,
+   "internet_number": "329107033",
    "reports": 7,
    "states": {
+    "GA": 1,
+    "IL": 2,
+    "TX": 2,
     "FL": 1,
-    "ME": 1,
-    "TN": 1,
-    "NY": 1,
-    "IA": 2,
-    "MN": 1
+    "MA": 1
    },
-   "first_reported": "2026-03-20",
-   "last_seen": "2026-11-12",
-   "image": null,
+   "first_reported": "2026-09-30",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/3754c738-a5d4-440d-a7c3-04e4ab025b12/svn/white-ring-floodlights-b0cg6vffvl-64_1000.jpg",
    "sources": [
     {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1003619907/"
+     "url": "https://www.pennyrecon.com/item/1006104733/"
     }
    ],
-   "upc": "094803148090",
+   "upc": "840268940300",
    "upc_sources": [
-    "Penny Recon"
+    "Penny Recon",
+    "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 6,
+   "home_reports": 0,
+   "state_count": 5,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1003619907",
+   "id": "hd:1006104733",
    "price": 0.01
   },
   {
@@ -1488,84 +1626,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012951109",
-   "price": 0.01
-  },
-  {
-   "sku": "1006104733",
-   "sku_display": "1006-104-733",
-   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
-   "brand": "Ring",
-   "model": null,
-   "retail": 229.99,
-   "internet_number": null,
-   "reports": 6,
-   "states": {
-    "GA": 1,
-    "IL": 2,
-    "TX": 1,
-    "FL": 1,
-    "MA": 1
-   },
-   "first_reported": "2026-09-30",
-   "last_seen": "2026-10-27",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006104733/"
-    }
-   ],
-   "upc": "840268940300",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 5,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006104733",
-   "price": 0.01
-  },
-  {
-   "sku": "1007984718",
-   "sku_display": "1007-984-718",
-   "name": "Milwaukee 18 in. Red 4-Way Stretch Cut 3 Resistant Protective Arm Sleeves",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 16.47,
-   "internet_number": null,
-   "reports": 6,
-   "states": {
-    "FL": 1,
-    "MA": 2,
-    "MS": 1,
-    "SC": 1,
-    "DE": 1
-   },
-   "first_reported": "2026-11-04",
-   "last_seen": "2026-11-10",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007984718/"
-    }
-   ],
-   "upc": "045242597536",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 5,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007984718",
    "price": 0.01
   },
   {
@@ -1802,6 +1862,48 @@
    "price": 0.01
   },
   {
+   "sku": "1013121020",
+   "sku_display": "1013-121-020",
+   "name": "9 in. 8 TPI Steel Demon AMPED Carbide Reciprocating Saw Blade for Thick Metal Cutting (2-Pack)",
+   "brand": "DIABLO",
+   "model": null,
+   "retail": 19.88,
+   "internet_number": "333293856",
+   "reports": 5,
+   "states": {
+    "GA": 2,
+    "CO": 1,
+    "LA": 1,
+    "VA": 1
+   },
+   "first_reported": "2025-12-30",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/3862962f-c0f5-4b97-a74a-536d9dc281f1/svn/diablo-reciprocating-saw-blades-ds0908cfap-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013121020/"
+    }
+   ],
+   "upc": "008925175162",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1013121020",
+   "price": 0.01
+  },
+  {
    "sku": "1015399905",
    "sku_display": "1015-399-905",
    "name": "Black Cut Level 1 Nitrile Dipped Gloves-L",
@@ -1889,7 +1991,7 @@
    "brand": "MOEN",
    "model": null,
    "retail": 107.44,
-   "internet_number": "301980213",
+   "internet_number": null,
    "reports": 4,
    "states": {
     "TX": 3,
@@ -1897,12 +1999,8 @@
    },
    "first_reported": "2026-06-12",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/6a890d62-5061-415c-9484-695f124abde8/svn/brushed-nickel-moen-single-hole-bathroom-faucets-ws84760srn-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1003185124/"
@@ -1910,10 +2008,9 @@
    ],
    "upc": "0026508277140",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -2217,6 +2314,45 @@
    "price": 0.01
   },
   {
+   "sku": "1011585025",
+   "sku_display": "1011-585-025",
+   "name": "6 in. LED InfinitiEdge Recessed Retrofit Light Trim, Adjustable CCT",
+   "brand": "Commercial Electric",
+   "model": null,
+   "retail": 16.97,
+   "internet_number": "329779214",
+   "reports": 4,
+   "states": {
+    "VA": 1,
+    "MA": 2,
+    "WI": 1
+   },
+   "first_reported": "2026-11-09",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/07180c6b-0e0e-44a8-a326-89ed30732e14/svn/white-commercial-electric-recessed-lighting-retrofit-trims-92216-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1011585025/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1011585025",
+   "price": 0.01
+  },
+  {
    "sku": "1012536755",
    "sku_display": "1012-536-755",
    "name": "Bannister 31 in. Single Sink Dusk Bath Vanity with White Cultured Marble Top (Assembled)",
@@ -2450,7 +2586,7 @@
    "brand": "Ring",
    "model": null,
    "retail": 39.99,
-   "internet_number": "308537926",
+   "internet_number": null,
    "reports": 3,
    "states": {
     "MA": 2,
@@ -2458,12 +2594,8 @@
    },
    "first_reported": "2026-11-04",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/c4b2b450-744f-4a49-979a-977f07aeaf00/svn/black-ring-floodlights-5b11s8-ben0-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1004295981/"
@@ -2471,10 +2603,9 @@
    ],
    "upc": "842861105254",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -2771,54 +2902,13 @@
    "price": 0.01
   },
   {
-   "sku": "1013121020",
-   "sku_display": "1013-121-020",
-   "name": "9 in. 8 TPI Steel Demon AMPED Carbide Reciprocating Saw Blade for Thick Metal Cutting (2-Pack)",
-   "brand": "DIABLO",
-   "model": null,
-   "retail": 19.88,
-   "internet_number": "333293856",
-   "reports": 3,
-   "states": {
-    "GA": 1,
-    "CO": 1,
-    "LA": 1
-   },
-   "first_reported": "2025-12-30",
-   "last_seen": "2026-11-17",
-   "image": "https://images.thdstatic.com/productImages/3862962f-c0f5-4b97-a74a-536d9dc281f1/svn/diablo-reciprocating-saw-blades-ds0908cfap-64_600.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1013121020/"
-    }
-   ],
-   "upc": "008925175162",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 3,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1013121020",
-   "price": 0.01
-  },
-  {
    "sku": "1014126586",
    "sku_display": "1014-126-586",
    "name": "Flex Install 32 in. Brushed Nickel LED Oval Panel Recessed Ceiling Light Flush Mount with 5CCT and 2800 Lumens",
    "brand": "Commercial Electric",
    "model": null,
    "retail": 89.97,
-   "internet_number": "335867150",
+   "internet_number": null,
    "reports": 3,
    "states": {
     "MA": 2,
@@ -2826,12 +2916,8 @@
    },
    "first_reported": "2026-11-04",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/8c85bc29-ffec-594c-b5a8-9838061c75bc/svn/commercial-electric-flush-mount-ceiling-lights-32000334-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1014126586/"
@@ -2839,10 +2925,9 @@
    ],
    "upc": "058219552230",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -3199,7 +3284,7 @@
    "brand": "Universal",
    "model": null,
    "retail": 24.98,
-   "internet_number": "206338567",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "OH": 1,
@@ -3207,12 +3292,8 @@
    },
    "first_reported": "2026-11-12",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/295d424e-3719-4f4b-8882-d0b4065197f6/svn/universal-grill-burners-540-0001-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1001537658/"
@@ -3220,10 +3301,9 @@
    ],
    "upc": "044376285500",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 2,
@@ -3494,9 +3574,9 @@
    "sku_display": "1004-372-760",
    "name": "15 Amp 10 in. Portable Corded Pro Jobsite Table Saw with Stand",
    "brand": "RIDGID",
-   "model": "R4514",
-   "retail": 549,
-   "internet_number": "309415135",
+   "model": null,
+   "retail": 549.0,
+   "internet_number": null,
    "reports": 2,
    "states": {
     "SC": 1,
@@ -3504,12 +3584,8 @@
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/168e4060-a20d-4665-9db6-29e67b268842/svn/ridgid-portable-table-saws-r4514-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1004372760/"
@@ -3517,10 +3593,9 @@
    ],
    "upc": "648846071206",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -3713,7 +3788,7 @@
    "brand": "Home Decorators Collection",
    "model": null,
    "retail": 23.12,
-   "internet_number": "313533178",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "IL": 1,
@@ -3721,12 +3796,8 @@
    },
    "first_reported": "2026-11-13",
    "last_seen": "2026-11-14",
-   "image": "https://images.thdstatic.com/productImages/4f761f19-7570-49a3-896b-b007a98bc9b2/svn/black-home-decorators-collection-hooks-63095-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1005469197/"
@@ -3734,10 +3805,9 @@
    ],
    "upc": "030699630950",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -3889,6 +3959,46 @@
    "price": 0.01
   },
   {
+   "sku": "1006675268",
+   "sku_display": "1006-675-268",
+   "name": "Tupelo 30 in. W x 19 in. D x 34 in. H Single Sink Bath Vanity in Midnight Blue with White Engineered Stone Top",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 329,
+   "internet_number": "317445580",
+   "reports": 2,
+   "states": {
+    "CO": 1,
+    "IL": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-17",
+   "image": "https://images.thdstatic.com/productImages/bf0fea83-f9c7-4009-979a-24f9005f76cf/svn/home-decorators-collection-bathroom-vanities-with-tops-tupelo-30mb-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006675268/"
+    }
+   ],
+   "upc": "828796037143",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006675268",
+   "price": 0.01
+  },
+  {
    "sku": "1007712062",
    "sku_display": "1007-712-062",
    "name": "Outpost Grill 24",
@@ -4037,7 +4147,7 @@
    "brand": "Scrub Daddy",
    "model": null,
    "retail": 11.53,
-   "internet_number": "325797368",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "CA": 1,
@@ -4045,12 +4155,8 @@
    },
    "first_reported": "2026-11-11",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/68419349-dd1a-4a94-ae7a-a9cc0f805d8c/svn/scrub-daddy-grill-brushes-810044131154-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1009749974/"
@@ -4058,10 +4164,9 @@
    ],
    "upc": "810044131154",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -4069,6 +4174,44 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1009749974",
+   "price": 0.01
+  },
+  {
+   "sku": "1010139541",
+   "sku_display": "1010-139-541",
+   "name": "SKU 1010139541",
+   "brand": "",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 2,
+   "states": {
+    "IL": 1,
+    "CO": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-17",
+   "image": "/images/hd-product-placeholder.svg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010139541/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010139541",
    "price": 0.01
   },
   {
@@ -4278,21 +4421,21 @@
    "price": 0.01
   },
   {
-   "sku": "1011585025",
-   "sku_display": "1011-585-025",
-   "name": "6 in. LED InfinitiEdge Recessed Retrofit Light Trim, Adjustable CCT",
-   "brand": "Commercial Electric",
-   "model": null,
-   "retail": 16.97,
-   "internet_number": "329779214",
+   "sku": "1011373998",
+   "sku_display": "1011-373-998",
+   "name": "Aiden 17.7 in. Matte Black Downrod Mount Fandelier 8-Step CCT Ceiling Fan with Integrated LED with Remote Included",
+   "brand": "Artika",
+   "model": "FAN-AIR-HD2BL",
+   "retail": 129,
+   "internet_number": "329445439",
    "reports": 2,
    "states": {
-    "VA": 1,
-    "MA": 1
+    "ID": 1,
+    "CT": 1
    },
-   "first_reported": "2026-11-09",
-   "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/07180c6b-0e0e-44a8-a326-89ed30732e14/svn/white-commercial-electric-recessed-lighting-retrofit-trims-92216-64_600.jpg",
+   "first_reported": "2026-11-03",
+   "last_seen": "2026-11-17",
+   "image": "https://images.thdstatic.com/productImages/bf551d3b-694d-47b8-a5f9-6876c6163555/svn/artika-ceiling-fans-with-lights-fan-air-hd2bl-64_400.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -4300,11 +4443,13 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1011585025/"
+     "url": "https://www.pennyrecon.com/item/1011373998/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
+   "upc": "846979045273",
+   "upc_sources": [
+    "PennyCentral"
+   ],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -4312,7 +4457,7 @@
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1011585025",
+   "id": "hd:1011373998",
    "price": 0.01
   },
   {
@@ -4388,21 +4533,21 @@
    "price": 0.01
   },
   {
-   "sku": "1012697616",
-   "sku_display": "1012-697-616",
-   "name": "Wayne Canyon Oak 12 MIL x 7 in. W x 48 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (23.8 sq. ft. /Case)",
-   "brand": "Home Decorators Collection",
+   "sku": "1012308531",
+   "sku_display": "1012-308-531",
+   "name": "#10 x 1-3/4 in. Black 6-Lobe Torx Drive Exterior Flat Head Multi-Material Screw 1 lb. -Box (106-Piece)",
+   "brand": "Everbilt",
    "model": null,
-   "retail": 59.26,
-   "internet_number": "332344000",
+   "retail": 12.98,
+   "internet_number": "331345380",
    "reports": 2,
    "states": {
-    "MA": 1,
-    "PA": 1
+    "MI": 1,
+    "TX": 1
    },
-   "first_reported": "2026-11-13",
-   "last_seen": "2026-11-14",
-   "image": "https://images.thdstatic.com/productImages/1846c0fa-6b25-4ad3-9a54-e21899fa2062/svn/wayne-canyon-oak-home-decorators-collection-vinyl-plank-flooring-hl0002-64_600.jpg",
+   "first_reported": "2026-11-16",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/ff53ff7c-8dc5-41df-92c8-2e2b94c53b9d/svn/everbilt-wood-screws-115356-64_600.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -4410,15 +4555,50 @@
     },
     {
      "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012308531/"
+    }
+   ],
+   "upc": "038902478344",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1012308531",
+   "price": 0.01
+  },
+  {
+   "sku": "1012697616",
+   "sku_display": "1012-697-616",
+   "name": "Wayne Canyon Oak 12 MIL x 7 in. W x 48 in. L Waterproof Click Lock Luxury Vinyl Plank Flooring (23.8 sq. ft. /Case)",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 59.26,
+   "internet_number": null,
+   "reports": 2,
+   "states": {
+    "MA": 1,
+    "PA": 1
+   },
+   "first_reported": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012697616/"
     }
    ],
    "upc": "850066147016",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -4471,7 +4651,7 @@
    "brand": "Home Decorators Collection",
    "model": null,
    "retail": 48.23,
-   "internet_number": "332541406",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "MA": 1,
@@ -4479,12 +4659,8 @@
    },
    "first_reported": "2026-11-12",
    "last_seen": "2026-11-15",
-   "image": "https://images.thdstatic.com/productImages/c3bdfc96-9400-4590-bb3b-5106bcf49b69/svn/mountains-gray-home-decorators-collection-vinyl-plank-flooring-vtrhdmougr12x24-64_600.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012740832/"
@@ -4492,10 +4668,9 @@
    ],
    "upc": "747583250261",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -4512,7 +4687,7 @@
    "brand": "Home Decorators Collection",
    "model": null,
    "retail": 59.18,
-   "internet_number": "332541392",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "IL": 1,
@@ -4520,12 +4695,8 @@
    },
    "first_reported": "2026-11-10",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/14732f2e-9cfe-4f0d-83c1-63a8c1b1a342/svn/highland-lake-home-decorators-collection-vinyl-plank-flooring-vtrhdhiglak7x48-64_600.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012740834/"
@@ -4717,6 +4888,47 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015012712",
+   "price": 0.01
+  },
+  {
+   "sku": "1015344244",
+   "sku_display": "1015-344-244",
+   "name": "5-Piece Hand Tool Kit",
+   "brand": "Anvil",
+   "model": null,
+   "retail": 9.88,
+   "internet_number": "341074169",
+   "reports": 2,
+   "states": {
+    "LA": 1,
+    "GA": 1
+   },
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": "https://images.thdstatic.com/productImages/2e1d80cc-58b1-4207-b7b4-8c9d010e28e0/svn/metal-anvil-multi-tools-92120-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015344244/"
+    }
+   ],
+   "upc": "820909921202",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1015344244",
    "price": 0.01
   },
   {
@@ -4937,11 +5149,11 @@
   {
    "sku": "566918",
    "sku_display": "566-918",
-   "name": "60-Watt Equivalent A19 Smart LED Color Changing Light Bulb Starter Kit (2 Bulbs and Bridge)",
-   "brand": "Philips Hue",
-   "model": "562918",
+   "name": "SKU 566918",
+   "brand": "",
+   "model": null,
    "retail": 142.99,
-   "internet_number": "341349707",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "TX": 1,
@@ -4949,7 +5161,7 @@
    },
    "first_reported": "2026-11-16",
    "last_seen": "2026-11-16",
-   "image": "https://images.thdstatic.com/productImages/bacee189-07b0-4eff-a7cb-a8ada370d458/svn/philips-hue-led-light-bulbs-562918-64_400.jpg",
+   "image": "/images/hd-product-placeholder.svg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -4962,10 +5174,9 @@
    ],
    "upc": "046677562915",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -5138,39 +5349,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:100124",
-   "price": 0.01
-  },
-  {
-   "sku": "1001254977",
-   "sku_display": "1001-254-977",
-   "name": "SKU 1001254977",
-   "brand": "",
-   "model": null,
-   "retail": null,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "VA": 1
-   },
-   "first_reported": "2026-11-14",
-   "last_seen": "2026-11-14",
-   "image": "/images/hd-product-placeholder.svg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1001254977",
    "price": 0.01
   },
   {
@@ -5751,30 +5929,24 @@
    "sku_display": "1003-329-983",
    "name": "Affinity Round Soft-Close Easy-Clean Never-Loosens Plastic Toilet Seat in Bone",
    "brand": "BEMIS",
-   "model": "203SLOW 006",
+   "model": null,
    "retail": 49.98,
-   "internet_number": "305657947",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "WA": 1
    },
    "first_reported": "2026-11-13",
    "last_seen": "2026-11-13",
-   "image": "https://images.thdstatic.com/productImages/50a3caf5-bb77-4bd4-be06-3c1ba629042f/svn/bone-bemis-toilet-seats-203slow-006-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1003329983/"
     }
    ],
-   "upc": "073088156372",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -6152,6 +6324,41 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1004814382",
+   "price": 0.01
+  },
+  {
+   "sku": "1004869199",
+   "sku_display": "1004-869-199",
+   "name": "Elmbrook 60 in. x 30.25 in. Soaking Bathtub with Left-Hand Drain in White",
+   "brand": "KOHLER",
+   "model": null,
+   "retail": 439,
+   "internet_number": "311699619",
+   "reports": 1,
+   "states": {
+    "FL": 1
+   },
+   "first_reported": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/b208fca1-97ef-4ef4-ae6a-a712867c7398/svn/white-kohler-alcove-bathtubs-k-r23217-la-0-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "885612835048",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1004869199",
    "price": 0.01
   },
   {
@@ -6821,6 +7028,39 @@
    "price": 0.01
   },
   {
+   "sku": "1006433757",
+   "sku_display": "1006-433-757",
+   "name": "SKU 1006433757",
+   "brand": "",
+   "model": null,
+   "retail": null,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "IL": 1
+   },
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": "/images/hd-product-placeholder.svg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006433757",
+   "price": 0.01
+  },
+  {
    "sku": "1006494586",
    "sku_display": "1006-494-586",
    "name": "35.25 in. L x 35.25 in. W x 18 in. H Beige Patio Square Fire Pit Cover",
@@ -6884,39 +7124,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006544256",
-   "price": 0.01
-  },
-  {
-   "sku": "1006675268",
-   "sku_display": "1006-675-268",
-   "name": "Tupelo 30 in. W x 19 in. D x 34 in. H Single Sink Bath Vanity in Midnight Blue with White Engineered Stone Top",
-   "brand": "Home Decorators Collection",
-   "model": null,
-   "retail": 329.0,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "CO": 1
-   },
-   "first_reported": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006675268/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006675268",
    "price": 0.01
   },
   {
@@ -7668,58 +7875,19 @@
    "name": "Dylan 60 in. W x 75.98 in. H Sliding Frameless Shower Door in Brushed Nickel Finish with Clear Glass",
    "brand": "Home Decorators Collection",
    "model": null,
-   "retail": 719,
-   "internet_number": "325978605",
+   "retail": 719.0,
+   "internet_number": null,
    "reports": 1,
    "states": {
     "CA": 1
    },
    "first_reported": "2026-11-14",
    "last_seen": "2026-11-14",
-   "image": "https://images.thdstatic.com/productImages/5ce06f5e-9111-4a9e-8f97-dbd201ae78e0/svn/home-decorators-collection-alcove-shower-doors-gbsh167-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010070419/"
-    }
-   ],
-   "upc": "828796122504",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010070419",
-   "price": 0.01
-  },
-  {
-   "sku": "1010139541",
-   "sku_display": "1010-139-541",
-   "name": "Power Flush 12 inch Rough In Two-Piece 1.28 GPF Single Flush Round Toilet in White Seat Included",
-   "brand": "Glacier Bay",
-   "model": null,
-   "retail": 0.0,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "CO": 1
-   },
-   "first_reported": "2026-11-10",
-   "last_seen": "2026-11-10",
    "image": null,
    "sources": [
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010139541/"
+     "url": "https://www.pennyrecon.com/item/1010070419/"
     }
    ],
    "upc": null,
@@ -7731,7 +7899,7 @@
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1010139541",
+   "id": "hd:1010070419",
    "price": 0.01
   },
   {
@@ -7966,39 +8134,6 @@
    "price": 0.01
   },
   {
-   "sku": "1011373998",
-   "sku_display": "1011-373-998",
-   "name": "Aiden 17.7 in. Matte Black Downrod Mount Fandelier 8-Step CCT Ceiling Fan with Integrated LED with Remote Included",
-   "brand": "Artika",
-   "model": null,
-   "retail": 129.0,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "ID": 1
-   },
-   "first_reported": "2026-11-03",
-   "last_seen": "2026-11-03",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1011373998/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1011373998",
-   "price": 0.01
-  },
-  {
    "sku": "1011374000",
    "sku_display": "1011-374-000",
    "name": "Swirl 18.7 in. Matte Black Flush Mount Fandelier 8-Step CCT Ceiling Fan with Integrated LED with Remote Included",
@@ -8128,45 +8263,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012138078",
-   "price": 0.01
-  },
-  {
-   "sku": "1012308531",
-   "sku_display": "1012-308-531",
-   "name": "#10 x 1-3/4 in. Black 6-Lobe Torx Drive Exterior Flat Head Multi-Material Screw 1 lb. -Box (106-Piece)",
-   "brand": "Everbilt",
-   "model": null,
-   "retail": 12.98,
-   "internet_number": "331345380",
-   "reports": 1,
-   "states": {
-    "MI": 1
-   },
-   "first_reported": "2026-11-16",
-   "last_seen": "2026-11-16",
-   "image": "https://images.thdstatic.com/productImages/ff53ff7c-8dc5-41df-92c8-2e2b94c53b9d/svn/everbilt-wood-screws-115356-64_600.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1012308531/"
-    }
-   ],
-   "upc": "038902478344",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1012308531",
    "price": 0.01
   },
   {
@@ -8634,6 +8730,76 @@
    "price": 0.01
   },
   {
+   "sku": "1015028835",
+   "sku_display": "1015-028-835",
+   "name": "Scale White 3 in. x 8.5 in. Matte Rectangle Ceramic Wall Tile (5.70 sq. ft. /Case)",
+   "brand": "Jeffrey Court",
+   "model": "13363",
+   "retail": 45.53,
+   "internet_number": "339672150",
+   "reports": 1,
+   "states": {
+    "CO": 1
+   },
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": "https://images.thdstatic.com/productImages/fa57631e-1e0b-4581-8b1a-f5b77896b290/svn/white-jeffrey-court-ceramic-tile-13363-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "734647133639",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1015028835",
+   "price": 0.01
+  },
+  {
+   "sku": "1015125935",
+   "sku_display": "1015-125-935",
+   "name": "50-Watt Equivalent PAR20 Dimmable Adjustable Beam Angle LED Light Bulb With Seletable White (1-Pack)",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 9.98,
+   "internet_number": "336844214",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/6a97eba7-f52c-414a-9f99-24b936570fbc/svn/feit-electric-flood-and-spot-light-bulbs-par20-adj-6wyca-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "017801479232",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1015125935",
+   "price": 0.01
+  },
+  {
    "sku": "1015235917",
    "sku_display": "1015-235-917",
    "name": "Heavy Duty LED Construction String Light, 8000 Lumens, 80 Watts, 50 ft. Linkable",
@@ -8771,46 +8937,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015320210",
-   "price": 0.01
-  },
-  {
-   "sku": "1015344244",
-   "sku_display": "1015-344-244",
-   "name": "5-Piece Hand Tool Kit",
-   "brand": "Anvil",
-   "model": null,
-   "retail": 9.88,
-   "internet_number": "341074169",
-   "reports": 1,
-   "states": {
-    "GA": 1
-   },
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "image": "https://images.thdstatic.com/productImages/2e1d80cc-58b1-4207-b7b4-8c9d010e28e0/svn/metal-anvil-multi-tools-92120-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1015344244/"
-    }
-   ],
-   "upc": "820909921202",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1015344244",
    "price": 0.01
   },
   {
@@ -9240,6 +9366,83 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:546275",
+   "price": 0.01
+  },
+  {
+   "sku": "686826",
+   "sku_display": "686-826",
+   "name": "2-piece 1.28 GPF Single Flush Elongated Toilet in White",
+   "brand": "Glacier Bay",
+   "model": "TL-7620HC-EW",
+   "retail": 97.02,
+   "internet_number": "205116877",
+   "reports": 1,
+   "states": {
+    "CT": 1
+   },
+   "first_reported": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/6b86bbb4-2698-439e-a050-f87c9a8235e5/svn/white-glacier-bay-two-piece-toilets-tl-7620hc-ew-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/686826/"
+    }
+   ],
+   "upc": "721015365631",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [
+    "732291242868"
+   ],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:686826",
+   "price": 0.01
+  },
+  {
+   "sku": "699292",
+   "sku_display": "699-292",
+   "name": "Soft-Spray Plastic Ring Sprinkler",
+   "brand": "Orbit",
+   "model": null,
+   "retail": 4.98,
+   "internet_number": "100659312",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "image": "https://images.thdstatic.com/productImages/d6aee307-2b51-4d0f-9168-29493dce3c10/svn/orbit-stationary-sprinklers-27924-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "046878279247",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:699292",
    "price": 0.01
   },
   {
@@ -10271,39 +10474,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1013597637",
-   "price": 0.01
-  },
-  {
-   "sku": "686826",
-   "sku_display": "686-826",
-   "name": "12 in. Rough In Two-Piece 1.28 GPF Single Flush Elongated Toilet in White, Seat Included",
-   "brand": "Glacier Bay",
-   "model": null,
-   "retail": 0.0,
-   "internet_number": null,
-   "reports": 0,
-   "states": {},
-   "first_reported": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/686826/"
-    }
-   ],
-   "upc": "732291242868",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 0,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:686826",
    "price": 0.01
   },
   {
@@ -14466,9 +14636,11 @@
   },
   {
    "store": "dollar_general",
-   "name": "Frontier Tumbleweed Firestarters, 16 count",
-   "aka": [],
-   "upc": "016800228650",
+   "name": "Mott’s Animals Fruit Snacks, 10 ct",
+   "aka": [
+    "Mott’s Animals assorted fruit snacks, 10 count"
+   ],
+   "upc": "016000180017",
    "sku": null,
    "price": 0.01,
    "retail": null,
@@ -14480,6 +14652,59 @@
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
      "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:016000180017",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Jell-O No Bake Strawberry Cheesecake Dessert Kit, 19.6 oz",
+   "aka": [],
+   "upc": "016000226937",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:016000226937",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Frontier Tumbleweed Firestarters, 16 count",
+   "aka": [],
+   "upc": "016800228650",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -14499,9 +14724,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -14516,9 +14746,9 @@
   },
   {
    "store": "dollar_general",
-   "name": "Pennington Kwik Grass Quick Grass Coverage, 3 lbs",
+   "name": "Taco Bell Crunchy Taco Dinner Kit, 12 ct",
    "aka": [],
-   "upc": "021496021409",
+   "upc": "021000046843",
    "sku": null,
    "price": 0.01,
    "retail": null,
@@ -14530,6 +14760,30 @@
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
      "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:021000046843",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Pennington Kwik Grass Quick Grass Coverage, 3 lbs",
+   "aka": [],
+   "upc": "021496021409",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -14645,9 +14899,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -14671,9 +14930,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -14718,14 +14982,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -14742,14 +15006,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -14886,14 +15150,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -14910,14 +15174,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -14970,6 +15234,140 @@
    ],
    "source_count": 1,
    "id": "dg:038000303609",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Louisiana Gumbo Base Original, 5 oz",
+   "aka": [
+    "Louisiana Fish Fry Cajun gumbo base, 5 oz"
+   ],
+   "upc": "039156000077",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:039156000077",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Louisiana Fish Fry Seasoning Mix, 10 oz",
+   "aka": [
+    "Louisiana Fish Fry seasoned crispy seafood breading, 10 oz"
+   ],
+   "upc": "039156000107",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:039156000107",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Louisiana Cajun Fish Fry Mix, 10 oz",
+   "aka": [],
+   "upc": "039156000916",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:039156000916",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Louisiana Shrimp Fry Mix, 10 oz",
+   "aka": [],
+   "upc": "039156001050",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:039156001050",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Louisiana Lemon Fish Fry Mix, 10 oz",
+   "aka": [],
+   "upc": "039156002750",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:039156002750",
    "sku_display": "",
    "notes": "",
    "home_reports": 0
@@ -15120,6 +15518,30 @@
   },
   {
    "store": "dollar_general",
+   "name": "Fun Apples Strawberry Gelatin, 22 ct",
+   "aka": [],
+   "upc": "041420054617",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:041420054617",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Trolli Sour Squads Peg, 6.3 oz",
    "aka": [],
    "upc": "041420084720",
@@ -15144,10 +15566,10 @@
   },
   {
    "store": "dollar_general",
-   "name": "NK Lawn & Garden Sun & Shade Mix Grass Seed with WaterGard Technology, 2.5 lb",
+   "name": "Krusteaz Honey Cornbread & Muffin Mix, 15 oz",
    "aka": [],
-   "upc": null,
-   "sku": "04170042103",
+   "upc": "041449300115",
+   "sku": null,
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
@@ -15161,8 +15583,92 @@
     }
    ],
    "source_count": 1,
+   "id": "dg:041449300115",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "NK Lawn & Garden Sun & Shade Mix Grass Seed with WaterGard Technology, 2.5 lb",
+   "aka": [],
+   "upc": null,
+   "sku": "04170042103",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    }
+   ],
+   "source_count": 1,
    "id": "dg:04170042103",
    "sku_display": "04170042103",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Old El Paso Original Taco Seasoning, 3-pack",
+   "aka": [],
+   "upc": "046000117713",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:046000117713",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Old El Paso Soft Taco Kit, 12.5 oz",
+   "aka": [
+    "Old El Paso soft taco dinner kit, 12.5 oz"
+   ],
+   "upc": "046000287324",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:046000287324",
+   "sku_display": "",
    "notes": "",
    "home_reports": 0
   },
@@ -15192,9 +15698,9 @@
   },
   {
    "store": "dollar_general",
-   "name": "Audubon Park Wild Bird Seed Cake, 24 oz",
+   "name": "Juanita’s Nacho Cheese Sauce, 15 oz",
    "aka": [],
-   "upc": "070187724037",
+   "upc": "070132099111",
    "sku": null,
    "price": 0.01,
    "retail": null,
@@ -15206,6 +15712,61 @@
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
      "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:070132099111",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Juanita’s Spicy Nacho Cheese Sauce, 15 oz",
+   "aka": [
+    "Juanita’s hot and spicy nacho cheese sauce, 15 oz"
+   ],
+   "upc": "070132992009",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:070132992009",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Audubon Park Wild Bird Seed Cake, 24 oz",
+   "aka": [],
+   "upc": "070187724037",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -15432,6 +15993,90 @@
   },
   {
    "store": "dollar_general",
+   "name": "Camellia Red Kidney Beans, 16 oz",
+   "aka": [],
+   "upc": "071054000018",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:071054000018",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Camellia Great Northern Beans, 16 oz",
+   "aka": [],
+   "upc": "071054000070",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:071054000070",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Zatarain’s Dirty Rice, 8 oz",
+   "aka": [
+    "Zatarain’s Dirty Rice dinner mix, 8 oz"
+   ],
+   "upc": "071429095359",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:071429095359",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Raid Fly Stick, 1 ct",
    "aka": [],
    "upc": "072477986002",
@@ -15606,14 +16251,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -15630,14 +16275,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -15654,18 +16299,105 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "image": "https://images.thdstatic.com/productImages/ba00b0a2-92ee-4a01-9dcc-d1df19f87d1d/svn/miracle-gro-plant-food-fertilizer-3001820-64_1000.jpg",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:073561300186",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Sun-Bird Fried Rice Seasoning Mix, 0.74 oz",
+   "aka": [],
+   "upc": "074880070033",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
    "first_reported": "2026-11-17",
    "last_seen": "2026-11-17",
-   "image": "https://images.thdstatic.com/productImages/ba00b0a2-92ee-4a01-9dcc-d1df19f87d1d/svn/miracle-gro-plant-food-fertilizer-3001820-64_1000.jpg",
+   "image": null,
    "sources": [
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
      "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
     }
    ],
-   "source_count": 1,
-   "id": "dg:073561300186",
+   "source_count": 2,
+   "id": "dg:074880070033",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "La Costeña Refried Pinto Beans, 20.5 oz",
+   "aka": [],
+   "upc": "076397031507",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:076397031507",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "La Costeña Whole Black Beans, 19.75 oz",
+   "aka": [],
+   "upc": "076397032009",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    },
+    {
+     "name": "GlitchNDealz (2026-11-17)",
+     "url": "https://glitchndealz.com/penny-list-for-dollar-general",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 2,
+   "id": "dg:076397032009",
    "sku_display": "",
    "notes": "",
    "home_reports": 0
@@ -15744,6 +16476,30 @@
   },
   {
    "store": "dollar_general",
+   "name": "Rico’s Premium Cheddar Cheese Sauce, 15 oz",
+   "aka": [],
+   "upc": "079426231008",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:079426231008",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Ankle Socks, Red and Navy Stripe, White Band (photo only)",
    "aka": [
     "Striped Crew Socks"
@@ -15753,9 +16509,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -15779,9 +16540,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -15802,14 +16568,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -15850,14 +16616,14 @@
    "sku": "09874701",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -15874,14 +16640,14 @@
    "sku": "11060701",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://i5.walmartimages.com/asr/768f1426-67e1-4b2c-8fc1-5d178e0e9da9.0adf1d3fbb28151a8d68c788599c04bf.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16090,14 +16856,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16114,14 +16880,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16138,14 +16904,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16162,14 +16928,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16186,14 +16952,14 @@
    "sku": "19299561653",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16210,14 +16976,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16234,14 +17000,14 @@
    "sku": "19299561662",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16258,14 +17024,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16282,14 +17048,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16306,14 +17072,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16330,14 +17096,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16357,9 +17123,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -16383,9 +17154,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -16406,14 +17182,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16424,18 +17200,23 @@
   },
   {
    "store": "dollar_general",
-   "name": "Girls' Printed Socks",
+   "name": "Sw23g-Img-10pk Cheetah Sleep/Int/Scks Socks Astd 10ct",
    "aka": [
-    "Sw23g-Img-10pk Cheetah Sleep/Int/Scks Socks Astd 10ct"
+    "Girls' Printed Socks"
    ],
    "upc": "195609545141",
    "sku": null,
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -16456,14 +17237,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16480,14 +17261,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16504,14 +17285,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16528,14 +17309,14 @@
    "sku": "20351501",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-20351501-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16552,14 +17333,14 @@
    "sku": "22631201",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://i5.walmartimages.com/asr/4b54d08e-f86b-46b7-a1eb-b886bea5e533.ee3faf713de25c76f203df2987719a72.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -16685,6 +17466,30 @@
    "source_count": 1,
    "id": "dg:016000289048",
    "sku_display": "25226901",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Takis Paleta Fuego Candy, 2.54 oz",
+   "aka": [],
+   "upc": "757528043674",
+   "sku": "25250901",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:757528043674",
+   "sku_display": "25250901",
    "notes": "",
    "home_reports": 0
   },
@@ -16984,14 +17789,14 @@
    "sku": "31029101",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-31029101-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17093,6 +17898,30 @@
    "source_count": 1,
    "id": "dg:050000570584",
    "sku_display": "31996801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Totis Donitas Chili Lime Chips, 1.76 oz",
+   "aka": [],
+   "upc": "643795549325",
+   "sku": "33155801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:643795549325",
+   "sku_display": "33155801",
    "notes": "",
    "home_reports": 0
   },
@@ -17442,14 +18271,14 @@
    "sku": "40983101",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-40983101-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17466,14 +18295,14 @@
    "sku": "40983201",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-40983201-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17538,14 +18367,14 @@
    "sku": "42273401",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42273401-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17562,14 +18391,14 @@
    "sku": "42273901",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42273901-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17586,14 +18415,14 @@
    "sku": "42432501",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42432501-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17610,14 +18439,14 @@
    "sku": "42432601",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42432601-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17634,14 +18463,14 @@
    "sku": "42467401",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42467401-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17658,14 +18487,14 @@
    "sku": "42526201",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42526201-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17682,14 +18511,14 @@
    "sku": "42526801",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42526801-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17706,14 +18535,14 @@
    "sku": "42694901",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42694901-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17730,14 +18559,14 @@
    "sku": "42695001",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42695001-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17754,14 +18583,14 @@
    "sku": "42749401",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42749401-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17778,14 +18607,14 @@
    "sku": "42802801",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-42802801-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -17901,9 +18730,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -17918,18 +18752,23 @@
   },
   {
    "store": "dollar_general",
-   "name": "Smiley Tie-Dye Ankle Socks",
+   "name": "Smiley Tie-Dye Ankle Socks (photo only)",
    "aka": [
-    "Smiley Tie-Dye Ankle Socks (photo only)"
+    "Smiley Tie-Dye Ankle Socks"
    ],
    "upc": "430001857882",
    "sku": null,
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -17944,18 +18783,23 @@
   },
   {
    "store": "dollar_general",
-   "name": "Boys' Dinosaur Low-Cut Socks",
+   "name": "Dinosaur ankle socks, green and black (photo only, no printed name)",
    "aka": [
-    "Dinosaur ankle socks, green and black (photo only, no printed name)"
+    "Boys' Dinosaur Low-Cut Socks"
    ],
    "upc": "430002013379",
    "sku": null,
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -17970,18 +18814,23 @@
   },
   {
    "store": "dollar_general",
-   "name": "Pink Low-Cut Socks",
+   "name": "Pink Tie-Dye Ankle Socks (photo only)",
    "aka": [
-    "Pink Tie-Dye Ankle Socks (photo only)"
+    "Pink Low-Cut Socks"
    ],
    "upc": "430002013423",
    "sku": null,
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -18005,9 +18854,14 @@
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -18022,18 +18876,23 @@
   },
   {
    "store": "dollar_general",
-   "name": "Blue All Day Ankle Socks",
+   "name": "Fw23l-Img-All Day Sock Sleep/Int/Sock Ladies Socks Verbiage 1ct",
    "aka": [
-    "Fw23l-Img-All Day Sock Sleep/Int/Sock Ladies Socks Verbiage 1ct"
+    "Blue All Day Ankle Socks"
    ],
    "upc": "430002013454",
    "sku": null,
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -18078,14 +18937,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18102,14 +18961,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18126,14 +18985,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18150,14 +19009,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18176,14 +19035,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18200,14 +19059,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18224,14 +19083,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18248,14 +19107,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18272,14 +19131,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18296,14 +19155,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18320,14 +19179,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18344,14 +19203,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18368,14 +19227,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18392,14 +19251,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18416,14 +19275,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18440,14 +19299,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18464,14 +19323,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18488,14 +19347,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18512,14 +19371,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18536,14 +19395,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18560,14 +19419,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18584,14 +19443,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18608,14 +19467,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18632,14 +19491,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18656,14 +19515,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18680,14 +19539,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18704,14 +19563,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18728,14 +19587,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18752,14 +19611,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18776,14 +19635,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18800,14 +19659,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18824,14 +19683,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -18848,14 +19707,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19232,14 +20091,14 @@
    "sku": "43539501",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43539501-1",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19352,14 +20211,14 @@
    "sku": "44510401",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://pics.walgreens.com/prodimg/38996/450.jpg",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19376,14 +20235,14 @@
    "sku": "44510501",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://pics.walgreens.com/prodimg/38995/450.jpg",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19400,14 +20259,14 @@
    "sku": "44510601",
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": "https://pics.walgreens.com/prodimg/38997/450.jpg",
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19424,14 +20283,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19442,18 +20301,23 @@
   },
   {
    "store": "dollar_general",
-   "name": "Boys' Crew Socks",
+   "name": "Crew Socks, Grey and Black with Orange Logo, 5 pk (photo only)",
    "aka": [
-    "Crew Socks, Grey and Black with Orange Logo, 5 pk (photo only)"
+    "Boys' Crew Socks"
    ],
    "upc": "691466446695",
    "sku": null,
    "price": 0.01,
    "retail": null,
    "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -19516,11 +20380,9 @@
   },
   {
    "store": "dollar_general",
-   "name": "White Crew Socks",
-   "aka": [
-    "White Crew Socks, Grey Heel and Toe (photo only)"
-   ],
-   "upc": "730838981706",
+   "name": "Splenda Zero Calorie Granulated Sweetener, 3.8 oz",
+   "aka": [],
+   "upc": "722776005194",
    "sku": null,
    "price": 0.01,
    "retail": null,
@@ -19528,6 +20390,37 @@
    "last_seen": "2026-11-17",
    "image": null,
    "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:722776005194",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "White Crew Socks, Grey Heel and Toe (photo only)",
+   "aka": [
+    "White Crew Socks"
+   ],
+   "upc": "730838981706",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-20",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    },
     {
      "name": "Penny General list 2026-11-17",
      "url": "https://pennygeneral.net/lists/2026-11-17",
@@ -19548,14 +20441,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19585,6 +20478,30 @@
    "source_count": 1,
    "id": "dg:76440969344",
    "sku_display": "76440969344",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Clover Valley All-Vegetable Shortening, 16 oz",
+   "aka": [],
+   "upc": "7861048614207",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:7861048614207",
+   "sku_display": "",
    "notes": "",
    "home_reports": 0
   },
@@ -19764,14 +20681,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19812,6 +20729,30 @@
    "sku": "8161010137",
    "price": 0.01,
    "retail": null,
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:8161010137",
+   "sku_display": "8161010137",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "El Yucateco Hot Sauce, Green & Red Habanero, 4 oz",
+   "aka": [],
+   "upc": "816493010019",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
    "first_reported": "2026-11-17",
    "last_seen": "2026-11-17",
    "image": null,
@@ -19823,8 +20764,32 @@
     }
    ],
    "source_count": 1,
-   "id": "dg:8161010137",
-   "sku_display": "8161010137",
+   "id": "dg:816493010019",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "El Yucateco Hot Sauce, Green & Red Habanero, 4 oz",
+   "aka": [],
+   "upc": "816493010026",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:816493010026",
+   "sku_display": "",
    "notes": "",
    "home_reports": 0
   },
@@ -19860,14 +20825,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19884,14 +20849,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19908,14 +20873,14 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
    "image": null,
    "sources": [
     {
-     "name": "Penny General list 2026-11-17",
-     "url": "https://pennygeneral.net/lists/2026-11-17",
-     "date": "2026-11-17"
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
     }
    ],
    "source_count": 1,
@@ -19956,6 +20921,30 @@
    "sku": null,
    "price": 0.01,
    "retail": null,
+   "first_reported": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-20",
+     "url": "https://pennygeneral.net/lists/2026-11-20",
+     "date": "2026-11-20"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:850075229239",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Armour Lard Carton, 1 lb",
+   "aka": [],
+   "upc": "852585007062",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
    "first_reported": "2026-11-17",
    "last_seen": "2026-11-17",
    "image": null,
@@ -19967,7 +20956,7 @@
     }
    ],
    "source_count": 1,
-   "id": "dg:850075229239",
+   "id": "dg:852585007062",
    "sku_display": "",
    "notes": "",
    "home_reports": 0
@@ -20064,6 +21053,30 @@
    ],
    "source_count": 1,
    "id": "dg:873983000059",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Viloé Fruit Gelatin Jars, 49.38 oz",
+   "aka": [],
+   "upc": "890708001986",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-17",
+     "url": "https://pennygeneral.net/lists/2026-11-17",
+     "date": "2026-11-17"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:890708001986",
    "sku_display": "",
    "notes": "",
    "home_reports": 0
