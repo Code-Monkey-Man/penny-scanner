@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-20",
-   "fetched": "2026-11-20",
-   "count": 283,
+   "as_of": "2026-11-21",
+   "fetched": "2026-11-21",
+   "count": 286,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "count": 121,
    "sources": [
     {
@@ -80,7 +80,7 @@
   "dollar_general": {
    "name": "Dollar General",
    "as_of": "2026-11-20",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "count": 266,
    "sources": [
     {
@@ -157,11 +157,11 @@
    "model": "PBLSV716B",
    "retail": 199,
    "internet_number": "323830662",
-   "reports": 251,
+   "reports": 252,
    "states": {
     "NY": 23,
     "WA": 7,
-    "AZ": 13,
+    "AZ": 14,
     "PA": 9,
     "NJ": 5,
     "MA": 10,
@@ -194,7 +194,7 @@
     "MO": 1
    },
    "first_reported": "2025-12-30",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "image": "https://images.thdstatic.com/productImages/64e0d2df-d615-4342-9aae-229886bfcc8a/svn/ryobi-stick-vacuums-pblsv716b-64_600.jpg",
    "sources": [
     {
@@ -229,7 +229,7 @@
    "model": "N2316",
    "retail": 99,
    "internet_number": "331755742",
-   "reports": 130,
+   "reports": 136,
    "states": {
     "GA": 12,
     "IN": 4,
@@ -241,14 +241,14 @@
     "NV": 3,
     "MI": 6,
     "HI": 1,
-    "TX": 8,
+    "TX": 9,
     "IL": 2,
     "WA": 2,
     "NC": 6,
     "MA": 2,
-    "UT": 4,
+    "UT": 5,
     "MT": 1,
-    "OH": 6,
+    "OH": 7,
     "KS": 3,
     "WI": 3,
     "AR": 1,
@@ -257,13 +257,15 @@
     "OR": 3,
     "ME": 1,
     "NH": 1,
-    "NJ": 3,
+    "NJ": 4,
     "CO": 1,
     "SC": 1,
-    "KY": 1
+    "KY": 1,
+    "MO": 1,
+    "MN": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -283,7 +285,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 30,
+   "state_count": 32,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -693,7 +695,7 @@
    "model": "KNT1303AX-02",
    "retail": 69.97,
    "internet_number": "316704775",
-   "reports": 23,
+   "reports": 24,
    "states": {
     "MN": 2,
     "NC": 2,
@@ -707,10 +709,11 @@
     "NV": 1,
     "VA": 2,
     "CA": 2,
-    "UT": 1
+    "UT": 1,
+    "CO": 1
    },
    "first_reported": "2026-11-12",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "image": "https://images.thdstatic.com/productImages/e2b8342a-eeef-4664-a047-e4a0a767a33d/svn/black-home-decorators-collection-vanity-lighting-knt1303ax-02-64_1000.jpg",
    "sources": [
     {
@@ -727,7 +730,7 @@
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 2,
-   "state_count": 13,
+   "state_count": 14,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -792,7 +795,7 @@
    "model": "YLPT-43B",
    "retail": 14.99,
    "internet_number": "304521507",
-   "reports": 20,
+   "reports": 21,
    "states": {
     "FL": 6,
     "NY": 3,
@@ -804,10 +807,11 @@
     "KS": 1,
     "NM": 1,
     "MD": 1,
-    "CA": 1
+    "CA": 1,
+    "NJ": 1
    },
    "first_reported": "2026-11-05",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "image": "https://images.thdstatic.com/productImages/740ce6aa-bd6c-49e1-b56e-18bb69fc48ea/svn/black-commercial-electric-surge-protectors-ylpt-43b-64_1000.jpg",
    "sources": [
     {
@@ -824,11 +828,59 @@
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 11,
+   "state_count": 12,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
    "id": "hd:155180",
+   "price": 0.01
+  },
+  {
+   "sku": "1008778891",
+   "sku_display": "1008-778-891",
+   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
+   "brand": "DEWALT",
+   "model": null,
+   "retail": 24.97,
+   "internet_number": "322889139",
+   "reports": 17,
+   "states": {
+    "MA": 2,
+    "NY": 1,
+    "FL": 2,
+    "MN": 3,
+    "IL": 2,
+    "TX": 2,
+    "CA": 3,
+    "VA": 1,
+    "GA": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-20",
+   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008778891/"
+    }
+   ],
+   "upc": "885911831499",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 9,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008778891",
    "price": 0.01
   },
   {
@@ -978,53 +1030,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1007473601",
-   "price": 0.01
-  },
-  {
-   "sku": "1008778891",
-   "sku_display": "1008-778-891",
-   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
-   "brand": "DEWALT",
-   "model": null,
-   "retail": 24.97,
-   "internet_number": "322889139",
-   "reports": 15,
-   "states": {
-    "MA": 2,
-    "NY": 1,
-    "FL": 2,
-    "MN": 3,
-    "IL": 2,
-    "TX": 2,
-    "CA": 2,
-    "VA": 1
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-20",
-   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1008778891/"
-    }
-   ],
-   "upc": "885911831499",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 8,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1008778891",
    "price": 0.01
   },
   {
@@ -1580,6 +1585,52 @@
    "price": 0.01
   },
   {
+   "sku": "1014175343",
+   "sku_display": "1014-175-343",
+   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
+   "brand": "Lifeproof",
+   "model": null,
+   "retail": 63.24,
+   "internet_number": "336106074",
+   "reports": 8,
+   "states": {
+    "TN": 1,
+    "UT": 1,
+    "FL": 2,
+    "CA": 1,
+    "MI": 1,
+    "IA": 1,
+    "NJ": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-21",
+   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014175343/"
+    }
+   ],
+   "upc": "850066147375",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1014175343",
+   "price": 0.01
+  },
+  {
    "sku": "1002165889",
    "sku_display": "1002-165-889",
    "name": "Charcoal Grill Rake",
@@ -1626,7 +1677,7 @@
    "brand": "Hampton Bay",
    "model": null,
    "retail": 99.97,
-   "internet_number": "316704753",
+   "internet_number": null,
    "reports": 7,
    "states": {
     "OH": 2,
@@ -1637,12 +1688,8 @@
    },
    "first_reported": "2026-11-13",
    "last_seen": "2026-11-17",
-   "image": "https://images.thdstatic.com/productImages/2c8e9e56-22d3-4eb6-b38d-69431f1c5db4/svn/chrome-hampton-bay-vanity-lighting-kgl1391l-2-cr-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1006423742/"
@@ -1650,10 +1697,9 @@
    ],
    "upc": "6940500321318",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 5,
@@ -2023,7 +2069,7 @@
    "brand": "Milwaukee",
    "model": null,
    "retail": 24.88,
-   "internet_number": "341480235",
+   "internet_number": null,
    "reports": 5,
    "states": {
     "CO": 1,
@@ -2033,12 +2079,8 @@
    },
    "first_reported": "2026-11-04",
    "last_seen": "2026-11-17",
-   "image": "https://images.thdstatic.com/productImages/ac1044ef-e59d-47f7-90d0-b7e9b055774a/svn/milwaukee-work-gloves-48-73-8902pm-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1015399905/"
@@ -2046,10 +2088,9 @@
    ],
    "upc": "045242945207",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 4,
@@ -2095,6 +2136,49 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1000051004",
+   "price": 0.01
+  },
+  {
+   "sku": "1001514599",
+   "sku_display": "1001-514-599",
+   "name": "Alberson Collection 4-Light Brushed Nickel LED Vanity Light with Frosted Acrylic Shade",
+   "brand": "Home Decorators Collection",
+   "model": "28025-HBU",
+   "retail": 289,
+   "internet_number": "206303836",
+   "reports": 4,
+   "states": {
+    "OH": 1,
+    "KS": 1,
+    "RI": 1,
+    "NM": 1
+   },
+   "first_reported": "2026-11-15",
+   "last_seen": "2026-11-21",
+   "image": "https://images.thdstatic.com/productImages/00885530-4984-49c7-b98e-47ecee9ac3cc/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-vanity-lighting-28025-hbu-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1001514599/"
+    }
+   ],
+   "upc": "773546255677",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1001514599",
    "price": 0.01
   },
   {
@@ -2464,49 +2548,6 @@
    "price": 0.01
   },
   {
-   "sku": "1014175343",
-   "sku_display": "1014-175-343",
-   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
-   "brand": "Lifeproof",
-   "model": null,
-   "retail": 63.24,
-   "internet_number": "336106074",
-   "reports": 4,
-   "states": {
-    "TN": 1,
-    "UT": 1,
-    "FL": 1,
-    "CA": 1
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-20",
-   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1014175343/"
-    }
-   ],
-   "upc": "850066147375",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 4,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1014175343",
-   "price": 0.01
-  },
-  {
    "sku": "1015399906",
    "sku_display": "1015-399-906",
    "name": "Black Cut Level 1 Nitrile Dipped Gloves-XL",
@@ -2580,48 +2621,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:594924",
-   "price": 0.01
-  },
-  {
-   "sku": "1001514599",
-   "sku_display": "1001-514-599",
-   "name": "Alberson Collection 4-Light Brushed Nickel LED Vanity Light with Frosted Acrylic Shade",
-   "brand": "Home Decorators Collection",
-   "model": "28025-HBU",
-   "retail": 289,
-   "internet_number": "206303836",
-   "reports": 3,
-   "states": {
-    "OH": 1,
-    "KS": 1,
-    "RI": 1
-   },
-   "first_reported": "2026-11-15",
-   "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/00885530-4984-49c7-b98e-47ecee9ac3cc/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-vanity-lighting-28025-hbu-64_400.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1001514599/"
-    }
-   ],
-   "upc": "773546255677",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 3,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1001514599",
    "price": 0.01
   },
   {
@@ -3691,6 +3690,47 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1004043727",
+   "price": 0.01
+  },
+  {
+   "sku": "1004153623",
+   "sku_display": "1004-153-623",
+   "name": "TRINITY Black Anthracite 5-Tier Steel Wire Shelving Unit (48 in. W x 72 in. H x 18 in. D)",
+   "brand": "TRINITY",
+   "model": null,
+   "retail": 159,
+   "internet_number": "308561422",
+   "reports": 2,
+   "states": {
+    "GA": 1,
+    "FL": 1
+   },
+   "first_reported": "2025-12-30",
+   "last_seen": "2026-11-21",
+   "image": "https://images.thdstatic.com/productImages/5b8ee02e-a842-4313-b96a-c241f24ab713/svn/black-anthracite-trinity-freestanding-shelving-units-htbfpba-0950-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004153623/"
+    }
+   ],
+   "upc": "0813831022710",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1004153623",
    "price": 0.01
   },
   {
@@ -7161,6 +7201,45 @@
    "price": 0.01
   },
   {
+   "sku": "1005617865",
+   "sku_display": "1005-617-865",
+   "name": "15 Amp White Duplex Tamper-Resistant Outlets with 6 Amp USB Dual Type-C Power Delivery In-Wall Chargers",
+   "brand": "Leviton",
+   "model": null,
+   "retail": 39.99,
+   "internet_number": "314158292",
+   "reports": 1,
+   "states": {
+    "DE": 1
+   },
+   "first_reported": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "image": "https://images.thdstatic.com/productImages/989bdf34-d53c-47f3-aa96-30a1d49d6f1a/svn/white-leviton-outlets-r02-t5635-0bw-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005617865/"
+    }
+   ],
+   "upc": "078477978573",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1005617865",
+   "price": 0.01
+  },
+  {
    "sku": "1005649564",
    "sku_display": "1005-649-564",
    "name": "300 ft. Tan 24/4 Solid CU CAT5e CMR-CMX Indoor/Outdoor Data Cable",
@@ -7431,19 +7510,15 @@
    "brand": "HDX",
    "model": null,
    "retail": 2.88,
-   "internet_number": "320161274",
+   "internet_number": null,
    "reports": 1,
    "states": {
     "FL": 1
    },
    "first_reported": "2026-11-17",
    "last_seen": "2026-11-17",
-   "image": "https://images.thdstatic.com/productImages/6a1aecac-ac68-4e03-93ca-119a19764d97/svn/white-hdx-general-purpose-spray-paint-af75005uf-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1007607449/"
@@ -9552,6 +9627,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:735600",
+   "price": 0.01
+  },
+  {
+   "sku": "766881",
+   "sku_display": "766-881",
+   "name": "4 oz. in A Bottle Synthetic Fuel Additive",
+   "brand": "Mechanic in a Bottle",
+   "model": null,
+   "retail": 7.97,
+   "internet_number": "202580655",
+   "reports": 1,
+   "states": {
+    "FL": 1
+   },
+   "first_reported": "2026-11-21",
+   "last_seen": "2026-11-21",
+   "image": "https://images.thdstatic.com/productImages/9b54fd22-4a6d-46ab-a1cf-457f2272ac48/svn/mechanic-in-a-bottle-fuel-additives-2-004-1-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/766881/"
+    }
+   ],
+   "upc": "856202002027",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:766881",
    "price": 0.01
   },
   {
