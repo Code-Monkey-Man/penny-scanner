@@ -1,0 +1,64 @@
+# Copy to config.toml and edit. Every value here overrides the built-in default.
+
+[woot]
+# Feeds: All, Clearance, Computers, Electronics, Featured, Home, Gourmet, Shirts, Sports, Tools, Wootoff
+feeds = ["All"]
+skip_categories = ["Shirts", "Gourmet", "Wine"]
+min_price = 15.0
+max_price = 1500.0
+shipping_cost = 6.0          # set 0.0 if your Amazon Prime is linked to Woot (free shipping)
+sales_tax_rate = 0.0975      # Clarksville / Montgomery County, TN
+max_pages = 40               # 100 offers per page; each page = 1 of your 1,000 daily Woot calls
+
+[ebay]
+marketplace = "EBAY_US"
+results_per_query = 50
+max_queries = 300            # eBay Browse API default quota is 5,000 calls/day
+min_comps = 5                # need at least this many matching listings to flag
+
+[pricing]
+sell_percentile = 0.30       # list low enough to actually sell: 30th percentile of active comps
+active_to_sold_haircut = 0.90  # active asking prices run above what things sell for
+fee_rate = 0.136             # eBay final value fee for most categories — verify for yours
+fee_fixed = 0.40             # per-order fee
+local_price_factor = 0.75    # local cash price vs. eBay median item price
+default_outbound_shipping = 15.0
+
+# Outbound label cost by keyword in the title (largest match wins)
+[pricing.shipping_by_keyword]
+earbuds = 6
+headphones = 10
+watch = 8
+phone = 9
+tablet = 12
+laptop = 20
+drill = 18
+"impact driver" = 18
+saw = 30
+vacuum = 25
+"pressure cooker" = 22
+"air fryer" = 22
+blender = 20
+monitor = 35
+tv = 70
+grill = 80
+generator = 120
+mower = 120
+"pressure washer" = 90
+
+[filters]
+min_profit = 25.0            # dollars, best channel
+min_roi = 0.25               # 25% return on all-in cost
+
+[local]
+fb_city_slug = "nashville"   # used only to build FB Marketplace search links
+
+[cache]
+ttl_hours = 12
+path = "cache.sqlite"
+
+[secrets]
+# Prefer env vars instead. Leave blank here if using env vars.
+# WOOT_API_KEY = ""
+# EBAY_CLIENT_ID = ""
+# EBAY_CLIENT_SECRET = ""

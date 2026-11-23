@@ -1,5 +1,5 @@
 // Offline cache: app shell cache-first, penny-list.json network-first (falls back to cached copy in-store with bad signal).
-const CACHE = 'penny-scanner-v3-tn';
+const CACHE = 'penny-scanner-v4-tn';
 const SHELL = ['./', './index.html', './app.js', './vendor/zxing.min.js', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './penny-list.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL.map(u => new Request(u, {cache: 'reload'}))))); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k))))); self.clients.claim(); });

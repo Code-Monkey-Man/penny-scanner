@@ -1,9 +1,10 @@
-# Refreshes penny-list.json every morning and commits it. GitHub Pages then serves the new list.
+# Refreshes penny-list.json every morning, ranks it into hunt.html, and commits both.
+# GitHub Pages then serves the new list and hunt page.
 # Run it by hand anytime: Actions tab -> "Refresh penny list" -> Run workflow.
 name: Refresh penny list
 on:
   schedule:
-    - cron: "17 11 * * *"   # 6:17 AM Central (5:17 during daylight time)
+    - cron: "17 11 * * *"   # 5:17 AM Central (6:17 during daylight time)
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -11,17 +12,30 @@ concurrency: refresh
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+      EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
+      - name: Restore eBay comp cache
+        uses: actions/cache@v4
+        with:
+          path: hunt_cache.sqlite
+          key: hunt-cache-${{ github.run_id }}
+          restore-keys: hunt-cache-
       - name: Rebuild list
         run: python3 update_list.py
+      - name: Rank hunt list (eBay comps if keys are set)
+        run: python3 hunt.py --page-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/hunt.html"
       - name: Commit if changed
         run: |
           git config user.name "penny-bot"
           git config user.email "penny-bot@users.noreply.github.com"
-          git add penny-list.json
+          git add penny-list.json hunt.html hunt.json
           git diff --cached --quiet && { echo "No change"; exit 0; }
           git commit -m "Penny list refresh $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
           git push

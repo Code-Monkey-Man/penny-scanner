@@ -2,3 +2,5 @@ raw/
 __pycache__/
 *.pyc
 test*.py
+*.sqlite
+woot/reports/

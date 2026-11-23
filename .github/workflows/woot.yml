@@ -1,0 +1,51 @@
+# Daily Woot -> eBay/local resale scan. Publishes deals/woot.html to GitHub Pages and
+# pushes a phone notification for newly flagged flips.
+# Needs repo secrets WOOT_API_KEY, EBAY_CLIENT_ID, EBAY_CLIENT_SECRET (NTFY_TOPIC optional).
+# Skips quietly until the Woot and eBay keys are added.
+name: Woot flips
+on:
+  schedule:
+    - cron: "13 13 * * *"   # 7:13 AM Central (8:13 during daylight time)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: refresh          # same group as the penny refresh, so pushes never collide
+jobs:
+  woot:
+    runs-on: ubuntu-latest
+    env:
+      WOOT_API_KEY: ${{ secrets.WOOT_API_KEY }}
+      EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+      EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+    steps:
+      - name: Check keys
+        if: env.WOOT_API_KEY == '' || env.EBAY_CLIENT_ID == '' || env.EBAY_CLIENT_SECRET == ''
+        run: echo "::notice::Woot/eBay secrets not set yet; skipping."
+      - uses: actions/checkout@v4
+        if: env.WOOT_API_KEY != '' && env.EBAY_CLIENT_ID != '' && env.EBAY_CLIENT_SECRET != ''
+      - uses: actions/setup-python@v5
+        if: env.WOOT_API_KEY != '' && env.EBAY_CLIENT_ID != '' && env.EBAY_CLIENT_SECRET != ''
+        with: {python-version: "3.12"}
+      - name: Restore Woot/eBay cache (keeps "NEW" tracking between runs)
+        if: env.WOOT_API_KEY != '' && env.EBAY_CLIENT_ID != '' && env.EBAY_CLIENT_SECRET != ''
+        uses: actions/cache@v4
+        with:
+          path: woot/cache.sqlite
+          key: woot-cache-${{ github.run_id }}
+          restore-keys: woot-cache-
+      - name: Run Woot scan
+        if: env.WOOT_API_KEY != '' && env.EBAY_CLIENT_ID != '' && env.EBAY_CLIENT_SECRET != ''
+        run: >
+          python3 woot/woot_flip.py --site-dir deals
+          --report-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/deals/woot.html"
+      - name: Commit report
+        if: env.WOOT_API_KEY != '' && env.EBAY_CLIENT_ID != '' && env.EBAY_CLIENT_SECRET != ''
+        run: |
+          git config user.name "penny-bot"
+          git config user.email "penny-bot@users.noreply.github.com"
+          git add deals/woot.html deals/woot.csv
+          git diff --cached --quiet && { echo "No change"; exit 0; }
+          git commit -m "Woot scan $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push

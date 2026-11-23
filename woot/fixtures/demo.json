@@ -1,0 +1,1639 @@
+{
+ "_note": "FAKE demo data for offline testing only",
+ "feed": [
+  {
+   "OfferId": "o1",
+   "Title": "Dyson V8 Absolute Cordless Vacuum (Refurbished)",
+   "Url": "https://www.woot.com/offers/o1",
+   "Condition": "Refurbished",
+   "Categories": [
+    "Home"
+   ],
+   "Site": "www.woot.com",
+   "SalePrice": {
+    "Minimum": 179.99,
+    "Maximum": 179.99
+   },
+   "ListPrice": {
+    "Minimum": 399.99,
+    "Maximum": 399.99
+   },
+   "IsSoldOut": false
+  },
+  {
+   "OfferId": "o2",
+   "Title": "DEWALT 20V MAX XR Brushless Hammer Drill Kit DCD996P2",
+   "Url": "https://www.woot.com/offers/o2",
+   "Condition": "New",
+   "Categories": [
+    "Tools"
+   ],
+   "Site": "www.woot.com",
+   "SalePrice": {
+    "Minimum": 199.99,
+    "Maximum": 199.99
+   },
+   "ListPrice": {
+    "Minimum": 379.0,
+    "Maximum": 379.0
+   },
+   "IsSoldOut": false
+  },
+  {
+   "OfferId": "o3",
+   "Title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+   "Url": "https://www.woot.com/offers/o3",
+   "Condition": "Refurbished",
+   "Categories": [
+    "Electronics"
+   ],
+   "Site": "www.woot.com",
+   "SalePrice": {
+    "Minimum": 229.99,
+    "Maximum": 229.99
+   },
+   "ListPrice": {
+    "Minimum": 399.99,
+    "Maximum": 399.99
+   },
+   "IsSoldOut": false
+  },
+  {
+   "OfferId": "o4",
+   "Title": "Ninja Foodi 8-in-1 Pressure Cooker - Your Choice",
+   "Url": "https://www.woot.com/offers/o4",
+   "Condition": "New",
+   "Categories": [
+    "Home"
+   ],
+   "Site": "www.woot.com",
+   "SalePrice": {
+    "Minimum": 89.99,
+    "Maximum": 89.99
+   },
+   "ListPrice": {
+    "Minimum": 179.99,
+    "Maximum": 179.99
+   },
+   "IsSoldOut": false
+  },
+  {
+   "OfferId": "o5",
+   "Title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+   "Url": "https://www.woot.com/offers/o5",
+   "Condition": "Refurbished",
+   "Categories": [
+    "Tools"
+   ],
+   "Site": "www.woot.com",
+   "SalePrice": {
+    "Minimum": 499.0,
+    "Maximum": 499.0
+   },
+   "ListPrice": {
+    "Minimum": 1099.0,
+    "Maximum": 1099.0
+   },
+   "IsSoldOut": false
+  },
+  {
+   "OfferId": "o6",
+   "Title": "Woot Logo Tee",
+   "Url": "https://www.woot.com/offers/o6",
+   "Condition": "New",
+   "Categories": [
+    "Shirts"
+   ],
+   "Site": "www.woot.com",
+   "SalePrice": {
+    "Minimum": 12.0,
+    "Maximum": 12.0
+   },
+   "ListPrice": {
+    "Minimum": 20.0,
+    "Maximum": 20.0
+   },
+   "IsSoldOut": false
+  }
+ ],
+ "offers": [
+  {
+   "Id": "o1",
+   "Title": "Dyson V8 Absolute Cordless Vacuum (Refurbished)",
+   "Url": "https://www.woot.com/offers/o1",
+   "Items": [
+    {
+     "Id": "o1a",
+     "Title": "Dyson V8 Absolute Cordless Vacuum (Refurbished)",
+     "Asin": "B0DEMO0001",
+     "SalePrice": 179.99,
+     "ListPrice": 399.99,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "Refurbished"
+      },
+      {
+       "Key": "Color",
+       "Value": "Black"
+      }
+     ]
+    },
+    {
+     "Id": "o1b",
+     "Title": "Dyson V8 Absolute Cordless Vacuum (Refurbished)",
+     "Asin": "B0DEMO0001",
+     "SalePrice": 179.99,
+     "ListPrice": 399.99,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "Refurbished"
+      },
+      {
+       "Key": "Color",
+       "Value": "Gray"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "Id": "o2",
+   "Title": "DEWALT 20V MAX XR Brushless Hammer Drill Kit DCD996P2",
+   "Url": "https://www.woot.com/offers/o2",
+   "Items": [
+    {
+     "Id": "o2a",
+     "Title": "DEWALT 20V MAX XR Brushless Hammer Drill Kit DCD996P2",
+     "Asin": "B0DEMO0002",
+     "SalePrice": 199.99,
+     "ListPrice": 379.0,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "New"
+      },
+      {
+       "Key": "Color",
+       "Value": "Black"
+      }
+     ]
+    },
+    {
+     "Id": "o2b",
+     "Title": "DEWALT 20V MAX XR Brushless Hammer Drill Kit DCD996P2",
+     "Asin": "B0DEMO0002",
+     "SalePrice": 199.99,
+     "ListPrice": 379.0,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "New"
+      },
+      {
+       "Key": "Color",
+       "Value": "Gray"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "Id": "o3",
+   "Title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+   "Url": "https://www.woot.com/offers/o3",
+   "Items": [
+    {
+     "Id": "o3a",
+     "Title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+     "Asin": "B0DEMO0003",
+     "SalePrice": 229.99,
+     "ListPrice": 399.99,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "Refurbished"
+      },
+      {
+       "Key": "Color",
+       "Value": "Black"
+      }
+     ]
+    },
+    {
+     "Id": "o3b",
+     "Title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+     "Asin": "B0DEMO0003",
+     "SalePrice": 229.99,
+     "ListPrice": 399.99,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "Refurbished"
+      },
+      {
+       "Key": "Color",
+       "Value": "Gray"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "Id": "o4",
+   "Title": "Ninja Foodi 8-in-1 Pressure Cooker - Your Choice",
+   "Url": "https://www.woot.com/offers/o4",
+   "Items": [
+    {
+     "Id": "o4a",
+     "Title": "Ninja Foodi 8-in-1 Pressure Cooker - Your Choice",
+     "Asin": "B0DEMO0004",
+     "SalePrice": 89.99,
+     "ListPrice": 179.99,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "New"
+      },
+      {
+       "Key": "Color",
+       "Value": "Black"
+      }
+     ]
+    },
+    {
+     "Id": "o4b",
+     "Title": "Ninja Foodi 8-in-1 Pressure Cooker - Your Choice",
+     "Asin": "B0DEMO0004",
+     "SalePrice": 89.99,
+     "ListPrice": 179.99,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "New"
+      },
+      {
+       "Key": "Color",
+       "Value": "Gray"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "Id": "o5",
+   "Title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+   "Url": "https://www.woot.com/offers/o5",
+   "Items": [
+    {
+     "Id": "o5a",
+     "Title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+     "Asin": "B0DEMO0005",
+     "SalePrice": 499.0,
+     "ListPrice": 1099.0,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "Refurbished"
+      },
+      {
+       "Key": "Color",
+       "Value": "Black"
+      }
+     ]
+    },
+    {
+     "Id": "o5b",
+     "Title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+     "Asin": "B0DEMO0005",
+     "SalePrice": 499.0,
+     "ListPrice": 1099.0,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "Refurbished"
+      },
+      {
+       "Key": "Color",
+       "Value": "Gray"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "Id": "o6",
+   "Title": "Woot Logo Tee",
+   "Url": "https://www.woot.com/offers/o6",
+   "Items": [
+    {
+     "Id": "o6a",
+     "Title": "Woot Logo Tee",
+     "Asin": null,
+     "SalePrice": 12.0,
+     "ListPrice": 20.0,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "New"
+      },
+      {
+       "Key": "Color",
+       "Value": "Black"
+      }
+     ]
+    },
+    {
+     "Id": "o6b",
+     "Title": "Woot Logo Tee",
+     "Asin": null,
+     "SalePrice": 12.0,
+     "ListPrice": 20.0,
+     "Attributes": [
+      {
+       "Key": "Condition",
+       "Value": "New"
+      },
+      {
+       "Key": "Color",
+       "Value": "Gray"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ebay": {
+  "Dyson V8": [
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "256.05",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO5942859575"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "277.31",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3301595691"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "258.77",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3179419893"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "237.44",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7157461338"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "239.54",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9979544025"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "262.59",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO5070378921"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "272.51",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO2703729684"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "298.46",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9790005680"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "290.80",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6538829718"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "244.38",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1776213899"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "272.80",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3744112455"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "259.21",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9859611191"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "238.87",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6179553247"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "279.23",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6644219119"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "273.06",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7241379376"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "254.48",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO4411833895"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "280.43",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO2048386555"
+   },
+   {
+    "title": "Dyson V8 Absolute Cordless Stick Vacuum Refurbished",
+    "price": {
+     "value": "272.34",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7550669089"
+   },
+   {
+    "title": "Dyson V8 Absolute vacuum FOR PARTS not working",
+    "price": {
+     "value": "120.00",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9053654215"
+   },
+   {
+    "title": "Replacement battery for Dyson V8 Absolute",
+    "price": {
+     "value": "80.00",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO8427910944"
+   }
+  ],
+  "DCD996P2": [
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "334.28",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3337446730"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "342.20",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7888784125"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "357.54",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9871378905"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "320.79",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO8891869609"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "335.56",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO2006443827"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "379.74",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7340888752"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "358.34",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1646892613"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "358.09",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7542013488"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "364.48",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1275012945"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "365.49",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3538753386"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "338.08",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9012378464"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "348.36",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9069439544"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "362.85",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9251055966"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "343.70",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO5018314376"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "372.73",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1418563100"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "328.16",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6226919132"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "377.93",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6587864975"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "350.43",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7807841460"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "355.06",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9178484336"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "360.92",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO4989790985"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "371.38",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO8991377354"
+   },
+   {
+    "title": "DEWALT DCD996P2 20V MAX XR Brushless 3-Speed Hammer Drill Kit NEW",
+    "price": {
+     "value": "377.88",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3444298126"
+   }
+  ],
+  "WH-1000XM5": [
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "234.40",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3530266207"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "225.51",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1017581913"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "231.76",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7727384337"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "253.12",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO5526864997"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "250.98",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6980221859"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "230.96",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO5739655724"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "240.37",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1267352360"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "217.69",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6191598346"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "221.49",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1225810525"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "215.01",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1109525498"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "249.97",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7932373532"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "220.94",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6859037352"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "219.91",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO8941123622"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "254.72",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7296376791"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "234.35",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1368871838"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "219.09",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6432089498"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "248.15",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1099195379"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "253.04",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7563815544"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "220.86",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7563180069"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "254.14",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO4707952786"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "242.85",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6012407366"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "245.88",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO4662012810"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "247.24",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO8809680535"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "244.59",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1973838693"
+   },
+   {
+    "title": "Sony WH-1000XM5 Noise Canceling Headphones Black",
+    "price": {
+     "value": "235.71",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6495060795"
+   }
+  ],
+  "Ninja Foodi": [
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "131.48",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9403168264"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "136.18",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9538558444"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "148.88",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO2566099205"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "130.51",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6269262716"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "129.92",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO6172744211"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "140.60",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO4609643115"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "136.99",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO8099486649"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "144.99",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO3837193785"
+   },
+   {
+    "title": "Ninja Foodi 8-in-1 Pressure Cooker Air Fryer 6.5 qt",
+    "price": {
+     "value": "147.74",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "12.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO4221828754"
+   }
+  ],
+  "Champion 4500": [
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "965.66",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO7758270010"
+   },
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "914.19",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO5567528386"
+   },
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "982.47",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9546151771"
+   },
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "890.62",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO4438530739"
+   },
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "929.26",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO1647532367"
+   },
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "915.27",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO8596903318"
+   },
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "984.73",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO9779729471"
+   },
+   {
+    "title": "Champion 4500-Watt Dual Fuel Inverter Generator",
+    "price": {
+     "value": "953.74",
+     "currency": "USD"
+    },
+    "shippingOptions": [
+     {
+      "shippingCost": {
+       "value": "0.00"
+      }
+     }
+    ],
+    "itemWebUrl": "https://www.ebay.com/itm/DEMO5487984185"
+   }
+  ]
+ }
+}

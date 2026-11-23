@@ -20,6 +20,8 @@ REGION = {
         "Murfreesboro, TN", "Spring Hill, TN", "Columbia, TN", "Portland, TN",
     ],
     "home_store": {"name": "Home Depot Clarksville", "state": "TN"},
+    # States bordering home; reports there raise an item's local likelihood in hunt.py
+    "neighbor_states": ["KY", "AL", "GA", "MS", "AR", "MO", "VA", "NC"],
 }
 
 HOME_STATE = REGION["state"]
