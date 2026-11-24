@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-23",
-   "fetched": "2026-11-23",
-   "count": 266,
+   "as_of": "2026-11-24",
+   "fetched": "2026-11-24",
+   "count": 264,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "count": 121,
    "sources": [
     {
@@ -80,14 +80,14 @@
   "dollar_general": {
    "name": "Dollar General",
    "as_of": "2026-11-24",
-   "fetched": "2026-11-23",
-   "count": 396,
+   "fetched": "2026-11-24",
+   "count": 423,
    "sources": [
     {
      "name": "Penny General list 2026-11-24",
      "url": "https://pennygeneral.net/lists/2026-11-24",
      "date": "2026-11-24",
-     "items": 349
+     "items": 376
     },
     {
      "name": "Penny General list 2026-11-23",
@@ -129,7 +129,7 @@
    "name": "Penny General list 2026-11-24",
    "url": "https://pennygeneral.net/lists/2026-11-24",
    "date": "2026-11-24",
-   "items": 349,
+   "items": 376,
    "store": "dollar_general"
   },
   {
@@ -229,14 +229,14 @@
    "model": "N2316",
    "retail": 99,
    "internet_number": "331755742",
-   "reports": 171,
+   "reports": 181,
    "states": {
-    "GA": 13,
-    "IN": 5,
-    "CA": 18,
+    "GA": 14,
+    "IN": 6,
+    "CA": 19,
     "CT": 4,
-    "AZ": 11,
-    "FL": 16,
+    "AZ": 12,
+    "FL": 17,
     "NY": 15,
     "NV": 3,
     "MI": 6,
@@ -244,15 +244,15 @@
     "TX": 13,
     "IL": 4,
     "WA": 2,
-    "NC": 6,
+    "NC": 7,
     "MA": 3,
     "UT": 5,
     "MT": 1,
     "OH": 9,
     "KS": 3,
-    "WI": 6,
+    "WI": 7,
     "AR": 1,
-    "PA": 3,
+    "PA": 4,
     "MD": 2,
     "OR": 4,
     "ME": 1,
@@ -261,12 +261,14 @@
     "CO": 2,
     "SC": 1,
     "KY": 1,
-    "MO": 1,
+    "MO": 2,
     "MN": 3,
-    "AL": 1
+    "AL": 1,
+    "VA": 1,
+    "OK": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -286,7 +288,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 33,
+   "state_count": 35,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -365,32 +367,33 @@
    "model": null,
    "retail": 79,
    "internet_number": "100030159",
-   "reports": 73,
+   "reports": 82,
    "states": {
     "IL": 7,
     "MI": 4,
-    "TN": 3,
-    "TX": 7,
-    "FL": 3,
+    "TN": 5,
+    "TX": 8,
+    "FL": 4,
     "NJ": 3,
-    "CA": 12,
-    "MA": 2,
+    "CA": 14,
+    "MA": 3,
     "MS": 6,
     "NY": 4,
     "MN": 1,
     "WA": 2,
     "NM": 1,
     "GA": 1,
-    "OH": 4,
+    "OH": 5,
     "MD": 4,
     "NV": 3,
     "CT": 3,
     "LA": 1,
     "PA": 1,
-    "AL": 1
+    "AL": 1,
+    "MT": 1
    },
    "first_reported": "2026-09-23",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "image": "https://images.thdstatic.com/productImages/49981bea-07e3-4c94-81e8-c65ba9d9ac24/svn/milwaukee-hand-trucks-hd800p-64_1000.jpg",
    "sources": [
     {
@@ -409,8 +412,8 @@
    ],
    "upc_verified": true,
    "upc_alt": [],
-   "home_reports": 3,
-   "state_count": 21,
+   "home_reports": 5,
+   "state_count": 22,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -556,7 +559,7 @@
     "LA": 2,
     "AZ": 2,
     "MI": 3,
-    "NY": 2,
+    "NY": 1,
     "IN": 1
    },
    "first_reported": "2026-08-25",
@@ -740,6 +743,57 @@
    "price": 0.01
   },
   {
+   "sku": "1008778891",
+   "sku_display": "1008-778-891",
+   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
+   "brand": "DEWALT",
+   "model": null,
+   "retail": 24.97,
+   "internet_number": "322889139",
+   "reports": 27,
+   "states": {
+    "MA": 2,
+    "NY": 1,
+    "FL": 3,
+    "MN": 4,
+    "IL": 3,
+    "TX": 4,
+    "CA": 4,
+    "VA": 2,
+    "GA": 1,
+    "KY": 1,
+    "CO": 1,
+    "TN": 1
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008778891/"
+    }
+   ],
+   "upc": "885911831499",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 12,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008778891",
+   "price": 0.01
+  },
+  {
    "sku": "1006423739",
    "sku_display": "1006-423-739",
    "name": "Hazel Heights 24 in. 3-Light Black Rustic Farmhouse Bathroom Vanity Light",
@@ -790,31 +844,31 @@
    "price": 0.01
   },
   {
-   "sku": "1008778891",
-   "sku_display": "1008-778-891",
-   "name": "Maxfit Modular 3/8 in. Drive Right Angle Attachment",
-   "brand": "DEWALT",
-   "model": null,
-   "retail": 24.97,
-   "internet_number": "322889139",
-   "reports": 24,
+   "sku": "1007473601",
+   "sku_display": "1007-473-601",
+   "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit with 4.0 Ah HIGH PERFORMANCE Battery and Charger",
+   "brand": "RYOBI",
+   "model": "PBLSV716K",
+   "retail": 199,
+   "internet_number": "319713490",
+   "reports": 25,
    "states": {
-    "MA": 2,
-    "NY": 1,
-    "FL": 3,
-    "MN": 4,
-    "IL": 3,
-    "TX": 3,
-    "CA": 3,
-    "VA": 1,
+    "TN": 3,
+    "CA": 4,
+    "IN": 3,
+    "MI": 2,
     "GA": 1,
-    "KY": 1,
-    "CO": 1,
-    "TN": 1
+    "OH": 2,
+    "CO": 3,
+    "AZ": 2,
+    "WA": 1,
+    "NJ": 1,
+    "MS": 1,
+    "NY": 2
    },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/5b5d1ce8-b378-469b-99d5-79fb4143a223/svn/dewalt-drill-attachments-dwamra38-64_1000.jpg",
+   "first_reported": "2026-09-21",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/98132532-80b5-452a-b7cf-c100b058225d/svn/ryobi-stick-vacuums-pblsv716k-64_1000.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -822,22 +876,22 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1008778891/"
+     "url": "https://www.pennyrecon.com/item/1007473601/"
     }
    ],
-   "upc": "885911831499",
+   "upc": "033287206537",
    "upc_sources": [
     "Penny Recon",
     "PennyCentral"
    ],
    "upc_verified": true,
    "upc_alt": [],
-   "home_reports": 1,
+   "home_reports": 3,
    "state_count": 12,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1008778891",
+   "id": "hd:1007473601",
    "price": 0.01
   },
   {
@@ -848,7 +902,7 @@
    "model": null,
    "retail": 99.97,
    "internet_number": "311728493",
-   "reports": 22,
+   "reports": 24,
    "states": {
     "NM": 2,
     "VA": 1,
@@ -863,10 +917,12 @@
     "AL": 1,
     "PA": 2,
     "MN": 1,
-    "CO": 2
+    "CO": 2,
+    "OR": 1,
+    "FL": 1
    },
    "first_reported": "2026-11-11",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "image": "https://images.thdstatic.com/productImages/09cbb8f3-73f2-41c8-af8a-3fcacfa515fe/svn/brushed-nickel-with-frosted-glass-home-decorators-collection-wall-sconces-28616-hbur-64_1000.jpg",
    "sources": [
     {
@@ -886,7 +942,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 14,
+   "state_count": 16,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -941,53 +997,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015053805",
-   "price": 0.01
-  },
-  {
-   "sku": "1007473601",
-   "sku_display": "1007-473-601",
-   "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit with 4.0 Ah HIGH PERFORMANCE Battery and Charger",
-   "brand": "RYOBI",
-   "model": "PBLSV716K",
-   "retail": 199,
-   "internet_number": "319713490",
-   "reports": 18,
-   "states": {
-    "TN": 3,
-    "CA": 4,
-    "IN": 3,
-    "MI": 2,
-    "GA": 1,
-    "OH": 2,
-    "CO": 1,
-    "AZ": 2
-   },
-   "first_reported": "2026-09-21",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/98132532-80b5-452a-b7cf-c100b058225d/svn/ryobi-stick-vacuums-pblsv716k-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007473601/"
-    }
-   ],
-   "upc": "033287206537",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 3,
-   "state_count": 8,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007473601",
    "price": 0.01
   },
   {
@@ -1053,7 +1062,7 @@
    "reports": 14,
    "states": {
     "CA": 2,
-    "NY": 4,
+    "NY": 3,
     "MI": 4,
     "IL": 1,
     "TX": 2,
@@ -1555,6 +1564,49 @@
    "price": 0.01
   },
   {
+   "sku": "1007608689",
+   "sku_display": "1007-608-689",
+   "name": "Milwaukee PACKOUT M18 Battery Rack",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 24.97,
+   "internet_number": "320089596",
+   "reports": 8,
+   "states": {
+    "TX": 2,
+    "CA": 3,
+    "NY": 2,
+    "TN": 1
+   },
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/5e87d486-d320-446b-b841-1a0f96bdf513/svn/red-milwaukee-garage-storage-hooks-48-22-8339-64_100.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007608689/"
+    }
+   ],
+   "upc": "045242618026",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1007608689",
+   "price": 0.01
+  },
+  {
    "sku": "1007984718",
    "sku_display": "1007-984-718",
    "name": "Milwaukee 18 in. Red 4-Way Stretch Cut 3 Resistant Protective Arm Sleeves",
@@ -1674,6 +1726,50 @@
    "price": 0.01
   },
   {
+   "sku": "1004372760",
+   "sku_display": "1004-372-760",
+   "name": "15 Amp 10 in. Portable Corded Pro Jobsite Table Saw with Stand",
+   "brand": "RIDGID",
+   "model": "R4514",
+   "retail": 549,
+   "internet_number": "309415135",
+   "reports": 7,
+   "states": {
+    "SC": 2,
+    "CA": 2,
+    "VA": 1,
+    "OH": 1,
+    "AZ": 1
+   },
+   "first_reported": "2026-11-11",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/168e4060-a20d-4665-9db6-29e67b268842/svn/ridgid-portable-table-saws-r4514-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004372760/"
+    }
+   ],
+   "upc": "648846071206",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 5,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1004372760",
+   "price": 0.01
+  },
+  {
    "sku": "1006423742",
    "sku_display": "1006-423-742",
    "name": "Havelock 22.7 in. 1-Light Chrome Integrated LED Bathroom Vanity Light Bar with Clear Seedy Glass",
@@ -1749,50 +1845,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012951109",
-   "price": 0.01
-  },
-  {
-   "sku": "1004372760",
-   "sku_display": "1004-372-760",
-   "name": "15 Amp 10 in. Portable Corded Pro Jobsite Table Saw with Stand",
-   "brand": "RIDGID",
-   "model": "R4514",
-   "retail": 549,
-   "internet_number": "309415135",
-   "reports": 6,
-   "states": {
-    "SC": 1,
-    "CA": 2,
-    "VA": 1,
-    "OH": 1,
-    "AZ": 1
-   },
-   "first_reported": "2026-11-11",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/168e4060-a20d-4665-9db6-29e67b268842/svn/ridgid-portable-table-saws-r4514-64_400.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1004372760/"
-    }
-   ],
-   "upc": "648846071206",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 5,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1004372760",
    "price": 0.01
   },
   {
@@ -1896,13 +1948,18 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/564184/"
     }
    ],
    "upc": "672763109162",
    "upc_sources": [
+    "Penny Recon",
     "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 5,
@@ -2367,6 +2424,49 @@
    "price": 0.01
   },
   {
+   "sku": "1005447581",
+   "sku_display": "1005-447-581",
+   "name": "5-Tier Steel Wire Shelving Unit with Casters in Chrome (48 in. W x 72 in. H x 18 in. D)",
+   "brand": "HDX",
+   "model": null,
+   "retail": 159,
+   "internet_number": "313687955",
+   "reports": 4,
+   "states": {
+    "WI": 1,
+    "CT": 1,
+    "UT": 1,
+    "TN": 1
+   },
+   "first_reported": "2026-11-17",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/8bf65127-7ca9-4af4-9ce0-1b8c1508dbb2/svn/chrome-hdx-freestanding-shelving-units-eh-wsthdus-505-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005447581/"
+    }
+   ],
+   "upc": "886096003909",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1005447581",
+   "price": 0.01
+  },
+  {
    "sku": "1005447639",
    "sku_display": "1005-447-639",
    "name": "3/4 in. x 2 ft. x 4 ft. Radiata Pine Plywood (Actual: 0.719 in. x 23.75 in. x 47.75 in.) Project Panel",
@@ -2715,10 +2815,11 @@
     "TN": 1,
     "AR": 1,
     "MN": 1,
-    "UT": 1
+    "UT": 1,
+    "NJ": 1
    },
    "first_reported": "2026-11-10",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-23",
    "image": null,
    "sources": [
     {
@@ -2733,7 +2834,7 @@
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
-   "state_count": 4,
+   "state_count": 5,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -2777,48 +2878,6 @@
    "price": 0.01
   },
   {
-   "sku": "1005447581",
-   "sku_display": "1005-447-581",
-   "name": "5-Tier Steel Wire Shelving Unit with Casters in Chrome (48 in. W x 72 in. H x 18 in. D)",
-   "brand": "HDX",
-   "model": null,
-   "retail": 159,
-   "internet_number": "313687955",
-   "reports": 3,
-   "states": {
-    "WI": 1,
-    "CT": 1,
-    "UT": 1
-   },
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/8bf65127-7ca9-4af4-9ce0-1b8c1508dbb2/svn/chrome-hdx-freestanding-shelving-units-eh-wsthdus-505-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1005447581/"
-    }
-   ],
-   "upc": "886096003909",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 3,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1005447581",
-   "price": 0.01
-  },
-  {
    "sku": "1005958731",
    "sku_display": "1005-958-731",
    "name": "1-1/4 in. AMPED Demo Demon Universal Fit Carbide Teeth Oscillating Tool Blades for General Purpose Cuts",
@@ -2851,42 +2910,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1005958731",
-   "price": 0.01
-  },
-  {
-   "sku": "1007608689",
-   "sku_display": "1007-608-689",
-   "name": "Milwaukee PACKOUT M18 Battery Rack",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 24.97,
-   "internet_number": null,
-   "reports": 3,
-   "states": {
-    "TX": 2,
-    "CA": 1
-   },
-   "first_reported": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007608689/"
-    }
-   ],
-   "upc": "045242618026",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007608689",
    "price": 0.01
   },
   {
@@ -3289,6 +3312,48 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:147856",
+   "price": 0.01
+  },
+  {
+   "sku": "277533",
+   "sku_display": "277-533",
+   "name": "25 ft. 14/3 Medium Duty Indoor/Outdoor Extension Cord, Red/Black",
+   "brand": "Husky",
+   "model": "63025HY",
+   "retail": 34.98,
+   "internet_number": "204340323",
+   "reports": 3,
+   "states": {
+    "NY": 1,
+    "TX": 1,
+    "ME": 1
+   },
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/0a3040e9-5010-40b2-8fde-9e469445a571/svn/husky-general-purpose-cords-63025hy-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/277533/"
+    }
+   ],
+   "upc": "044882400190",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:277533",
    "price": 0.01
   },
   {
@@ -3908,9 +3973,10 @@
    ],
    "upc": "081516859276",
    "upc_sources": [
+    "Penny Recon",
     "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 1,
@@ -4229,13 +4295,18 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008626687/"
     }
    ],
    "upc": "889818049131",
    "upc_sources": [
+    "Penny Recon",
     "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 2,
@@ -4797,7 +4868,7 @@
    "brand": "Everbilt",
    "model": null,
    "retail": 12.98,
-   "internet_number": "331345380",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "MI": 1,
@@ -4805,12 +4876,8 @@
    },
    "first_reported": "2026-11-16",
    "last_seen": "2026-11-18",
-   "image": "https://images.thdstatic.com/productImages/ff53ff7c-8dc5-41df-92c8-2e2b94c53b9d/svn/everbilt-wood-screws-115356-64_600.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1012308531/"
@@ -4818,10 +4885,9 @@
    ],
    "upc": "038902478344",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -5076,6 +5142,47 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1013986442",
+   "price": 0.01
+  },
+  {
+   "sku": "1013994799",
+   "sku_display": "1013-994-799",
+   "name": "Video Doorbell System - Wireless - Battery Operated Smart Video Doorbell Camera and Included Sync Module Core,White",
+   "brand": "Blink",
+   "model": null,
+   "retail": 41.63,
+   "internet_number": "335470309",
+   "reports": 2,
+   "states": {
+    "NM": 1,
+    "CA": 1
+   },
+   "first_reported": "2026-11-23",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/32437009-5459-485b-8951-6280bb6a3a54/svn/white-blink-doorbell-cameras-b0dgqvd8fg-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013994799/"
+    }
+   ],
+   "upc": "840414660892",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1013994799",
    "price": 0.01
   },
   {
@@ -5342,19 +5449,15 @@
    "brand": "Orbit",
    "model": null,
    "retail": 4.98,
-   "internet_number": "100659312",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "NY": 2
    },
    "first_reported": "2026-11-18",
    "last_seen": "2026-11-18",
-   "image": "https://images.thdstatic.com/productImages/d6aee307-2b51-4d0f-9168-29493dce3c10/svn/orbit-stationary-sprinklers-27924-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/699292/"
@@ -5362,10 +5465,9 @@
    ],
    "upc": "046878279247",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 1,
@@ -5414,6 +5516,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:735567",
+   "price": 0.01
+  },
+  {
+   "sku": "766881",
+   "sku_display": "766-881",
+   "name": "4 oz. in A Bottle Synthetic Fuel Additive",
+   "brand": "Mechanic in a Bottle",
+   "model": null,
+   "retail": 7.97,
+   "internet_number": "202580655",
+   "reports": 2,
+   "states": {
+    "FL": 2
+   },
+   "first_reported": "2026-11-21",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/9b54fd22-4a6d-46ab-a1cf-457f2272ac48/svn/mechanic-in-a-bottle-fuel-additives-2-004-1-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/766881/"
+    }
+   ],
+   "upc": "856202002027",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:766881",
    "price": 0.01
   },
   {
@@ -5549,39 +5690,6 @@
    "price": 0.01
   },
   {
-   "sku": "1001537861",
-   "sku_display": "1001-537-861",
-   "name": "Locking Grill Tongs in Stainless Steel",
-   "brand": "Nexgrill",
-   "model": null,
-   "retail": 12.98,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "PA": 1
-   },
-   "first_reported": "2026-10-24",
-   "last_seen": "2026-10-24",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1001537861/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1001537861",
-   "price": 0.01
-  },
-  {
    "sku": "1001588216",
    "sku_display": "1001-588-216",
    "name": "Deck Belt for 42 in. cut Murray mowers, Replaces OEM number 37X88",
@@ -5633,6 +5741,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1001848471/"
     }
    ],
    "upc": "885785054642",
@@ -5716,28 +5828,34 @@
    "price": 0.01
   },
   {
-   "sku": "1002270370",
-   "sku_display": "1002-270-370",
-   "name": "Griddle Spatula in Stainless Steel with Hanging Hole",
-   "brand": "Nexgrill",
+   "sku": "1002580883",
+   "sku_display": "1002-580-883",
+   "name": "MAX Alkaline AAA Batteries, 30 Pack",
+   "brand": "Energizer",
    "model": null,
-   "retail": 9.98,
-   "internet_number": null,
+   "retail": 17.67,
+   "internet_number": "302292202",
    "reports": 1,
    "states": {
-    "PA": 1
+    "MA": 1
    },
-   "first_reported": "2026-10-24",
-   "last_seen": "2026-10-24",
-   "image": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/c156bb41-851c-5eaf-9d7c-1783fb063edf/svn/energizer-aaa-batteries-e92sbp30h-64_1000.jpg",
    "sources": [
     {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1002270370/"
+     "url": "https://www.pennyrecon.com/item/1002580883/"
     }
    ],
-   "upc": null,
-   "upc_sources": [],
+   "upc": "039800131157",
+   "upc_sources": [
+    "PennyCentral"
+   ],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -5745,7 +5863,7 @@
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1002270370",
+   "id": "hd:1002580883",
    "price": 0.01
   },
   {
@@ -6361,6 +6479,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004682323/"
     }
    ],
    "upc": "885785841365",
@@ -6416,29 +6538,23 @@
    "name": "Elmbrook 60 in. x 30.25 in. Soaking Bathtub with Left-Hand Drain in White",
    "brand": "KOHLER",
    "model": null,
-   "retail": 439,
-   "internet_number": "311699619",
+   "retail": 439.0,
+   "internet_number": null,
    "reports": 1,
    "states": {
     "FL": 1
    },
    "first_reported": "2026-11-18",
    "last_seen": "2026-11-18",
-   "image": "https://images.thdstatic.com/productImages/b208fca1-97ef-4ef4-ae6a-a712867c7398/svn/white-kohler-alcove-bathtubs-k-r23217-la-0-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1004869199/"
     }
    ],
-   "upc": "885612835048",
-   "upc_sources": [
-    "PennyCentral"
-   ],
+   "upc": null,
+   "upc_sources": [],
    "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
@@ -6771,6 +6887,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006710224/"
     }
    ],
    "upc": "042206155412",
@@ -6950,39 +7070,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1007765241",
-   "price": 0.01
-  },
-  {
-   "sku": "1007843660",
-   "sku_display": "1007-843-660",
-   "name": "Fiona 7.28 in. Pedestal Sink Basin in White Fine Fireclay with 4 in. Faucet Spread",
-   "brand": "Glacier Bay",
-   "model": null,
-   "retail": 64.67,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "ME": 1
-   },
-   "first_reported": "2026-10-24",
-   "last_seen": "2026-10-24",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007843660/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007843660",
    "price": 0.01
   },
   {
@@ -7910,39 +7997,6 @@
    "price": 0.01
   },
   {
-   "sku": "1012707744",
-   "sku_display": "1012-707-744",
-   "name": "Westport 12 in. W x 83.25 in. H White Laminate Board Traditional 6 Shelf Closet System Tower",
-   "brand": "StyleWell",
-   "model": null,
-   "retail": 79.98,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "ME": 1
-   },
-   "first_reported": "2026-10-24",
-   "last_seen": "2026-10-24",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1012707744/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1012707744",
-   "price": 0.01
-  },
-  {
    "sku": "1012824025",
    "sku_display": "1012-824-025",
    "name": "Sundae Single Handle 1-Spray Tub and Shower Faucet 1.75 GPM in. Polished Chrome (Valve Included)",
@@ -7994,6 +8048,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013121027/"
     }
    ],
    "upc": null,
@@ -8105,41 +8163,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1013921840",
-   "price": 0.01
-  },
-  {
-   "sku": "1013994799",
-   "sku_display": "1013-994-799",
-   "name": "Video Doorbell System - Wireless - Battery Operated Smart Video Doorbell Camera and Included Sync Module Core,White",
-   "brand": "Blink",
-   "model": null,
-   "retail": 41.63,
-   "internet_number": "335470309",
-   "reports": 1,
-   "states": {
-    "NM": 1
-   },
-   "first_reported": "2026-11-23",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/32437009-5459-485b-8951-6280bb6a3a54/svn/white-blink-doorbell-cameras-b0dgqvd8fg-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    }
-   ],
-   "upc": "840414660892",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1013994799",
    "price": 0.01
   },
   {
@@ -8499,6 +8522,10 @@
     {
      "name": "PennyCentral",
      "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015665670/"
     }
    ],
    "upc": "008925177999",
@@ -8942,45 +8969,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:735600",
-   "price": 0.01
-  },
-  {
-   "sku": "766881",
-   "sku_display": "766-881",
-   "name": "4 oz. in A Bottle Synthetic Fuel Additive",
-   "brand": "Mechanic in a Bottle",
-   "model": null,
-   "retail": 7.97,
-   "internet_number": "202580655",
-   "reports": 1,
-   "states": {
-    "FL": 1
-   },
-   "first_reported": "2026-11-21",
-   "last_seen": "2026-11-21",
-   "image": "https://images.thdstatic.com/productImages/9b54fd22-4a6d-46ab-a1cf-457f2272ac48/svn/mechanic-in-a-bottle-fuel-additives-2-004-1-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/766881/"
-    }
-   ],
-   "upc": "856202002027",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:766881",
    "price": 0.01
   },
   {
@@ -14213,6 +14201,102 @@
   },
   {
    "store": "dollar_general",
+   "name": "Halloween Cat & Ghost Paper Plates",
+   "aka": [],
+   "upc": "011179900497",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:011179900497",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween Skeleton Paper Plates",
+   "aka": [],
+   "upc": "011179900732",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:011179900732",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Ghost Shaped Paper Plates",
+   "aka": [],
+   "upc": "011179900794",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:011179900794",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween Striped Napkins, 16 ct",
+   "aka": [],
+   "upc": "011179901388",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:011179901388",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Children’s Tylenol Cold + Flu Oral Suspension, 4 oz (Alternate)",
    "aka": [],
    "upc": "300450304148",
@@ -14969,6 +15053,30 @@
    ],
    "source_count": 1,
    "id": "dg:032281829704",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Bluey Halloween Throw",
+   "aka": [],
+   "upc": "032281839642",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:032281839642",
    "sku_display": "",
    "notes": "",
    "home_reports": 0
@@ -18002,6 +18110,30 @@
   },
   {
    "store": "dollar_general",
+   "name": "Ladies' \"Spooky Season\" Sweatshirt",
+   "aka": [],
+   "upc": "198647664034",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:198647664034",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Sweet Smiles Lollipop Red Blue White Bag 5 ctUPC",
    "aka": [
     "Sweet Smiles Lollipop RWB 5 ct"
@@ -19191,7 +19323,7 @@
    "retail": null,
    "first_reported": "2026-11-23",
    "last_seen": "2026-11-24",
-   "image": "https://pennypinchinmom.com/wp-content/uploads/2026/11/Tylenol-Child-Cold-Relief-Multi-Symptom-4-fl-oz.png",
+   "image": "https://pics.walgreens.com/prodimg/158142/450.jpg",
    "sources": [
     {
      "name": "Penny General list 2026-11-24",
@@ -19573,7 +19705,7 @@
    "retail": null,
    "first_reported": "2026-11-23",
    "last_seen": "2026-11-24",
-   "image": "https://pennypinchinmom.com/wp-content/uploads/2026/11/Alka-Seltzer-Plus-Cough-Chest-Congestion-Fizz-20-ct.png",
+   "image": "https://pics.walgreens.com/prodimg/656401/450.jpg",
    "sources": [
     {
      "name": "Penny General list 2026-11-24",
@@ -22313,6 +22445,54 @@
   },
   {
    "store": "dollar_general",
+   "name": "Ghost Print Halloween Treat Bag",
+   "aka": [],
+   "upc": "430002400971",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002400971",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Bootiful Sticker Friends Activity Book",
+   "aka": [],
+   "upc": "430002402869",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002402869",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Studio Selection Sport SPF 100 Sunscreen Spray, 5.5 oz",
    "aka": [
     "Studio Selection SPF 100 Sport Spray 5.5oz"
@@ -22423,6 +22603,30 @@
   },
   {
    "store": "dollar_general",
+   "name": "Halloween Kids Tumbler with Straw",
+   "aka": [],
+   "upc": "430002402388",
+   "sku": "43847201",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43847201-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002402388",
+   "sku_display": "43847201",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
    "name": "Wyler's Italian Ice Tropical 8ct",
    "aka": [],
    "upc": "072392948048",
@@ -22442,6 +22646,318 @@
    "source_count": 1,
    "id": "dg:072392948048",
    "sku_display": "43867001",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Jack-O'-Lantern Pumpkin Pillow",
+   "aka": [],
+   "upc": "430002406324",
+   "sku": "43918802",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43918802-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002406324",
+   "sku_display": "43918802",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Trick or Treat Cauldron Pillow",
+   "aka": [],
+   "upc": "430002406331",
+   "sku": "43918803",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43918803-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002406331",
+   "sku_display": "43918803",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Rest in Pieces Tombstone Pillow",
+   "aka": [],
+   "upc": "430002406348",
+   "sku": "43918804",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43918804-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002406348",
+   "sku_display": "43918804",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween \"Fortune Teller\" Hanging Sign",
+   "aka": [],
+   "upc": "430002406607",
+   "sku": "43920001",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43920001-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002406607",
+   "sku_display": "43920001",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Battery Operated Purple LED Lights",
+   "aka": [],
+   "upc": "430002406935",
+   "sku": "43921502",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43921502-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002406935",
+   "sku_display": "43921502",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "24 in LED Spider Web Lights",
+   "aka": [],
+   "upc": "430002407048",
+   "sku": "43921804",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43921804-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002407048",
+   "sku_display": "43921804",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Inflatable Black Cat Yard Decor, 36 in",
+   "aka": [],
+   "upc": "430002407338",
+   "sku": "43923605",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43923605-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002407338",
+   "sku_display": "43923605",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween Soft Throw",
+   "aka": [],
+   "upc": "430002407475",
+   "sku": "43924501",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43924501-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002407475",
+   "sku_display": "43924501",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween Spider Hanging Bow",
+   "aka": [],
+   "upc": "430002407833",
+   "sku": "43926601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43926601-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002407833",
+   "sku_display": "43926601",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Boo Ghost Hanging Decor",
+   "aka": [],
+   "upc": "430002407857",
+   "sku": "43926801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43926801-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002407857",
+   "sku_display": "43926801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween \"Boo\" Garland",
+   "aka": [],
+   "upc": "430002407956",
+   "sku": "43927801",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-43927801-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:430002407956",
+   "sku_display": "43927801",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Disney Stitch Halloween Throw",
+   "aka": [],
+   "upc": "032281839840",
+   "sku": "43949603",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:032281839840",
+   "sku_display": "43949603",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Disney Nightmare Before Christmas Throw",
+   "aka": [],
+   "upc": "032281839857",
+   "sku": "43949605",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:032281839857",
+   "sku_display": "43949605",
    "notes": "",
    "home_reports": 0
   },
@@ -22710,6 +23226,30 @@
    "source_count": 1,
    "id": "dg:071121974044",
    "sku_display": "44219201",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Ghouls Just Wanna Have Fun Tumbler",
+   "aka": [],
+   "upc": "198647664058",
+   "sku": "44435601",
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": "https://s7d1.scene7.com/is/image/dolgen/dg-44435601-1",
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:198647664058",
+   "sku_display": "44435601",
    "notes": "",
    "home_reports": 0
   },
@@ -23442,6 +23982,102 @@
    "source_count": 1,
    "id": "dg:79400474360",
    "sku_display": "79400474360",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Haunted House Coloring & Activity Book",
+   "aka": [],
+   "upc": "805219665688",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:805219665688",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Happy Halloween Coloring & Activity Book",
+   "aka": [],
+   "upc": "805219665701",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:805219665701",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween Sticker Face Activity Book",
+   "aka": [],
+   "upc": "805219665732",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:805219665732",
+   "sku_display": "",
+   "notes": "",
+   "home_reports": 0
+  },
+  {
+   "store": "dollar_general",
+   "name": "Halloween Sticker Face Activity Book, Witch",
+   "aka": [],
+   "upc": "805219665749",
+   "sku": null,
+   "price": 0.01,
+   "retail": null,
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny General list 2026-11-24",
+     "url": "https://pennygeneral.net/lists/2026-11-24",
+     "date": "2026-11-24"
+    }
+   ],
+   "source_count": 1,
+   "id": "dg:805219665749",
+   "sku_display": "",
    "notes": "",
    "home_reports": 0
   },
