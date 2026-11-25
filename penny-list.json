@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,9 +44,9 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-24",
-   "fetched": "2026-11-24",
-   "count": 264,
+   "as_of": "2026-11-25",
+   "fetched": "2026-11-25",
+   "count": 262,
    "sources": [
     {
      "name": "PennyCentral",
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-24",
+   "fetched": "2026-11-25",
    "count": 121,
    "sources": [
     {
@@ -80,7 +80,7 @@
   "dollar_general": {
    "name": "Dollar General",
    "as_of": "2026-11-24",
-   "fetched": "2026-11-24",
+   "fetched": "2026-11-25",
    "count": 423,
    "sources": [
     {
@@ -229,7 +229,7 @@
    "model": "N2316",
    "retail": 99,
    "internet_number": "331755742",
-   "reports": 181,
+   "reports": 186,
    "states": {
     "GA": 14,
     "IN": 6,
@@ -244,7 +244,7 @@
     "TX": 13,
     "IL": 4,
     "WA": 2,
-    "NC": 7,
+    "NC": 8,
     "MA": 3,
     "UT": 5,
     "MT": 1,
@@ -254,21 +254,21 @@
     "AR": 1,
     "PA": 4,
     "MD": 2,
-    "OR": 4,
+    "OR": 5,
     "ME": 1,
     "NH": 1,
-    "NJ": 6,
+    "NJ": 7,
     "CO": 2,
     "SC": 1,
     "KY": 1,
-    "MO": 2,
+    "MO": 3,
     "MN": 3,
     "AL": 1,
-    "VA": 1,
+    "VA": 2,
     "OK": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -303,7 +303,7 @@
    "model": "K40526",
    "retail": 19.88,
    "internet_number": "335104182",
-   "reports": 121,
+   "reports": 122,
    "states": {
     "TX": 18,
     "NY": 13,
@@ -316,7 +316,7 @@
     "KS": 1,
     "LA": 2,
     "TN": 3,
-    "OR": 3,
+    "OR": 4,
     "CO": 2,
     "MO": 1,
     "MA": 3,
@@ -335,7 +335,7 @@
     "VA": 1
    },
    "first_reported": "2026-08-08",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-25",
    "image": "https://images.thdstatic.com/productImages/820881bc-6a07-4009-89d8-a940a267e55f/svn/husky-work-lights-k40526-64_1000.jpg",
    "sources": [
     {
@@ -590,10 +590,10 @@
    "sku_display": "1006-374-596",
    "name": "12000 Lumens/6000 Lumens Portable LED Work Light",
    "brand": "Husky",
-   "model": null,
+   "model": "HD12000DIM",
    "retail": 69.97,
-   "internet_number": null,
-   "reports": 39,
+   "internet_number": "316803941",
+   "reports": 43,
    "states": {
     "NJ": 2,
     "CA": 8,
@@ -601,23 +601,27 @@
     "AK": 1,
     "KY": 1,
     "MN": 1,
-    "IL": 2,
+    "IL": 3,
     "OH": 5,
-    "FL": 4,
+    "FL": 5,
     "VA": 1,
     "MI": 3,
     "AZ": 1,
-    "NY": 1,
+    "NY": 2,
     "TX": 2,
     "PA": 1,
     "TN": 1,
     "MA": 1,
-    "MD": 1
+    "MD": 2
    },
    "first_reported": "2026-07-17",
-   "last_seen": "2026-11-09",
-   "image": null,
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/92caa4dd-f0d0-4991-aa21-07225932f175/svn/husky-jobsite-lighting-hd12000dim-64_1000.jpg",
    "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1006374596/"
@@ -625,9 +629,10 @@
    ],
    "upc": "819286011200",
    "upc_sources": [
-    "Penny Recon"
+    "Penny Recon",
+    "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 18,
@@ -644,7 +649,7 @@
    "brand": "Milwaukee",
    "model": null,
    "retail": 21.97,
-   "internet_number": "326839587",
+   "internet_number": null,
    "reports": 29,
    "states": {
     "VA": 1,
@@ -665,12 +670,8 @@
    },
    "first_reported": "2026-10-30",
    "last_seen": "2026-11-18",
-   "image": "https://images.thdstatic.com/productImages/80ae809b-3875-4497-a2f0-095374f17838/svn/milwaukee-wire-strippers-48-22-3080-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1010362919/"
@@ -678,10 +679,9 @@
    ],
    "upc": "045242847556",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 15,
@@ -750,7 +750,7 @@
    "model": null,
    "retail": 24.97,
    "internet_number": "322889139",
-   "reports": 27,
+   "reports": 28,
    "states": {
     "MA": 2,
     "NY": 1,
@@ -763,7 +763,8 @@
     "GA": 1,
     "KY": 1,
     "CO": 1,
-    "TN": 1
+    "TN": 1,
+    "NJ": 1
    },
    "first_reported": "2026-11-12",
    "last_seen": "2026-11-24",
@@ -786,11 +787,62 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 1,
-   "state_count": 12,
+   "state_count": 13,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
    "id": "hd:1008778891",
+   "price": 0.01
+  },
+  {
+   "sku": "1007473601",
+   "sku_display": "1007-473-601",
+   "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit with 4.0 Ah HIGH PERFORMANCE Battery and Charger",
+   "brand": "RYOBI",
+   "model": "PBLSV716K",
+   "retail": 199,
+   "internet_number": "319713490",
+   "reports": 27,
+   "states": {
+    "TN": 3,
+    "CA": 5,
+    "IN": 3,
+    "MI": 2,
+    "GA": 1,
+    "OH": 2,
+    "CO": 3,
+    "AZ": 2,
+    "WA": 2,
+    "NJ": 1,
+    "MS": 1,
+    "NY": 2
+   },
+   "first_reported": "2026-09-21",
+   "last_seen": "2026-11-24",
+   "image": "https://images.thdstatic.com/productImages/98132532-80b5-452a-b7cf-c100b058225d/svn/ryobi-stick-vacuums-pblsv716k-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007473601/"
+    }
+   ],
+   "upc": "033287206537",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 3,
+   "state_count": 12,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1007473601",
    "price": 0.01
   },
   {
@@ -841,57 +893,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006423739",
-   "price": 0.01
-  },
-  {
-   "sku": "1007473601",
-   "sku_display": "1007-473-601",
-   "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit with 4.0 Ah HIGH PERFORMANCE Battery and Charger",
-   "brand": "RYOBI",
-   "model": "PBLSV716K",
-   "retail": 199,
-   "internet_number": "319713490",
-   "reports": 25,
-   "states": {
-    "TN": 3,
-    "CA": 4,
-    "IN": 3,
-    "MI": 2,
-    "GA": 1,
-    "OH": 2,
-    "CO": 3,
-    "AZ": 2,
-    "WA": 1,
-    "NJ": 1,
-    "MS": 1,
-    "NY": 2
-   },
-   "first_reported": "2026-09-21",
-   "last_seen": "2026-11-24",
-   "image": "https://images.thdstatic.com/productImages/98132532-80b5-452a-b7cf-c100b058225d/svn/ryobi-stick-vacuums-pblsv716k-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007473601/"
-    }
-   ],
-   "upc": "033287206537",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 3,
-   "state_count": 12,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007473601",
    "price": 0.01
   },
   {
@@ -956,7 +957,7 @@
    "brand": "Flexon",
    "model": null,
    "retail": 24.98,
-   "internet_number": "339901942",
+   "internet_number": null,
    "reports": 21,
    "states": {
     "GA": 3,
@@ -973,12 +974,8 @@
    },
    "first_reported": "2026-09-10",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/ff6c09cc-8f39-4b79-b2db-e8cc2d5357af/svn/black-flexon-garden-hoses-wcm58100hd-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1015053805/"
@@ -986,10 +983,9 @@
    ],
    "upc": "0044882106467",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 11,
@@ -1052,54 +1048,13 @@
    "price": 0.01
   },
   {
-   "sku": "1006967311",
-   "sku_display": "1006-967-311",
-   "name": "POWERSERIES+ 20-Volt MAX Lithium-Ion Cordless Bagless Stick Vacuum Cleaner",
-   "brand": "BLACK+DECKER",
-   "model": null,
-   "retail": 99.99,
-   "internet_number": null,
-   "reports": 14,
-   "states": {
-    "CA": 2,
-    "NY": 3,
-    "MI": 4,
-    "IL": 1,
-    "TX": 2,
-    "MA": 1,
-    "VT": 1
-   },
-   "first_reported": "2026-09-23",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006967311/"
-    }
-   ],
-   "upc": "885911743693",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 7,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006967311",
-   "price": 0.01
-  },
-  {
    "sku": "527997",
    "sku_display": "527-997",
    "name": "Instant-Read Grill Thermometer",
    "brand": "Weber",
    "model": null,
    "retail": 16.99,
-   "internet_number": "300592283",
+   "internet_number": null,
    "reports": 14,
    "states": {
     "TX": 1,
@@ -1115,12 +1070,8 @@
    },
    "first_reported": "2026-11-03",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/8f89791d-cecd-4596-94af-58ee9c66c759/svn/weber-grill-thermometers-6750-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/527997/"
@@ -1128,10 +1079,9 @@
    ],
    "upc": "077924048395",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 10,
@@ -1139,6 +1089,54 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:527997",
+   "price": 0.01
+  },
+  {
+   "sku": "1014175343",
+   "sku_display": "1014-175-343",
+   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
+   "brand": "Lifeproof",
+   "model": null,
+   "retail": 63.24,
+   "internet_number": "336106074",
+   "reports": 13,
+   "states": {
+    "TN": 1,
+    "UT": 1,
+    "FL": 3,
+    "CA": 1,
+    "MI": 2,
+    "IA": 1,
+    "NJ": 1,
+    "ID": 1,
+    "VA": 2
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014175343/"
+    }
+   ],
+   "upc": "850066147375",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 9,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1014175343",
    "price": 0.01
   },
   {
@@ -1182,54 +1180,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1011107956",
-   "price": 0.01
-  },
-  {
-   "sku": "1014175343",
-   "sku_display": "1014-175-343",
-   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
-   "brand": "Lifeproof",
-   "model": null,
-   "retail": 63.24,
-   "internet_number": "336106074",
-   "reports": 12,
-   "states": {
-    "TN": 1,
-    "UT": 1,
-    "FL": 2,
-    "CA": 1,
-    "MI": 2,
-    "IA": 1,
-    "NJ": 1,
-    "ID": 1,
-    "VA": 2
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1014175343/"
-    }
-   ],
-   "upc": "850066147375",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 9,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1014175343",
    "price": 0.01
   },
   {
@@ -1394,6 +1344,52 @@
    "price": 0.01
   },
   {
+   "sku": "1006104733",
+   "sku_display": "1006-104-733",
+   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
+   "brand": "Ring",
+   "model": null,
+   "retail": 229.99,
+   "internet_number": "329107033",
+   "reports": 10,
+   "states": {
+    "GA": 1,
+    "IL": 2,
+    "TX": 2,
+    "FL": 2,
+    "MA": 1,
+    "AZ": 1,
+    "VA": 1
+   },
+   "first_reported": "2026-09-30",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/3754c738-a5d4-440d-a7c3-04e4ab025b12/svn/white-ring-floodlights-b0cg6vffvl-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006104733/"
+    }
+   ],
+   "upc": "840268940300",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006104733",
+   "price": 0.01
+  },
+  {
    "sku": "1008142318",
    "sku_display": "1008-142-318",
    "name": "ONE+ 18V Bagless Cordless Mesh Filter Stick Vacuum Cleaner (Tool Only)",
@@ -1476,26 +1472,25 @@
    "price": 0.01
   },
   {
-   "sku": "1006104733",
-   "sku_display": "1006-104-733",
-   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
-   "brand": "Ring",
-   "model": null,
-   "retail": 229.99,
-   "internet_number": "329107033",
+   "sku": "1004372760",
+   "sku_display": "1004-372-760",
+   "name": "15 Amp 10 in. Portable Corded Pro Jobsite Table Saw with Stand",
+   "brand": "RIDGID",
+   "model": "R4514",
+   "retail": 549,
+   "internet_number": "309415135",
    "reports": 9,
    "states": {
-    "GA": 1,
-    "IL": 2,
-    "TX": 2,
-    "FL": 1,
-    "MA": 1,
+    "SC": 2,
+    "CA": 2,
+    "VA": 1,
+    "OH": 1,
     "AZ": 1,
-    "VA": 1
+    "FL": 2
    },
-   "first_reported": "2026-09-30",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/3754c738-a5d4-440d-a7c3-04e4ab025b12/svn/white-ring-floodlights-b0cg6vffvl-64_1000.jpg",
+   "first_reported": "2026-11-11",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/168e4060-a20d-4665-9db6-29e67b268842/svn/ridgid-portable-table-saws-r4514-64_400.jpg",
    "sources": [
     {
      "name": "PennyCentral",
@@ -1503,10 +1498,10 @@
     },
     {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006104733/"
+     "url": "https://www.pennyrecon.com/item/1004372760/"
     }
    ],
-   "upc": "840268940300",
+   "upc": "648846071206",
    "upc_sources": [
     "Penny Recon",
     "PennyCentral"
@@ -1514,11 +1509,11 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 7,
+   "state_count": 6,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1006104733",
+   "id": "hd:1004372760",
    "price": 0.01
   },
   {
@@ -1726,50 +1721,6 @@
    "price": 0.01
   },
   {
-   "sku": "1004372760",
-   "sku_display": "1004-372-760",
-   "name": "15 Amp 10 in. Portable Corded Pro Jobsite Table Saw with Stand",
-   "brand": "RIDGID",
-   "model": "R4514",
-   "retail": 549,
-   "internet_number": "309415135",
-   "reports": 7,
-   "states": {
-    "SC": 2,
-    "CA": 2,
-    "VA": 1,
-    "OH": 1,
-    "AZ": 1
-   },
-   "first_reported": "2026-11-11",
-   "last_seen": "2026-11-24",
-   "image": "https://images.thdstatic.com/productImages/168e4060-a20d-4665-9db6-29e67b268842/svn/ridgid-portable-table-saws-r4514-64_400.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1004372760/"
-    }
-   ],
-   "upc": "648846071206",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 5,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1004372760",
-   "price": 0.01
-  },
-  {
    "sku": "1006423742",
    "sku_display": "1006-423-742",
    "name": "Havelock 22.7 in. 1-Light Chrome Integrated LED Bathroom Vanity Light Bar with Clear Seedy Glass",
@@ -1806,45 +1757,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006423742",
-   "price": 0.01
-  },
-  {
-   "sku": "1012951109",
-   "sku_display": "1012-951-109",
-   "name": "Medium Anti-Vibration Work Glove",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 30.97,
-   "internet_number": null,
-   "reports": 7,
-   "states": {
-    "NY": 2,
-    "KY": 2,
-    "GA": 1,
-    "FL": 1,
-    "CA": 1
-   },
-   "first_reported": "2026-09-16",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1012951109/"
-    }
-   ],
-   "upc": "045242646364",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 5,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1012951109",
    "price": 0.01
   },
   {
@@ -2007,6 +1919,49 @@
    "price": 0.01
   },
   {
+   "sku": "1008626687",
+   "sku_display": "1008-626-687",
+   "name": "Z320R 42 in. 21.5 HP Dual Hydrostatic Gas V-Twin Zero Turn Riding Lawn Mower",
+   "brand": "John Deere",
+   "model": "BG21302",
+   "retail": 3836.99,
+   "internet_number": "322097771",
+   "reports": 5,
+   "states": {
+    "TN": 1,
+    "AZ": 1,
+    "FL": 2,
+    "WA": 1
+   },
+   "first_reported": "2026-11-22",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/c138d39f-15f5-437e-b25f-23c769c7485a/svn/john-deere-gas-zero-turn-mowers-bg21302-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008626687/"
+    }
+   ],
+   "upc": "889818049131",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008626687",
+   "price": 0.01
+  },
+  {
    "sku": "1010234419",
    "sku_display": "1010-234-419",
    "name": "Chevron Dusk Cherry 22 MIL x 12 in. W x 28 in. L Click Lock Waterproof Luxury Vinyl Plank Flooring (18.9 sq. ft./Case)",
@@ -2052,7 +2007,7 @@
    "brand": "Commercial Electric",
    "model": null,
    "retail": 16.97,
-   "internet_number": "329779214",
+   "internet_number": null,
    "reports": 5,
    "states": {
     "VA": 1,
@@ -2062,12 +2017,8 @@
    },
    "first_reported": "2026-11-09",
    "last_seen": "2026-11-18",
-   "image": "https://images.thdstatic.com/productImages/07180c6b-0e0e-44a8-a326-89ed30732e14/svn/white-commercial-electric-recessed-lighting-retrofit-trims-92216-64_600.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1011585025/"
@@ -2083,41 +2034,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1011585025",
-   "price": 0.01
-  },
-  {
-   "sku": "1012951114",
-   "sku_display": "1012-951-114",
-   "name": "X-Large Anti-Vibration Work Glove",
-   "brand": "Milwaukee",
-   "model": null,
-   "retail": 29.97,
-   "internet_number": null,
-   "reports": 5,
-   "states": {
-    "GA": 2,
-    "IL": 2,
-    "MA": 1
-   },
-   "first_reported": "2026-10-11",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1012951114/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 3,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1012951114",
    "price": 0.01
   },
   {
@@ -2610,6 +2526,47 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1012536755",
+   "price": 0.01
+  },
+  {
+   "sku": "1013220221",
+   "sku_display": "1013-220-221",
+   "name": "2 in. Cordless 0° Straight Nail Coil Siding and Fencing Nailer",
+   "brand": "Paslode",
+   "model": "919100",
+   "retail": 489,
+   "internet_number": "331290658",
+   "reports": 4,
+   "states": {
+    "MD": 2,
+    "FL": 2
+   },
+   "first_reported": "2026-10-28",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/d6f953cf-91eb-4abe-89c6-0dc721dc5be4/svn/paslode-siding-nailers-919100-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013220221/"
+    }
+   ],
+   "upc": "759501401198",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1013220221",
    "price": 0.01
   },
   {
@@ -3170,7 +3127,7 @@
    "brand": "Anvil",
    "model": null,
    "retail": 9.88,
-   "internet_number": "341074169",
+   "internet_number": null,
    "reports": 3,
    "states": {
     "LA": 1,
@@ -3179,12 +3136,8 @@
    },
    "first_reported": "2026-11-17",
    "last_seen": "2026-11-18",
-   "image": "https://images.thdstatic.com/productImages/2e1d80cc-58b1-4207-b7b4-8c9d010e28e0/svn/metal-anvil-multi-tools-92120-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1015344244/"
@@ -3192,10 +3145,9 @@
    ],
    "upc": "820909921202",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 3,
@@ -3613,8 +3565,8 @@
    "name": "Char-Griller Texas Trio 4-Burner Dual Fuel Grill with Smoker in Black",
    "brand": "Char-Griller",
    "model": null,
-   "retail": 665,
-   "internet_number": "302624342",
+   "retail": 665.0,
+   "internet_number": null,
    "reports": 2,
    "states": {
     "TX": 1,
@@ -3622,12 +3574,8 @@
    },
    "first_reported": "2026-11-15",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/debd434e-ba7e-4224-83f7-96770ca82192/svn/char-griller-combo-grills-3070-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1002719695/"
@@ -3635,10 +3583,9 @@
    ],
    "upc": "789792030708",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -3987,40 +3934,6 @@
    "price": 0.01
   },
   {
-   "sku": "1005432405",
-   "sku_display": "1005-432-405",
-   "name": "60-Watt Equivalent ST19 Dimmable Straight Filament Clear Glass E26 Vintage Edison LED Light Bulb, Bright White 3000K",
-   "brand": "Feit Electric",
-   "model": null,
-   "retail": 9.97,
-   "internet_number": null,
-   "reports": 2,
-   "states": {
-    "NY": 1,
-    "GA": 1
-   },
-   "first_reported": "2026-10-13",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1005432405/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1005432405",
-   "price": 0.01
-  },
-  {
    "sku": "1005469197",
    "sku_display": "1005-469-197",
    "name": "18 in. Black Snap Install Hook Rack with 4 Satin Nickel Pill Top Hooks",
@@ -4276,47 +4189,6 @@
    "price": 0.01
   },
   {
-   "sku": "1008626687",
-   "sku_display": "1008-626-687",
-   "name": "Z320R 42 in. 21.5 HP Dual Hydrostatic Gas V-Twin Zero Turn Riding Lawn Mower",
-   "brand": "John Deere",
-   "model": "BG21302",
-   "retail": 3836.99,
-   "internet_number": "322097771",
-   "reports": 2,
-   "states": {
-    "TN": 1,
-    "AZ": 1
-   },
-   "first_reported": "2026-11-22",
-   "last_seen": "2026-11-23",
-   "image": "https://images.thdstatic.com/productImages/c138d39f-15f5-437e-b25f-23c769c7485a/svn/john-deere-gas-zero-turn-mowers-bg21302-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1008626687/"
-    }
-   ],
-   "upc": "889818049131",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1008626687",
-   "price": 0.01
-  },
-  {
    "sku": "1008718547",
    "sku_display": "1008-718-547",
    "name": "1500VA 10-Outlet UPS RJ45 COAX USB Charging",
@@ -4355,42 +4227,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1008718547",
-   "price": 0.01
-  },
-  {
-   "sku": "1009408132",
-   "sku_display": "1009-408-132",
-   "name": "5 in. Matte Black LED Dual Light Vanity Sconce Light with Remote (1-Pack)",
-   "brand": "Westek",
-   "model": null,
-   "retail": 20.98,
-   "internet_number": null,
-   "reports": 2,
-   "states": {
-    "RI": 1,
-    "GA": 1
-   },
-   "first_reported": "2026-08-03",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1009408132/"
-    }
-   ],
-   "upc": "070686016640",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1009408132",
    "price": 0.01
   },
   {
@@ -5110,41 +4946,6 @@
    "price": 0.01
   },
   {
-   "sku": "1013986442",
-   "sku_display": "1013-986-442",
-   "name": "Lachlan Large Beige Lavastone Round Planter with Drainage Plug (16 in. L x 16 in. W x 13 in. H)",
-   "brand": "Vigoro",
-   "model": null,
-   "retail": 79.97,
-   "internet_number": null,
-   "reports": 2,
-   "states": {
-    "GA": 2
-   },
-   "first_reported": "2026-10-11",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1013986442/"
-    }
-   ],
-   "upc": "810147282098",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1013986442",
-   "price": 0.01
-  },
-  {
    "sku": "1013994799",
    "sku_display": "1013-994-799",
    "name": "Video Doorbell System - Wireless - Battery Operated Smart Video Doorbell Camera and Included Sync Module Core,White",
@@ -5405,9 +5206,9 @@
    "sku_display": "686-826",
    "name": "2-piece 1.28 GPF Single Flush Elongated Toilet in White",
    "brand": "Glacier Bay",
-   "model": "TL-7620HC-EW",
+   "model": null,
    "retail": 97.02,
-   "internet_number": "205116877",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "CT": 1,
@@ -5416,12 +5217,8 @@
    },
    "first_reported": "2026-11-18",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/6b86bbb4-2698-439e-a050-f87c9a8235e5/svn/white-glacier-bay-two-piece-toilets-tl-7620hc-ew-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/686826/"
@@ -5429,10 +5226,9 @@
    ],
    "upc": "721015365631",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 3,
@@ -5545,9 +5341,10 @@
    ],
    "upc": "856202002027",
    "upc_sources": [
+    "Penny Recon",
     "PennyCentral"
    ],
-   "upc_verified": false,
+   "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 1,
@@ -5621,39 +5418,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1000018015",
-   "price": 0.01
-  },
-  {
-   "sku": "1000050137",
-   "sku_display": "1000-050-137",
-   "name": "1-1/4in. P-TRAP",
-   "brand": "Everbilt",
-   "model": null,
-   "retail": 5.38,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "MD": 1
-   },
-   "first_reported": "2026-10-25",
-   "last_seen": "2026-10-25",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1000050137/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1000050137",
    "price": 0.01
   },
   {
@@ -7700,6 +7464,84 @@
    "price": 0.01
   },
   {
+   "sku": "1010898490",
+   "sku_display": "1010-898-490",
+   "name": "3 in. H x 2 in. W Matte Black Aluminum Deck Railing Stair Bracket Kit for 36 in. high system",
+   "brand": "Peak Aluminum Railing",
+   "model": null,
+   "retail": 56.97,
+   "internet_number": "327681337",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/1b255da1-1e9e-454a-9328-bb3d4a0584c8/svn/peak-aluminum-railing-deck-railing-systems-36931-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010898490/"
+    }
+   ],
+   "upc": "629219369311",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010898490",
+   "price": 0.01
+  },
+  {
+   "sku": "1010898517",
+   "sku_display": "1010-898-517",
+   "name": "3 in. H x 2.5 in. W Matte Black Aluminum Deck Railing Horizontal Angle Bracket Kit for 36 in. high system",
+   "brand": "Peak Aluminum Railing",
+   "model": null,
+   "retail": 63.97,
+   "internet_number": "327681235",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/9083560b-1fb2-4b22-b019-e69228bf117c/svn/peak-aluminum-railing-deck-railing-systems-36951-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010898517/"
+    }
+   ],
+   "upc": "629219369519",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010898517",
+   "price": 0.01
+  },
+  {
    "sku": "1010983994",
    "sku_display": "1010-983-994",
    "name": "1/4 in. x 12 in. SHOCKWAVE Impact Duty Carbide Multi-Material Drill Bit",
@@ -8067,24 +7909,28 @@
    "price": 0.01
   },
   {
-   "sku": "1013220221",
-   "sku_display": "1013-220-221",
-   "name": "2 in. Cordless 0° Straight Nail Coil Siding and Fencing Nailer",
-   "brand": "Paslode",
+   "sku": "1013662637",
+   "sku_display": "1013-662-637",
+   "name": "36 in. H Aluminum Mid Post Kit in Matte Black for Cable Deck Railing",
+   "brand": "Peak Products",
    "model": null,
-   "retail": 489.0,
-   "internet_number": null,
+   "retail": 164,
+   "internet_number": "334368072",
    "reports": 1,
    "states": {
-    "MD": 1
+    "GA": 1
    },
-   "first_reported": "2026-10-28",
-   "last_seen": "2026-10-28",
-   "image": null,
+   "first_reported": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/87f74ea2-aba9-40d1-8e1a-5d5eeae836e1/svn/peak-products-cable-railings-36411-64_600.jpg",
    "sources": [
     {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
      "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1013220221/"
+     "url": "https://www.pennyrecon.com/item/1013662637/"
     }
    ],
    "upc": null,
@@ -8096,7 +7942,7 @@
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
-   "id": "hd:1013220221",
+   "id": "hd:1013662637",
    "price": 0.01
   },
   {
@@ -8163,6 +8009,84 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1013921840",
+   "price": 0.01
+  },
+  {
+   "sku": "1014161663",
+   "sku_display": "1014-161-663",
+   "name": "36 in. H x 5-11/16 in. W Matte Black Aluminum Deck Railing End Post Kit",
+   "brand": "PEAK Aluminum Railing",
+   "model": null,
+   "retail": 99,
+   "internet_number": "335388898",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/b2c97f1c-9606-4211-93cd-f278a084aacf/svn/peak-aluminum-railing-deck-railing-systems-36615-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014161663/"
+    }
+   ],
+   "upc": "629219366150",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1014161663",
+   "price": 0.01
+  },
+  {
+   "sku": "1014161742",
+   "sku_display": "1014-161-742",
+   "name": "42 in. H x 5-11/16 in. W Matte Black Aluminum Deck Railing Stair Post Kit",
+   "brand": "PEAK Aluminum Railing",
+   "model": null,
+   "retail": 109,
+   "internet_number": "335389014",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "image": "https://images.thdstatic.com/productImages/45e219c9-9589-4ae6-b927-21953767bda7/svn/peak-aluminum-railing-deck-railing-systems-42603-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014161742/"
+    }
+   ],
+   "upc": "629219426038",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1014161742",
    "price": 0.01
   },
   {
@@ -8609,39 +8533,6 @@
    "price": 0.01
   },
   {
-   "sku": "164674",
-   "sku_display": "164-674",
-   "name": "SKU 164674",
-   "brand": "",
-   "model": null,
-   "retail": null,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "MD": 1
-   },
-   "first_reported": "2026-11-19",
-   "last_seen": "2026-11-19",
-   "image": "/images/hd-product-placeholder.svg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:164674",
-   "price": 0.01
-  },
-  {
    "sku": "169674",
    "sku_display": "169-674",
    "name": "SKU 169674",
@@ -8804,6 +8695,39 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:301844",
+   "price": 0.01
+  },
+  {
+   "sku": "340995",
+   "sku_display": "340-995",
+   "name": "SKU 340995",
+   "brand": "",
+   "model": null,
+   "retail": null,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "TN": 1
+   },
+   "first_reported": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "image": "/images/hd-product-placeholder.svg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:340995",
    "price": 0.01
   },
   {
