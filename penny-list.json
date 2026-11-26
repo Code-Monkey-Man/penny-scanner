@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "window_days": 30,
  "home_area": {
   "label": "Clarksville / Nashville",
@@ -44,8 +44,8 @@
  "stores": {
   "home_depot": {
    "name": "Home Depot",
-   "as_of": "2026-11-25",
-   "fetched": "2026-11-25",
+   "as_of": "2026-11-26",
+   "fetched": "2026-11-26",
    "count": 262,
    "sources": [
     {
@@ -63,7 +63,7 @@
   "lowes": {
    "name": "Lowe's",
    "as_of": "2026-11-07",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "count": 121,
    "sources": [
     {
@@ -80,7 +80,7 @@
   "dollar_general": {
    "name": "Dollar General",
    "as_of": "2026-11-24",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "count": 423,
    "sources": [
     {
@@ -229,11 +229,11 @@
    "model": "N2316",
    "retail": 99,
    "internet_number": "331755742",
-   "reports": 186,
+   "reports": 193,
    "states": {
     "GA": 14,
     "IN": 6,
-    "CA": 19,
+    "CA": 20,
     "CT": 4,
     "AZ": 12,
     "FL": 17,
@@ -248,27 +248,28 @@
     "MA": 3,
     "UT": 5,
     "MT": 1,
-    "OH": 9,
+    "OH": 10,
     "KS": 3,
     "WI": 7,
     "AR": 1,
     "PA": 4,
     "MD": 2,
-    "OR": 5,
+    "OR": 7,
     "ME": 1,
     "NH": 1,
     "NJ": 7,
     "CO": 2,
     "SC": 1,
-    "KY": 1,
+    "KY": 2,
     "MO": 3,
     "MN": 3,
     "AL": 1,
     "VA": 2,
-    "OK": 1
+    "OK": 2,
+    "WV": 1
    },
    "first_reported": "2026-09-27",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
    "sources": [
     {
@@ -288,7 +289,7 @@
    "upc_verified": true,
    "upc_alt": [],
    "home_reports": 0,
-   "state_count": 35,
+   "state_count": 36,
    "receipt_verified": null,
    "notes": "",
    "store": "home_depot",
@@ -367,7 +368,7 @@
    "model": null,
    "retail": 79,
    "internet_number": "100030159",
-   "reports": 82,
+   "reports": 83,
    "states": {
     "IL": 7,
     "MI": 4,
@@ -380,7 +381,7 @@
     "MS": 6,
     "NY": 4,
     "MN": 1,
-    "WA": 2,
+    "WA": 3,
     "NM": 1,
     "GA": 1,
     "OH": 5,
@@ -393,7 +394,7 @@
     "MT": 1
    },
    "first_reported": "2026-09-23",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "image": "https://images.thdstatic.com/productImages/49981bea-07e3-4c94-81e8-c65ba9d9ac24/svn/milwaukee-hand-trucks-hd800p-64_1000.jpg",
    "sources": [
     {
@@ -427,7 +428,7 @@
    "brand": "OWN ZONE",
    "model": null,
    "retail": 35.98,
-   "internet_number": "306315853",
+   "internet_number": null,
    "reports": 62,
    "states": {
     "MD": 4,
@@ -453,12 +454,8 @@
    },
    "first_reported": "2026-09-09",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/63c9889c-576b-463f-8960-b56b3c3a1dd2/svn/own-zone-headphones-wn011112-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1003565875/"
@@ -466,10 +463,9 @@
    ],
    "upc": "740275049662",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 20,
@@ -535,6 +531,63 @@
    "price": 0.01
   },
   {
+   "sku": "1006374596",
+   "sku_display": "1006-374-596",
+   "name": "12000 Lumens/6000 Lumens Portable LED Work Light",
+   "brand": "Husky",
+   "model": "HD12000DIM",
+   "retail": 69.97,
+   "internet_number": "316803941",
+   "reports": 49,
+   "states": {
+    "NJ": 2,
+    "CA": 8,
+    "GA": 3,
+    "AK": 1,
+    "KY": 1,
+    "MN": 1,
+    "IL": 4,
+    "OH": 5,
+    "FL": 5,
+    "VA": 1,
+    "MI": 3,
+    "AZ": 1,
+    "NY": 2,
+    "TX": 4,
+    "PA": 1,
+    "TN": 1,
+    "MA": 3,
+    "MD": 3
+   },
+   "first_reported": "2026-07-17",
+   "last_seen": "2026-11-26",
+   "image": "https://images.thdstatic.com/productImages/92caa4dd-f0d0-4991-aa21-07225932f175/svn/husky-jobsite-lighting-hd12000dim-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006374596/"
+    }
+   ],
+   "upc": "819286011200",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 18,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006374596",
+   "price": 0.01
+  },
+  {
    "sku": "1014119123",
    "sku_display": "1014-119-123",
    "name": "UltraBrite Hex Lights 16Pack 16.5 in./1.45ft Integrated LED Strip Light Fixture White Dimmable 16000LM 5000K Wall Remote",
@@ -583,63 +636,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1014119123",
-   "price": 0.01
-  },
-  {
-   "sku": "1006374596",
-   "sku_display": "1006-374-596",
-   "name": "12000 Lumens/6000 Lumens Portable LED Work Light",
-   "brand": "Husky",
-   "model": "HD12000DIM",
-   "retail": 69.97,
-   "internet_number": "316803941",
-   "reports": 43,
-   "states": {
-    "NJ": 2,
-    "CA": 8,
-    "GA": 3,
-    "AK": 1,
-    "KY": 1,
-    "MN": 1,
-    "IL": 3,
-    "OH": 5,
-    "FL": 5,
-    "VA": 1,
-    "MI": 3,
-    "AZ": 1,
-    "NY": 2,
-    "TX": 2,
-    "PA": 1,
-    "TN": 1,
-    "MA": 1,
-    "MD": 2
-   },
-   "first_reported": "2026-07-17",
-   "last_seen": "2026-11-25",
-   "image": "https://images.thdstatic.com/productImages/92caa4dd-f0d0-4991-aa21-07225932f175/svn/husky-jobsite-lighting-hd12000dim-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006374596/"
-    }
-   ],
-   "upc": "819286011200",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 18,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006374596",
    "price": 0.01
   },
   {
@@ -1048,6 +1044,55 @@
    "price": 0.01
   },
   {
+   "sku": "1014175343",
+   "sku_display": "1014-175-343",
+   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
+   "brand": "Lifeproof",
+   "model": null,
+   "retail": 63.24,
+   "internet_number": "336106074",
+   "reports": 15,
+   "states": {
+    "TN": 1,
+    "UT": 1,
+    "FL": 3,
+    "CA": 1,
+    "MI": 2,
+    "IA": 1,
+    "NJ": 1,
+    "ID": 1,
+    "VA": 2,
+    "OR": 2
+   },
+   "first_reported": "2026-11-12",
+   "last_seen": "2026-11-26",
+   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014175343/"
+    }
+   ],
+   "upc": "850066147375",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 10,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1014175343",
+   "price": 0.01
+  },
+  {
    "sku": "527997",
    "sku_display": "527-997",
    "name": "Instant-Read Grill Thermometer",
@@ -1089,54 +1134,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:527997",
-   "price": 0.01
-  },
-  {
-   "sku": "1014175343",
-   "sku_display": "1014-175-343",
-   "name": "Monaco Oak 22 MIL x 9.06 in. W x 48.03 in. L Click Lock Waterproof Vinyl Plank Flooring (21.15 sq. ft. /Case)",
-   "brand": "Lifeproof",
-   "model": null,
-   "retail": 63.24,
-   "internet_number": "336106074",
-   "reports": 13,
-   "states": {
-    "TN": 1,
-    "UT": 1,
-    "FL": 3,
-    "CA": 1,
-    "MI": 2,
-    "IA": 1,
-    "NJ": 1,
-    "ID": 1,
-    "VA": 2
-   },
-   "first_reported": "2026-11-12",
-   "last_seen": "2026-11-25",
-   "image": "https://images.thdstatic.com/productImages/5ceb4e00-0132-4958-8813-e48f5f633224/svn/monaco-oak-lifeproof-vinyl-plank-flooring-652295314948-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1014175343/"
-    }
-   ],
-   "upc": "850066147375",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 9,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1014175343",
    "price": 0.01
   },
   {
@@ -1221,6 +1218,52 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1006037305",
+   "price": 0.01
+  },
+  {
+   "sku": "1006104733",
+   "sku_display": "1006-104-733",
+   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
+   "brand": "Ring",
+   "model": null,
+   "retail": 229.99,
+   "internet_number": "329107033",
+   "reports": 11,
+   "states": {
+    "GA": 1,
+    "IL": 2,
+    "TX": 3,
+    "FL": 2,
+    "MA": 1,
+    "AZ": 1,
+    "VA": 1
+   },
+   "first_reported": "2026-09-30",
+   "last_seen": "2026-11-26",
+   "image": "https://images.thdstatic.com/productImages/3754c738-a5d4-440d-a7c3-04e4ab025b12/svn/white-ring-floodlights-b0cg6vffvl-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006104733/"
+    }
+   ],
+   "upc": "840268940300",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1006104733",
    "price": 0.01
   },
   {
@@ -1344,52 +1387,6 @@
    "price": 0.01
   },
   {
-   "sku": "1006104733",
-   "sku_display": "1006-104-733",
-   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
-   "brand": "Ring",
-   "model": null,
-   "retail": 229.99,
-   "internet_number": "329107033",
-   "reports": 10,
-   "states": {
-    "GA": 1,
-    "IL": 2,
-    "TX": 2,
-    "FL": 2,
-    "MA": 1,
-    "AZ": 1,
-    "VA": 1
-   },
-   "first_reported": "2026-09-30",
-   "last_seen": "2026-11-25",
-   "image": "https://images.thdstatic.com/productImages/3754c738-a5d4-440d-a7c3-04e4ab025b12/svn/white-ring-floodlights-b0cg6vffvl-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1006104733/"
-    }
-   ],
-   "upc": "840268940300",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 7,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1006104733",
-   "price": 0.01
-  },
-  {
    "sku": "1008142318",
    "sku_display": "1008-142-318",
    "name": "ONE+ 18V Bagless Cordless Mesh Filter Stick Vacuum Cleaner (Tool Only)",
@@ -1428,6 +1425,52 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1008142318",
+   "price": 0.01
+  },
+  {
+   "sku": "1008626687",
+   "sku_display": "1008-626-687",
+   "name": "Z320R 42 in. 21.5 HP Dual Hydrostatic Gas V-Twin Zero Turn Riding Lawn Mower",
+   "brand": "John Deere",
+   "model": "BG21302",
+   "retail": 3836.99,
+   "internet_number": "322097771",
+   "reports": 10,
+   "states": {
+    "OR": 1,
+    "FL": 3,
+    "TN": 1,
+    "AZ": 2,
+    "WA": 1,
+    "TX": 1,
+    "KY": 1
+   },
+   "first_reported": "2026-11-22",
+   "last_seen": "2026-11-26",
+   "image": "https://images.thdstatic.com/productImages/c138d39f-15f5-437e-b25f-23c769c7485a/svn/john-deere-gas-zero-turn-mowers-bg21302-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008626687/"
+    }
+   ],
+   "upc": "889818049131",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 1,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008626687",
    "price": 0.01
   },
   {
@@ -1916,49 +1959,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1001537757",
-   "price": 0.01
-  },
-  {
-   "sku": "1008626687",
-   "sku_display": "1008-626-687",
-   "name": "Z320R 42 in. 21.5 HP Dual Hydrostatic Gas V-Twin Zero Turn Riding Lawn Mower",
-   "brand": "John Deere",
-   "model": "BG21302",
-   "retail": 3836.99,
-   "internet_number": "322097771",
-   "reports": 5,
-   "states": {
-    "TN": 1,
-    "AZ": 1,
-    "FL": 2,
-    "WA": 1
-   },
-   "first_reported": "2026-11-22",
-   "last_seen": "2026-11-25",
-   "image": "https://images.thdstatic.com/productImages/c138d39f-15f5-437e-b25f-23c769c7485a/svn/john-deere-gas-zero-turn-mowers-bg21302-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1008626687/"
-    }
-   ],
-   "upc": "889818049131",
-   "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
-   ],
-   "upc_verified": true,
-   "upc_alt": [],
-   "home_reports": 1,
-   "state_count": 4,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1008626687",
    "price": 0.01
   },
   {
@@ -2689,6 +2689,48 @@
    "price": 0.01
   },
   {
+   "sku": "1002580883",
+   "sku_display": "1002-580-883",
+   "name": "MAX Alkaline AAA Batteries, 30 Pack",
+   "brand": "Energizer",
+   "model": "E92SBP30H",
+   "retail": 17.67,
+   "internet_number": "302292202",
+   "reports": 3,
+   "states": {
+    "OR": 1,
+    "MA": 1,
+    "WV": 1
+   },
+   "first_reported": "2026-11-24",
+   "last_seen": "2026-11-26",
+   "image": "https://images.thdstatic.com/productImages/c156bb41-851c-5eaf-9d7c-1783fb063edf/svn/energizer-aaa-batteries-e92sbp30h-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1002580883/"
+    }
+   ],
+   "upc": "039800131157",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1002580883",
+   "price": 0.01
+  },
+  {
    "sku": "1002621747",
    "sku_display": "1002-621-747",
    "name": "1/2 in. Brass Push-to-Connect Dishwasher Installation Kit",
@@ -2904,6 +2946,45 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1008056500",
+   "price": 0.01
+  },
+  {
+   "sku": "1010139541",
+   "sku_display": "1010-139-541",
+   "name": "SKU 1010139541",
+   "brand": "",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 3,
+   "states": {
+    "IL": 1,
+    "CO": 1,
+    "OK": 1
+   },
+   "first_reported": "2026-11-10",
+   "last_seen": "2026-11-26",
+   "image": "/images/hd-product-placeholder.svg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010139541/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1010139541",
    "price": 0.01
   },
   {
@@ -3191,43 +3272,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1015373398",
-   "price": 0.01
-  },
-  {
-   "sku": "1015406831",
-   "sku_display": "1015-406-831",
-   "name": "Classic Series 52-qt. Hard Cooler",
-   "brand": "Coleman",
-   "model": null,
-   "retail": 58.84,
-   "internet_number": null,
-   "reports": 3,
-   "states": {
-    "AL": 1,
-    "NH": 1,
-    "CA": 1
-   },
-   "first_reported": "2026-10-23",
-   "last_seen": "2026-10-26",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1015406831/"
-    }
-   ],
-   "upc": "076501171778",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 3,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1015406831",
    "price": 0.01
   },
   {
@@ -3708,9 +3752,9 @@
    "sku_display": "1004-043-727",
    "name": "450VA 120-Volt 8-Outlet UPS Battery Backup",
    "brand": "CyberPower",
-   "model": "SE450G1",
+   "model": null,
    "retail": 64.99,
-   "internet_number": "308369918",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "WA": 1,
@@ -3718,12 +3762,8 @@
    },
    "first_reported": "2026-11-16",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/2ad1eee6-cc02-51b4-865d-7bb36485becf/svn/cyberpower-ups-battery-backup-se450g1-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1004043727/"
@@ -3731,10 +3771,9 @@
    ],
    "upc": "649532621330",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -4193,9 +4232,9 @@
    "sku_display": "1008-718-547",
    "name": "1500VA 10-Outlet UPS RJ45 COAX USB Charging",
    "brand": "CyberPower",
-   "model": "LX1500GU3",
+   "model": null,
    "retail": 201.65,
-   "internet_number": "323138586",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "WA": 1,
@@ -4203,12 +4242,8 @@
    },
    "first_reported": "2026-11-16",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/04ed765d-5669-5fa5-afba-48f8bef3c26a/svn/cyberpower-ups-battery-backup-lx1500gu3-64_400.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1008718547/"
@@ -4216,10 +4251,9 @@
    ],
    "upc": "649532933624",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 0,
    "state_count": 2,
@@ -4236,7 +4270,7 @@
    "brand": "Defiant",
    "model": null,
    "retail": 35.47,
-   "internet_number": "324895182",
+   "internet_number": null,
    "reports": 2,
    "states": {
     "TN": 1,
@@ -4244,12 +4278,8 @@
    },
    "first_reported": "2026-11-10",
    "last_seen": "2026-11-19",
-   "image": "https://images.thdstatic.com/productImages/61a36747-ae5b-4471-a8b5-4efe8bfad3cb/svn/defiant-door-lock-combo-packs-32ms3x2d91-64_1000.jpg",
+   "image": null,
    "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
     {
      "name": "Penny Recon",
      "url": "https://www.pennyrecon.com/item/1009429109/"
@@ -4257,10 +4287,9 @@
    ],
    "upc": "050134008472",
    "upc_sources": [
-    "Penny Recon",
-    "PennyCentral"
+    "Penny Recon"
    ],
-   "upc_verified": true,
+   "upc_verified": false,
    "upc_alt": [],
    "home_reports": 1,
    "state_count": 2,
@@ -4345,40 +4374,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1009749974",
-   "price": 0.01
-  },
-  {
-   "sku": "1010139541",
-   "sku_display": "1010-139-541",
-   "name": "Power Flush 12 inch Rough In Two-Piece 1.28 GPF Single Flush Round Toilet in White Seat Included",
-   "brand": "Glacier Bay",
-   "model": null,
-   "retail": 0.0,
-   "internet_number": null,
-   "reports": 2,
-   "states": {
-    "IL": 1,
-    "CO": 1
-   },
-   "first_reported": "2026-11-10",
-   "last_seen": "2026-11-17",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1010139541/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 2,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1010139541",
    "price": 0.01
   },
   {
@@ -5355,39 +5350,6 @@
    "price": 0.01
   },
   {
-   "sku": "1000001010",
-   "sku_display": "1000-001-010",
-   "name": "Flexible Gas Tube 100001010",
-   "brand": "AO Smith Water Heater",
-   "model": null,
-   "retail": 64.93,
-   "internet_number": null,
-   "reports": 1,
-   "states": {
-    "HI": 1
-   },
-   "first_reported": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1000001010/"
-    }
-   ],
-   "upc": null,
-   "upc_sources": [],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1000001010",
-   "price": 0.01
-  },
-  {
    "sku": "1000018015",
    "sku_display": "1000-018-015",
    "name": "5/16 in. O.D. x 3/16 in. I.D. x 10 ft. Pre-Cut Polyethylene Hose",
@@ -5589,45 +5551,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1002152354",
-   "price": 0.01
-  },
-  {
-   "sku": "1002580883",
-   "sku_display": "1002-580-883",
-   "name": "MAX Alkaline AAA Batteries, 30 Pack",
-   "brand": "Energizer",
-   "model": null,
-   "retail": 17.67,
-   "internet_number": "302292202",
-   "reports": 1,
-   "states": {
-    "MA": 1
-   },
-   "first_reported": "2026-11-24",
-   "last_seen": "2026-11-24",
-   "image": "https://images.thdstatic.com/productImages/c156bb41-851c-5eaf-9d7c-1783fb063edf/svn/energizer-aaa-batteries-e92sbp30h-64_1000.jpg",
-   "sources": [
-    {
-     "name": "PennyCentral",
-     "url": "https://www.pennycentral.com/penny-list"
-    },
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1002580883/"
-    }
-   ],
-   "upc": "039800131157",
-   "upc_sources": [
-    "PennyCentral"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 1,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1002580883",
    "price": 0.01
   },
   {
@@ -7032,6 +6955,78 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:100828",
+   "price": 0.01
+  },
+  {
+   "sku": "1008568658",
+   "sku_display": "1008-568-658",
+   "name": "3000 Series 36 in. x 80 in. Charcoal Gray Left-Hand Full View Interchangeable Aluminum Storm Door",
+   "brand": "Andersen",
+   "model": "95420",
+   "retail": 299,
+   "internet_number": "322605841",
+   "reports": 1,
+   "states": {
+    "VA": 1
+   },
+   "first_reported": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "image": "https://images.thdstatic.com/productImages/4e421110-ab52-4a80-8827-4741ba20bf4a/svn/charcoal-gray-andersen-storm-doors-95420-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008568658/"
+    }
+   ],
+   "upc": "034778954203",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008568658",
+   "price": 0.01
+  },
+  {
+   "sku": "1008626686",
+   "sku_display": "1008-626-686",
+   "name": "SKU 1008626686",
+   "brand": "",
+   "model": null,
+   "retail": null,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "MD": 1
+   },
+   "first_reported": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "image": "/images/hd-product-placeholder.svg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:1008626686",
    "price": 0.01
   },
   {
@@ -8566,6 +8561,43 @@
    "price": 0.01
   },
   {
+   "sku": "189661",
+   "sku_display": "189-661",
+   "name": "8 ft. 6-Outlet Surge Protector, White",
+   "brand": "Commercial Electric",
+   "model": null,
+   "retail": 11.99,
+   "internet_number": "304521503",
+   "reports": 1,
+   "states": {
+    "FL": 1
+   },
+   "first_reported": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "image": "https://images.thdstatic.com/productImages/fbc9363d-761d-4a72-b75c-ce85538869fd/svn/white-commercial-electric-surge-protectors-ylpt-43-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/189661/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "home_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": "",
+   "store": "home_depot",
+   "id": "hd:189661",
+   "price": 0.01
+  },
+  {
    "sku": "215508",
    "sku_display": "215-508",
    "name": "SKU 215508",
@@ -9452,39 +9484,6 @@
    "notes": "",
    "store": "home_depot",
    "id": "hd:1007746890",
-   "price": 0.01
-  },
-  {
-   "sku": "1007767243",
-   "sku_display": "1007-767-243",
-   "name": "Power Flush 12 inch Rough In One-Piece 1.28 GPF Single Flush Elongated Toilet in White Seat Included",
-   "brand": "Glacier Bay",
-   "model": null,
-   "retail": 0.0,
-   "internet_number": null,
-   "reports": 0,
-   "states": {},
-   "first_reported": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "image": null,
-   "sources": [
-    {
-     "name": "Penny Recon",
-     "url": "https://www.pennyrecon.com/item/1007767243/"
-    }
-   ],
-   "upc": "732291004008",
-   "upc_sources": [
-    "Penny Recon"
-   ],
-   "upc_verified": false,
-   "upc_alt": [],
-   "home_reports": 0,
-   "state_count": 0,
-   "receipt_verified": null,
-   "notes": "",
-   "store": "home_depot",
-   "id": "hd:1007767243",
    "price": 0.01
   },
   {
